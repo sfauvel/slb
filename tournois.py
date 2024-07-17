@@ -38,4 +38,4 @@ def csv_to_json(csv_file, json_file):
     with open(json_file, 'w') as f:
         json.dump(data, f, indent=4)
         
-csv_to_json('tournois.csv', 'docs/tournois.json')
+csv_to_json('tournois.csv', 'docs/tournois/tournois.json')

@@ -2,6 +2,7 @@
 
 L'objectif est d'avoir un référentiel centraliser des tournois proposées.
 
+La liste des tournois est visible à l'adresse: https://sfauvel.github.io/slb/tournois[]
 
 == Test
 
