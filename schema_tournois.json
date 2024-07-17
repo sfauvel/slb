@@ -2,53 +2,53 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Tournois",
     "description": "Schéma JSON des données relatives aux tournois.",
-    "type": "object",
-    "required": [
-        "Club",
-        "Date",
-        "categories"
-    ],
-    "properties": {
-        "Sujet mail": {
-            "type": "string",
-            "description": "Sujet du mail reçu",
-        },
-        "Club": {
-            "type": "string",
-            "description": "Nom du club proposant le tournoi",
-        },
-        "Date": {
-            "type": "string",
-            "description": "Date du tournoi",
-        },
-        "Date limite": {
-            "type": "string",
-            "description": "Date limite pour s'inscrire au tournoi",
-        },
-        "categories": {
-            "type": "array",
-            "description": "Catégorie",
-            "items": {
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "Sujet mail": {
                 "type": "string",
-                "enum": [
-                    "Seniors M",
-                    "Seniors F",
-                    "Loisir",
-                    "U20M",
-                    "U18M",
-                    "U18F",
-                    "U17M",
-                    "U17F",
-                    "U15M",
-                    "U15F",
-                    "U13M",
-                    "U13F",
-                    "U11M",
-                    "U11F",
-                    "U9M",
-                    "U9F",
-                    "U7"
-                ]
+                "description": "Sujet du mail reçu"
+            },
+            "Club": {
+                "type": "string",
+                "description": "Nom du club proposant le tournoi"
+            },
+            "Date": {
+                "type": "string",
+                "description": "Date du tournoi"
+            },
+            "categories": {
+                "type": "array",
+                "description": "Catégorie",
+                "items": {
+                    "type": "object",
+                    "propoerties": {
+                        "categorie": {
+                            "type": "string",
+                            "enum": [
+                                "Seniors M",
+                                "Seniors F",
+                                "Loisir",
+                                "U20M",
+                                "U18M",
+                                "U18F",
+                                "U17M",
+                                "U17F",
+                                "U15M",
+                                "U15F",
+                                "U13M",
+                                "U13F",
+                                "U11M",
+                                "U11F",
+                                "U9M",
+                                "U9F",
+                                "U7"
+                            ]
+                        }
+                    }
+                }
             }
         }
     }
+}
