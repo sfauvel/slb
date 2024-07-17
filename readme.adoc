@@ -1,6 +1,6 @@
 = Liste des tournois
 
-L'objectif est d'avoir un référentiel centraliser des tournois proposées.
+L'objectif est de centraliser les informations des tournois proposés.
 
 La liste des tournois est visible à l'adresse: https://sfauvel.github.io/slb/tournois[]
 
