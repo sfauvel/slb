@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Événements</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .filter-input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .filter-container {
+            display: flex;
+            gap: 10px;
+            /* Espace entre les inputs */
+        }
+
+        .date-input {
+            width: 6em;
+        }
+
+        select.filter-input {
+            height: 30px;
+            /* Ajustez la hauteur selon vos besoins */
+            overflow: hidden;
+        }
+
+        select.filter-input[multiple]:focus {
+            /*height: auto;*/
+            height: 400px;
+            width: auto;
+            position: absolute;
+            overflow: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Liste des tournois</h1>
+    <table id="eventsTable">
+        <thead>
+            <tr>
+                <th>Club</th>
+                <th>Date</th>
+                <th>Date limite d'inscription</th>
+                <th>Catégorie</th>
+                <th>Niveau</th>
+            </tr>
+            <tr>
+                <th><input type="text" id="nameFilter" class="filter-input" placeholder="Filtrer par nom"></th>
+                <th>
+                    <div class="filter-container">
+                        <input type="text" id="dateMinFilter" class="filter-input, date-input"
+                            placeholder="Filtrer par date">
+                        <input type="text" id="dateMaxFilter" class="filter-input, date-input"
+                            placeholder="Filtrer par date">
+                    </div>
+                </th>
+                <th></th>
+                <th>
+                    <select id="categorieFilter" class="filter-input" multiple>
+                        <option value="">Toutes les catégories</option>
+                    </select>
+                </th>
+                <th><input type="text" id="niveauFilter" class="filter-input" placeholder="Filtrer par niveau"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Les lignes du tableau seront ajoutées ici par JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('tournois.json')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector('#eventsTable tbody');
+                    const categorieFilter = document.getElementById('categorieFilter');
+                    const categoriesSet = new Set();
+
+                    data.forEach(event => {
+                        // console.log(event)
+                        const categories = event.categories === undefined ? ['Non spécifiée'] : event.categories;
+                        const dateLimite = event['Date limite'] === undefined ? '' : event['Date limite'];
+
+                        for (categorie in categories) {
+                            categoriesSet.add(categories[categorie].categorie);
+                            const row = document.createElement('tr');
+                            row.innerHTML = `
+                                <td>${event.Club}</td>
+                                <td>${event.Date}</td>
+                                <td>${dateLimite}</td>
+                                <td>${categories[categorie].categorie}</td>
+                                <td>${categories[categorie].niveau}</td>
+                            `;
+                            tableBody.appendChild(row);
+
+                        }
+                    });
+
+                    categoriesSet.forEach(categorie => {
+                        const option = document.createElement('option');
+                        option.value = categorie;
+                        option.textContent = categorie;
+                        categorieFilter.appendChild(option);
+                    });
+
+                    const nameFilter = document.getElementById('nameFilter');
+                    const dateMinFilter = document.getElementById('dateMinFilter');
+                    const dateMaxFilter = document.getElementById('dateMaxFilter');
+                    const niveauFilter = document.getElementById('niveauFilter');
+
+                    function parseDate(dateString) {
+                        const [day, month, year] = dateString.split('/').map(Number);
+                        return new Date(year, month - 1, day);
+                    }
+
+                    function getCurrentDate() {
+                        const today = new Date();
+                        const day = String(today.getDate()).padStart(2, '0');
+                        const month = String(today.getMonth() + 1).padStart(2, '0');
+                        const year = today.getFullYear();
+                        return `${day}/${month}/${year}`;
+                    }
+
+                    function filterTable() {
+                        console.log("Filter")
+                        const nameValue = nameFilter.value.toLowerCase();
+                        const dateMinValue = dateMinFilter.value.toLowerCase();
+                        const dateMaxValue = dateMaxFilter.value.toLowerCase();
+                        const niveauValue = niveauFilter.value.toLowerCase();
+                        const selectedCategories = Array.from(categorieFilter.selectedOptions).map(option => option.value.toLowerCase());
+
+
+                        const rows = tableBody.getElementsByTagName('tr');
+                        for (let i = 0; i < rows.length; i++) {
+                            const cells = rows[i].getElementsByTagName('td');
+                            const nameText = cells[0].textContent.toLowerCase();
+                            const dateText = cells[1].textContent.toLowerCase();
+                            const dateLimiteText = cells[2].textContent.toLowerCase();
+                            const categorieText = cells[3].textContent.toLowerCase();
+                            const niveauText = cells[4].textContent.toLowerCase();
+
+                            const dateMinCondition = dateMinValue ? parseDate(dateText) >= parseDate(dateMinValue) : true;
+                            const dateMaxCondition = dateMaxValue ? parseDate(dateText) <= parseDate(dateMaxValue) : true;
+                            //const dateCondition = dateValue ? new Date(dateText) <= new Date(dateValue) : true;
+                            const categorieCondition = (selectedCategories.includes('') || selectedCategories.length === 0 || selectedCategories.includes(categorieText));
+
+                            if (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition) {
+                                rows[i].style.display = '';
+                            } else {
+                                rows[i].style.display = 'none';
+                            }
+                        }
+                    }
+
+                    dateMinFilter.value = getCurrentDate();
+                    filterTable();
+
+                    nameFilter.addEventListener('input', filterTable);
+                    dateMinFilter.addEventListener('input', filterTable);
+                    dateMaxFilter.addEventListener('input', filterTable);
+                    niveauFilter.addEventListener('input', filterTable);
+                    categorieFilter.addEventListener('change', filterTable);
+                })
+                .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
+        });
+    </script>
+</body>
+
+</html>

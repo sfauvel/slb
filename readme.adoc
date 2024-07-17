@@ -1,0 +1,15 @@
+= Liste des tournois
+
+L'objectif est d'avoir un référentiel centraliser des tournois proposées.
+
+
+== Test
+
+Pour visualiser le résultat localement, on peut démarrer un serveur http.
+
+Cela peut se faire en démarrant un container docker depuis le répertoire contenant le fichier html (voir https://hub.docker.com/_/httpd[])
+
+.Lancement du serveur http
+----
+docker run -dit -v $(pwd):/usr/local/apache2/htdocs --name my-running-app -p 8080:80 httpd:2.4
+----
