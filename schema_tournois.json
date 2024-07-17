@@ -1,5 +1,4 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Tournois",
     "description": "Schéma JSON des données relatives aux tournois.",
     "type": "array",
@@ -23,7 +22,7 @@
                 "description": "Catégorie",
                 "items": {
                     "type": "object",
-                    "propoerties": {
+                    "properties": {
                         "categorie": {
                             "type": "string",
                             "enum": [
@@ -45,6 +44,10 @@
                                 "U9F",
                                 "U7"
                             ]
+                        },
+                        "niveau": {
+                            "type": "string",
+                            "description": "Niveau du tournoi pour la catégorie"
                         }
                     }
                 }

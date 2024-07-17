@@ -12,8 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: Inspect
+        run: |
+          echo "ls"
+          ls
+
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: ./schema_tournois.json
           INPUT_JSONS: ./docs/tournois/tournois.json
+
+      - name: Inspect
+        run: |
+          echo "Le JSON est valide"
