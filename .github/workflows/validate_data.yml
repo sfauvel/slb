@@ -19,7 +19,20 @@ jobs:
           INPUT_SCHEMA: ./schema_tournois.json
           INPUT_JSONS: ./docs/tournois/tournois.json
 
+  check_modification:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: gh-pages
+ 
+      - name: Vérification des modfications sur le site
+        id: git_diff
+        run: echo "::set-output name=DOC_DIFF::$(git diff data --name-only -- docs | wc -l)"
+
   publish:
+    if: steps.git_diff.outputs.DOC_DIFF > 0
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,6 +40,10 @@ jobs:
           fetch-depth: 0
           ref: gh-pages
           
+      - name: Vérification des modfications sur le site
+        id: git_diff
+        run: echo "::set-output name=DOC_DIFF::$(git diff main --name-only -- docs | wc -l)"
+
       - name: Merge from data
         run: git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
       
@@ -41,9 +58,6 @@ jobs:
       #     git log gh-pages --oneline 
       #     git diff main --name-only -- docs | wc -l
 
-      - name: Vérification des modfications sur le site
-        id: git_diff
-        run: echo "::set-output name=DOC_DIFF::$(git diff main --name-only -- docs | wc -l)"
 
       - name: Configuration de l'utilisateur Git
         run: |
