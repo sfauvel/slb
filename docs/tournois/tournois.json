@@ -3556,5 +3556,23 @@
                 "niveau": "D2-D3"
             }
         ]
+    },
+    {
+        "Sujet mail": "Invitation au tournoi seniors de l'Elan Basket des Sorini\u00e8res",
+        "Club": "Elan Basket des Sorini\u00e8res",
+        "Date": "07/09/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        " ": "",
+        "categories": [
+            {
+                "categorie": "Seniors M",
+                "niveau": "D2-D3"
+            },
+            {
+                "categorie": "Seniors F",
+                "niveau": "PRF-D2 "
+            }
+        ]
     }
 ]
