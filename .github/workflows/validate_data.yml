@@ -29,3 +29,17 @@ jobs:
           
       - name: Merge from data
         run: git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
+      
+      - name: Affichage de l'historique
+        run: |
+          git log --graph --oneline
+
+      - name: Configuration de l'utilisateur Git
+        run: |
+          git config user.email "actions@noreply.github.com"
+          git config user.name "GitHub Actions"
+
+      - name: Publication
+        run: |
+          git commit -m "Mise à jour du site"
+          git push -f
