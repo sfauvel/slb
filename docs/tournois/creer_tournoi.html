@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un Tournoi</title>
+    <style>
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .form-group button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        .label-categorie {
+            width: 8em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Créer un Tournoi</h2>
+        <form id="tournoiForm">
+            <div class="form-group">
+                <label for="mail">Mail *</label>
+                <input type="text" id="mail" name="Mail" required>
+            </div>
+            <div class="form-group">
+                <label for="club">Club *</label>
+                <input type="text" id="club" name="Club" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date *</label>
+                <input type="date" id="date" name="Date" required>
+            </div>
+            <div class="form-group">
+                <label for="date-limite">Date limite</label>
+                <input type="date" id="date-limite" name="Date limite">
+            </div>
+            <div id="form-categorie" class="form-categorie">
+                <label for="categorie">Categorie</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Soumettre</button>
+            </div>
+        </form>
+    </div>
+    <div class="result-container" id="resultContainer">
+        <h3>Résultat du formulaire</h3>
+        <pre id="result"></pre>
+    </div>
+    <script>
+
+        const CATEGORIES = [
+            "Seniors M",
+            "Seniors F",
+            "Loisir",
+            "U20M",
+            "U18M",
+            "U18F",
+            "U17M",
+            "U17F",
+            "U15M",
+            "U15F",
+            "U13M",
+            "U13F",
+            "U11M",
+            "U11F",
+            "U9M",
+            "U9F",
+            "U7"]
+
+        function ajouterOption(selectId, valeur, texte) {
+            const select = document.getElementById(selectId);
+            const option = document.createElement('option');
+            option.value = valeur;
+            option.text = texte;
+            select.appendChild(option);
+        }
+
+        function ajouterCategorie(categorie) {
+            const checkbox_categorie = document.createElement('input');
+            checkbox_categorie.type = "checkbox";
+            checkbox_categorie.id = "categorie-" + categorie;
+
+            const label_categorie = document.createElement('label');
+            label_categorie.innerHTML = categorie;
+            label_categorie.className = "label-categorie";
+
+            const input_categorie = document.createElement('input');
+            input_categorie.type = "text";
+            input_categorie.id = "niveau-" + categorie;
+            input_categorie.name = "niveau-" + categorie;
+            input_categorie.required = true;
+            input_categorie.disabled = true;
+
+            const div_categorie = document.createElement('div');
+            div_categorie.appendChild(checkbox_categorie);
+            div_categorie.appendChild(label_categorie);
+            div_categorie.appendChild(input_categorie);
+
+            const form_categorie = document.getElementById("form-categorie");
+            form_categorie.appendChild(div_categorie);
+
+            checkbox_categorie.addEventListener('change', function () {
+                if (checkbox_categorie.checked) {
+                    input_categorie.disabled = false;
+                } else {
+                    input_categorie.disabled = true;
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            for (categorie of CATEGORIES) {
+                ajouterCategorie(categorie);
+            }
+        });
+
+        document.getElementById('tournoiForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+
+            const data = {};
+            formData.forEach((value, key) => {
+                console.log(">>> key: " + key + " value: " + value);
+                if (key == "Categorie") {
+                    if (data[key]) {
+                        data[key].push(value);
+                    } else {
+                        data[key] = [value];
+                    }
+                } else {
+                    data[key] = value;
+                }
+            });
+
+            const resultContainer = document.getElementById('result');
+            resultContainer.textContent = JSON.stringify(data, null, 2);
+            resultContainer.textContent += "\n";
+
+            function get_niveau(categorie) {
+                return formData.get("niveau-" + categorie);
+            }
+
+            resultContainer.textContent += [
+                data["Mail"],
+                data["Club"],
+                data["Date"],
+                data["Date limite"],
+                CATEGORIES.map(get_niveau).join(",")
+            ].join(",");
+
+        });
+    </script>
+</body>
+
+</html>
