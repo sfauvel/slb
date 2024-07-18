@@ -26,11 +26,3 @@ jobs:
       - name: Inspect
         run: |
           echo "Le JSON est valide"
-
-      - name: Configure Git user
-        run: |
-          git config user.email "actions@noreply.github.com"
-          git config user.name "GitHub Actions"
-
-      - name: Merge from master
-        run: git merge origin/gh-pages -m "Mise à jour des données après validation"
