@@ -12,10 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Inspect
-        run: |
-          echo "ls"
-          ls
 
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
@@ -23,6 +19,13 @@ jobs:
           INPUT_SCHEMA: ./schema_tournois.json
           INPUT_JSONS: ./docs/tournois/tournois.json
 
-      - name: Inspect
-        run: |
-          echo "Le JSON est valide"
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: gh-pages
+          
+      - name: Merge from data
+        run: git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
