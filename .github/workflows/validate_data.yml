@@ -19,20 +19,8 @@ jobs:
           INPUT_SCHEMA: ./schema_tournois.json
           INPUT_JSONS: ./docs/tournois/tournois.json
 
-  check_modification:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          ref: gh-pages
- 
-      - name: Vérification des modfications sur le site
-        id: git_diff
-        run: echo "::set-output name=DOC_DIFF::$(git diff data --name-only -- docs | wc -l)"
-
   publish:
-    if: steps.git_diff.outputs.DOC_DIFF > 0
+    # if: steps.git_diff.outputs.DOC_DIFF > 0
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -42,29 +30,35 @@ jobs:
           
       - name: Vérification des modfications sur le site
         id: git_diff
-        run: echo "::set-output name=DOC_DIFF::$(git diff main --name-only -- docs | wc -l)"
-
-      - name: Merge from data
-        run: git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
-      
-      # - name: Affichage d'information sur le repo
-      #   run: |
-      #     git branch
-      #     git log --graph --oneline
-      #     git status
-      #     echo "Historique data"
-      #     git log origin/data --oneline
-      #     echo "Historique gh-pages"
-      #     git log gh-pages --oneline 
-      #     git diff main --name-only -- docs | wc -l
-
-
-      - name: Configuration de l'utilisateur Git
-        run: |
-          git config user.email "actions@noreply.github.com"
-          git config user.name "GitHub Actions"
+        run: echo "::set-output name=DOC_DIFF::$(git diff origin/data --name-only -- docs | wc -l)"
 
       - name: Publication
         if: steps.git_diff.outputs.DOC_DIFF > 0
         run: |
+          git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
+          git config user.email "actions@noreply.github.com"
+          git config user.name "GitHub Actions"
           git push -f
+      
+      # # - name: Affichage d'information sur le repo
+      # #   run: |
+      # #     git branch
+      # #     git log --graph --oneline
+      # #     git status
+      # #     echo "Historique data"
+      # #     git log origin/data --oneline
+      # #     echo "Historique gh-pages"
+      # #     git log gh-pages --oneline 
+      # #     git diff main --name-only -- docs | wc -l
+
+
+      # - name: Configuration de l'utilisateur Git
+      #   if: steps.git_diff.outputs.DOC_DIFF > 0
+      #   run: |
+      #     git config user.email "actions@noreply.github.com"
+      #     git config user.name "GitHub Actions"
+
+      # - name: Publication
+      #   if: steps.git_diff.outputs.DOC_DIFF > 0
+      #   run: |
+      #     git push -f
