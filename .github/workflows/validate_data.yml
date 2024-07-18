@@ -11,7 +11,7 @@ jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Inspect
         run: |
           echo "ls"
@@ -26,3 +26,11 @@ jobs:
       - name: Inspect
         run: |
           echo "Le JSON est valide"
+
+      - name: Configure Git user
+        run: |
+          git config user.email "actions@noreply.github.com"
+          git config user.name "GitHub Actions"
+
+      - name: Merge from master
+        run: git merge origin/pages -m "Mise à jour des données après validation"
