@@ -30,9 +30,15 @@ jobs:
       - name: Merge from data
         run: git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
       
-      - name: Affichage de l'historique
+      - name: Affichage d'information sur le repo
         run: |
+          git branch
           git log --graph --oneline
+          git status
+          echo "Historique data"
+          git log origin/data --oneline
+          echo "Historique gh-pages"
+          git log gh-pages --oneline 
 
       - name: Configuration de l'utilisateur Git
         run: |
