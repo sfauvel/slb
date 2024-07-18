@@ -47,5 +47,4 @@ jobs:
 
       - name: Publication
         run: |
-          git commit -m "Mise à jour du site"
           git push -f
