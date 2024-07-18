@@ -30,15 +30,20 @@ jobs:
       - name: Merge from data
         run: git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
       
-      - name: Affichage d'information sur le repo
-        run: |
-          git branch
-          git log --graph --oneline
-          git status
-          echo "Historique data"
-          git log origin/data --oneline
-          echo "Historique gh-pages"
-          git log gh-pages --oneline 
+      # - name: Affichage d'information sur le repo
+      #   run: |
+      #     git branch
+      #     git log --graph --oneline
+      #     git status
+      #     echo "Historique data"
+      #     git log origin/data --oneline
+      #     echo "Historique gh-pages"
+      #     git log gh-pages --oneline 
+      #     git diff main --name-only -- docs | wc -l
+
+      - name: Vérification des modfications sur le site
+        id: git_diff
+        run: echo "::set-output name=DOC_DIFF::$(git diff main --name-only -- docs | wc -l)"
 
       - name: Configuration de l'utilisateur Git
         run: |
@@ -46,5 +51,6 @@ jobs:
           git config user.name "GitHub Actions"
 
       - name: Publication
+        if: steps.git_diff.outputs.DOC_DIFF > 0
         run: |
           git push -f
