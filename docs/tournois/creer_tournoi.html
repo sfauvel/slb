@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Créer un Tournoi</title>
     <style>
+        .form-categorie {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
         .form-container {
-            max-width: 600px;
+            /*max-width: 600px;*/
+            max-width: 80%;
             margin: 0 auto;
             padding: 20px;
             border: 1px solid #ccc;
@@ -24,10 +31,20 @@
             margin-bottom: 5px;
         }
 
-        .form-group input,
-        .form-group select {
+        .form-group input:disabled,
+        .form-categorie input:disabled {
+            background-color: #c7c7c7;
+        }
+
+        .form-categorie input {
+            /*width: 100%;*/
+            padding: 6px;
+            box-sizing: border-box;
+        }
+
+        .form-group input {
             width: 100%;
-            padding: 8px;
+            padding: 6px;
             box-sizing: border-box;
         }
 
@@ -45,7 +62,8 @@
         }
 
         .label-categorie {
-            width: 8em;
+            width: 6em;
+            display: inline-block;
         }
     </style>
 </head>
@@ -70,11 +88,20 @@
                 <label for="date-limite">Date limite</label>
                 <input type="date" id="date-limite" name="Date limite">
             </div>
-            <div id="form-categorie" class="form-categorie">
-                <label for="categorie">Categorie</label>
+            <div>
+                <label>Catégorie</label>
+                <div id="form-categorie" class="form-categorie">
+
+                    <!-- <table id="table-categorie">
+                        <tr>
+                            <th>Categorie</th>
+                            <th>Niveau</th>
+                        </tr>
+                    </table> -->
+                </div>
             </div>
             <div class="form-group">
-                <button type="submit">Soumettre</button>
+                <button type="submit">Générer</button>
             </div>
         </form>
     </div>
@@ -87,12 +114,10 @@
         const CATEGORIES = [
             "Seniors M",
             "Seniors F",
-            "Loisir",
-            "U20M",
+            "U21M",
+            "U21F",
             "U18M",
             "U18F",
-            "U17M",
-            "U17F",
             "U15M",
             "U15F",
             "U13M",
@@ -101,7 +126,9 @@
             "U11F",
             "U9M",
             "U9F",
-            "U7"]
+            "U7",
+            "Loisir",
+        ]
 
         function ajouterOption(selectId, valeur, texte) {
             const select = document.getElementById(selectId);
@@ -135,6 +162,20 @@
             const form_categorie = document.getElementById("form-categorie");
             form_categorie.appendChild(div_categorie);
 
+            //            const column_categorie = document.createElement('td');
+            //            column_categorie.appendChild(checkbox_categorie);
+            //            column_categorie.appendChild(label_categorie);
+            //
+            //            const column_niveau = document.createElement('td');
+            //            column_niveau.appendChild(input_categorie);
+            //
+            //            const line_categorie = document.createElement('tr');
+            //            line_categorie.appendChild(column_categorie);
+            //            line_categorie.appendChild(column_niveau);
+            //
+            //            const form_categorie = document.getElementById("table-categorie");
+            //            form_categorie.appendChild(line_categorie);
+
             checkbox_categorie.addEventListener('change', function () {
                 if (checkbox_categorie.checked) {
                     input_categorie.disabled = false;
@@ -155,34 +196,13 @@
 
             const formData = new FormData(event.target);
 
-            const data = {};
-            formData.forEach((value, key) => {
-                console.log(">>> key: " + key + " value: " + value);
-                if (key == "Categorie") {
-                    if (data[key]) {
-                        data[key].push(value);
-                    } else {
-                        data[key] = [value];
-                    }
-                } else {
-                    data[key] = value;
-                }
-            });
-
             const resultContainer = document.getElementById('result');
-            resultContainer.textContent = JSON.stringify(data, null, 2);
-            resultContainer.textContent += "\n";
-
-            function get_niveau(categorie) {
-                return formData.get("niveau-" + categorie);
-            }
-
-            resultContainer.textContent += [
-                data["Mail"],
-                data["Club"],
-                data["Date"],
-                data["Date limite"],
-                CATEGORIES.map(get_niveau).join(",")
+            resultContainer.textContent = [
+                formData.get("Mail"),
+                formData.get("Club"),
+                formData.get("Date"),
+                formData.get("Date limite"),
+                CATEGORIES.map(categorie => formData.get("niveau-" + categorie)).join(",")
             ].join(",");
 
         });
