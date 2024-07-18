@@ -7,8 +7,12 @@
     <title>Liste des Événements</title>
     <style>
         table {
-            width: 100%;
+            /*width: 100%;*/
             border-collapse: collapse;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #a4c2f7;
         }
 
         th,
@@ -19,7 +23,7 @@
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #95a0e0;
         }
 
         .filter-input {
@@ -39,7 +43,6 @@
 
         select.filter-input {
             height: 30px;
-            /* Ajustez la hauteur selon vos besoins */
             overflow: hidden;
         }
 
@@ -58,11 +61,11 @@
     <table id="eventsTable">
         <thead>
             <tr>
-                <th>Club</th>
-                <th>Date</th>
-                <th>Date limite d'inscription</th>
-                <th>Catégorie</th>
-                <th>Niveau</th>
+                <th style="width:30em;">Club</th>
+                <th style="width:6em;">Date</th>
+                <th style="width:6em;">Date limite d'inscription</th>
+                <th style="width:9em;">Catégorie</th>
+                <th style="width:10em;">Niveau</th>
             </tr>
             <tr>
                 <th><input type="text" id="nameFilter" class="filter-input" placeholder="Filtrer par nom"></th>
