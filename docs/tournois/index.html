@@ -53,6 +53,43 @@
             position: absolute;
             overflow: visible;
         }
+
+        .modal {
+            display: none;
+            /* Masqué par défaut */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -89,9 +126,60 @@
             <!-- Les lignes du tableau seront ajoutées ici par JavaScript -->
         </tbody>
     </table>
+    <!-- Modal -->
+    <div id="tournoiModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Détails du Tournoi</h2>
+            <div id="tournoiDetails"></div>
+        </div>
+    </div>
 
     <script>
+        // Fonction pour afficher les détails du tournoi dans le modal
+        function afficherDetailsTournoi(event) {
+            const modal = document.getElementById("tournoiModal");
+            const detailsContainer = document.getElementById("tournoiDetails");
+            const tournoi = JSON.parse(event.target.dataset.tournoi);
+
+            const categories = tournoi.categories === undefined
+                ? ['Non spécifiée']
+                : tournoi.categories.map(categorie => `<li>${categorie.categorie}: ${categorie.niveau}</li>`).join('');
+
+            // Remplir les détails du tournoi
+            detailsContainer.innerHTML = `
+                <p>Club: ${tournoi.Club}</p>
+                <p>Date: ${tournoi.Date}</p>
+                <p>Date limite: ${tournoi['Date limite']}</p>
+                <p>Catégories: <ul>${categories}<ul></p>
+                <!-- Ajoutez d'autres détails ici -->
+            `;
+
+            // Afficher le modal
+            modal.style.display = "block";
+        }
+
+        // Fermer le modal lorsque l'utilisateur clique sur le bouton de fermeture
+        document.querySelector(".close").addEventListener("click", function () {
+            document.getElementById("tournoiModal").style.display = "none";
+        });
+
+        // Fermer le modal lorsque l'utilisateur clique en dehors du modal
+        window.addEventListener("click", function (event) {
+            const modal = document.getElementById("tournoiModal");
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+
         document.addEventListener('DOMContentLoaded', function () {
+
+            function creer_cellule_texte(texte) {
+                const cellule = document.createElement('td');
+                cellule.textContent = texte;
+                return cellule;
+            }
+
             fetch('tournois.json')
                 .then(response => response.json())
                 .then(data => {
@@ -99,23 +187,32 @@
                     const categorieFilter = document.getElementById('categorieFilter');
                     const categoriesSet = new Set();
 
-                    data.forEach(event => {
+                    data.forEach(tournoi => {
                         // console.log(event)
-                        const categories = event.categories === undefined ? ['Non spécifiée'] : event.categories;
-                        const dateLimite = event['Date limite'] === undefined ? '' : event['Date limite'];
+                        const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
+                        const dateLimite = tournoi['Date limite'] === undefined ? '' : tournoi['Date limite'];
 
                         for (categorie in categories) {
                             categoriesSet.add(categories[categorie].categorie);
-                            const row = document.createElement('tr');
-                            row.innerHTML = `
-                                <td>${event.Club}</td>
-                                <td>${event.Date}</td>
-                                <td>${dateLimite}</td>
-                                <td>${categories[categorie].categorie}</td>
-                                <td>${categories[categorie].niveau}</td>
-                            `;
-                            tableBody.appendChild(row);
+                            const div_club = document.createElement('div');
+                            div_club.innerHTML = tournoi.Club;
+                            div_club.dataset.tournoi = JSON.stringify(tournoi);
+                            div_club.addEventListener('click', function (event) {
+                                afficherDetailsTournoi(event);
+                            });
 
+                            const row = document.createElement('tr');
+
+                            const cell = document.createElement('td');
+                            cell.appendChild(div_club);
+                            row.appendChild(cell);
+
+                            row.appendChild(creer_cellule_texte(tournoi.Date));
+                            row.appendChild(creer_cellule_texte(dateLimite));
+                            row.appendChild(creer_cellule_texte(categories[categorie].categorie));
+                            row.appendChild(creer_cellule_texte(categories[categorie].niveau));
+
+                            tableBody.appendChild(row);
                         }
                     });
 
