@@ -186,8 +186,11 @@
                     const tableBody = document.querySelector('#eventsTable tbody');
                     const categorieFilter = document.getElementById('categorieFilter');
                     const categoriesSet = new Set();
-
+                    
+                    data.sort((a, b) => a.Date.split('/').reverse().join('') > b.Date.split('/').reverse().join(''));
+                    
                     data.forEach(tournoi => {
+                        console.log(tournoi.Club)
                         const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
                         const dateLimite = tournoi['Date limite'] === undefined ? '' : tournoi['Date limite'];
 
