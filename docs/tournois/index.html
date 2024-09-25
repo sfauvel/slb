@@ -11,10 +11,6 @@
             border-collapse: collapse;
         }
 
-        tr:nth-child(odd) {
-            background-color: #a4d1ff;
-        }
-
         th,
         td {
             border: 1px solid black;
@@ -23,7 +19,8 @@
         }
 
         th {
-            background-color: #3399ff;
+            background-color: #2d669f;
+            color: white;
         }
 
         .filter-input {
@@ -136,6 +133,10 @@
     </div>
 
     <script>
+
+        LINE_BACKGROUND_COLOR_ODD = '#a4d1ff';
+        LINE_BACKGROUND_COLOR_EVEN = 'white';
+
         // Fonction pour afficher les détails du tournoi dans le modal
         function afficherDetailsTournoi(event) {
             const modal = document.getElementById("tournoiModal");
@@ -179,7 +180,6 @@
                 cellule.textContent = texte;
                 return cellule;
             }
-
             fetch('tournois.json')
                 .then(response => response.json())
                 .then(data => {
@@ -188,7 +188,6 @@
                     const categoriesSet = new Set();
 
                     data.forEach(tournoi => {
-                        // console.log(event)
                         const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
                         const dateLimite = tournoi['Date limite'] === undefined ? '' : tournoi['Date limite'];
 
@@ -251,6 +250,7 @@
 
 
                         const rows = tableBody.getElementsByTagName('tr');
+                        nb_lines_displayed = 0;
                         for (let i = 0; i < rows.length; i++) {
                             const cells = rows[i].getElementsByTagName('td');
                             const nameText = cells[0].textContent.toLowerCase();
@@ -266,6 +266,8 @@
 
                             if (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition) {
                                 rows[i].style.display = '';
+                                rows[i].style.backgroundColor = (nb_lines_displayed & 1 == 1) ? LINE_BACKGROUND_COLOR_ODD:LINE_BACKGROUND_COLOR_EVEN;
+                                nb_lines_displayed += 1;
                             } else {
                                 rows[i].style.display = 'none';
                             }

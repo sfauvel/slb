@@ -44,7 +44,7 @@
     {
         "Sujet mail": "Invitation au tournoi seniors de l'Elan Basket des Sorini\u00e8res",
         "Club": "Elan Basket des Sorini\u00e8res",
-        "Date": "08/09/2024",
+        "Date": "08/09/24",
         "Particularit\u00e9": "",
         "Date limite": "",
         "categories": [
@@ -55,6 +55,398 @@
             {
                 "categorie": "Seniors F",
                 "niveau": "PRF-D2 "
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Tournoi Halloween 02 novembre U9 et U11 Vaillante Immacul\u00e9e Basket",
+        "Club": "Vaillante Immacul\u00e9e Saint-Nazaire Basket",
+        "Date": "02/11/24",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "D1 D3"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "D2 D3"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "Bleu"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "Bleu"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "MGBB, Invitation tournoi Halloween U11 et U13",
+        "Club": "MGBB (Montbert Geneston le Bignon)",
+        "Date": "26/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U13M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U13F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Invitation tournoi",
+        "Club": "Chabossi\u00e8re",
+        "Date": "26/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Invitation tournoi",
+        "Club": "Chabossi\u00e8re",
+        "Date": "27/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "10/10/24",
+        "categories": [
+            {
+                "categorie": "U15M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U15F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U13M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U13F",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "TOURNOI HALLOWEEN 2024",
+        "Club": "AS Saffr\u00e9",
+        "Date": "02/11/24",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "Loisir",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U15M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U13F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U7",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "TOURNOI U9 Blanc et U11 D2 et D3 4 Janvier au Loroux Bottereau",
+        "Club": "Loroux Bottereau",
+        "Date": "04/01/25",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "D2 D3"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "D2 D3"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "Blanc"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "Blanc"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "INDRE BC : Invitation \u00e0 notre tournoi des titis d'Halloween 2024 (U7 \u00e0 U11)",
+        "Club": "Indre",
+        "Date": "26/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "19/10/2024",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "D1 D2 D3"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "D1 D2 D3"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "Bleu Blanc Rouge Orange"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "Bleu Blanc Rouge Orange"
+            },
+            {
+                "categorie": "U7",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Ecole de basket Sion-les-Mines : recherche matchs amicaux et organisation d'un tournoi de No\u00ebl",
+        "Club": "Sion-les-Mines",
+        "Date": "14/12/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U7",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Tournoi Halloween 2024 ABC 3 Rivi\u00e8res",
+        "Club": "St Gildas des bois",
+        "Date": "02/11/24",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U13M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U13F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "PMBC - Tournoi Halloween 20 octobre \u2013 U9-U11",
+        "Club": "Petit-Mars",
+        "Date": "20/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Tournoi Halloween FLUO Party",
+        "Club": "Saint Andr\u00e9",
+        "Date": "02/11/24",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "Seniors M",
+                "niveau": "3x3"
+            },
+            {
+                "categorie": "Seniors F",
+                "niveau": "3x3"
+            },
+            {
+                "categorie": "U15M",
+                "niveau": "3x3"
+            },
+            {
+                "categorie": "U15F",
+                "niveau": "3x3"
+            },
+            {
+                "categorie": "U13M",
+                "niveau": "3x3"
+            },
+            {
+                "categorie": "U13F",
+                "niveau": "3x3"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Tournoi de la mie caline U15M",
+        "Club": "Pontivy",
+        "Date": "27/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U15M",
+                "niveau": "R\u00e9gion"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Tournoi de No\u00ebl BASKET CLUB REZE",
+        "Club": "Rez\u00e9",
+        "Date": "14/12/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "30/11/2024",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "D1 D2 D3"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "D1 D2 D3"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Weekend Tournoi 25 et 26 octobre 2024 - BRAINS \u2013 Loisirs/Seniors/U18",
+        "Club": "Brains",
+        "Date": "25/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "Loisir",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Weekend Tournoi 25 et 26 octobre 2024 - BRAINS \u2013 Loisirs/Seniors/U18",
+        "Club": "Brains",
+        "Date": "26/10/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "Seniors M",
+                "niveau": "D3 D4"
+            },
+            {
+                "categorie": "Seniors F",
+                "niveau": "D2 D3"
+            },
+            {
+                "categorie": "U18F",
+                "niveau": "X"
+            }
+        ]
+    },
+    {
+        "Sujet mail": "Tournoi Halloween de l'Hirondelle Basket",
+        "Club": "Saint Julien de Concelles",
+        "Date": "02/11/24",
+        "Particularit\u00e9": "",
+        "Date limite": "15/10/2024",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "D2 D3"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "D2 D3"
+            },
+            {
+                "categorie": "U9M",
+                "niveau": "Blanc Rouge"
+            },
+            {
+                "categorie": "U9F",
+                "niveau": "Blanc Rouge"
+            },
+            {
+                "categorie": "U7",
+                "niveau": "X"
             }
         ]
     }
