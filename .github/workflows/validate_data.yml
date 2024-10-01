@@ -35,10 +35,7 @@ jobs:
       - name: Publication
         if: steps.git_diff.outputs.DOC_DIFF > 0
         run: |
-          git config --global user.name 'Sébastien Fauvel'
-          git config --global user.email 'sfauvel@users.noreply.github.com'
-          
-          git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
           git config user.email "actions@noreply.github.com"
           git config user.name "GitHub Actions"
+          git merge origin/data --allow-unrelated-histories -m "Mise à jour des données après validation"
           git push -f
