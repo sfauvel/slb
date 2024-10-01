@@ -92,6 +92,12 @@
 
 <body>
     <h1>Liste des tournois</h1>
+
+    <h3>Liste des tournois proposés par les clubs de la région. </h3>
+    <ul>
+        <li>La liste est triée par date pour afficher les prochains tounois en premier.</li>
+        <li>Sélectionnez la ou les catégories de vos équipes pour ne voir que les tournois qui vous concernent.</li>
+    </ul>
     <table id="eventsTable">
         <thead>
             <tr>
@@ -180,7 +186,11 @@
                 cellule.textContent = texte;
                 return cellule;
             }
-            fetch('tournois.json')
+
+            // Générer un UUID pour éviter le cache
+            const uniqueParam = crypto.randomUUID();
+
+            fetch('tournois.json?cache_buster=${uniqueParam}')
                 .then(response => response.json())
                 .then(data => {
                     const tableBody = document.querySelector('#eventsTable tbody');

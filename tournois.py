@@ -7,7 +7,7 @@ CATEGORIES = [
     "Seniors M", 
     "Seniors F", 
     "Loisir", 
-    "U20M", 
+    "U21M", 
     "U18M", 
     "U18F", 
     "U17M", 
