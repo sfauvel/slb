@@ -26,6 +26,8 @@ jobs:
         with:
           fetch-depth: 0
           ref: gh-pages
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Vérification des modfications sur le site
         id: git_diff
