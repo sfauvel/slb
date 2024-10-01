@@ -227,8 +227,11 @@
                             tableBody.appendChild(row);
                         }
                     });
+                    function format_categorie(categorie) {
+                        return categorie.replace("U", " U").replace("U9", "U09").replace("U7", "U07")
+                    }
 
-                    categoriesSet.forEach(categorie => {
+                    Array.from(categoriesSet).sort((a, b) => format_categorie(a) > format_categorie(b)).forEach(categorie => {
                         const option = document.createElement('option');
                         option.value = categorie;
                         option.textContent = categorie;
