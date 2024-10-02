@@ -499,5 +499,22 @@
                 "niveau": "X"
             }
         ]
+    },
+    {
+        "Sujet mail": "Tournoi U11 Bask'FEST Christmas - 2\u00e8me \u00e9dition",
+        "Club": "Essart en Bocage (85)",
+        "Date": "14/12/2024",
+        "Particularit\u00e9": "",
+        "Date limite": "",
+        "categories": [
+            {
+                "categorie": "U11M",
+                "niveau": "X"
+            },
+            {
+                "categorie": "U11F",
+                "niveau": "X"
+            }
+        ]
     }
 ]
