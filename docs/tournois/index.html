@@ -92,6 +92,7 @@
 
 <body>
     <h1>Liste des tournois</h1>
+    <div id="last_update"> </div>
 
     <h3>Liste des tournois proposés par les clubs de la région. </h3>
     <ul>
@@ -193,6 +194,11 @@
             fetch('tournois.json?cache_buster=${uniqueParam}')
                 .then(response => response.json())
                 .then(data => {
+                    
+                    last_update = data["last_update"];
+                    document.querySelector('#last_update').innerHTML = `Dernière mise à jour: ${last_update}`;
+
+                    data = data["tournois"];
                     const tableBody = document.querySelector('#eventsTable tbody');
                     const categorieFilter = document.getElementById('categorieFilter');
                     const categoriesSet = new Set();

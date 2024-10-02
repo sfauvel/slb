@@ -2,6 +2,7 @@
 
 import csv
 import json
+from datetime import datetime
 
 CATEGORIES = [
     "Seniors M", 
@@ -28,13 +29,19 @@ def group_category(row):
         del row[categorie]
 
 def csv_to_json(csv_file, json_file):
-    data = []
+    tournois = []
     with open(csv_file) as f:
         csv_reader = csv.DictReader(f)
         for row in csv_reader:
             group_category(row)
-            data.append(row)
+            tournois.append(row)
 
+    now_string = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    data = {
+        "tournois": tournois,
+        "last_update": now_string,
+    }
+    
     with open(json_file, 'w') as f:
         json.dump(data, f, indent=4)
         
