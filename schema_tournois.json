@@ -56,7 +56,7 @@
                         }
                     }
                 }
-            },
+            }
         },
         "last_update": {
             "type": "string",
