@@ -517,7 +517,40 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Fwd: TOURNOI HALLOWEEN U9/U11/U13- BLAIN - SAMEDI 02 NOVEMBRE 2024",
+            "Club": "Blain",
+            "Date": "02/11/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "20/10/2024",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc"
+                }
+            ]
         }
     ],
-    "last_update": "02/10/2024 17:33:29"
+    "last_update": "05/10/2024 00:30:50"
 }
