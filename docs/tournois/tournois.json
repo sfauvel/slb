@@ -550,7 +550,36 @@
                     "niveau": "Blanc"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Vos petits monstres sont-ils pr\u00eats ?",
+            "Club": "Logne",
+            "Date": "02/11/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc Orange Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc Orange Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "05/10/2024 00:30:50"
+    "last_update": "07/10/2024 11:09:32"
 }
