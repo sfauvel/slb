@@ -579,7 +579,40 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi Halloween 2024 ABC 3 Rivi\u00e8res",
+            "Club": "ABC Trois rivi\u00e8res (St Gildas des bois)",
+            "Date": "02/11/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "07/10/2024 11:09:32"
+    "last_update": "08/10/2024 14:47:36"
 }
