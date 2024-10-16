@@ -694,7 +694,104 @@
                     "niveau": "Bleu Blanc Rouge Orange"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Invitation Tournoi No\u00ebl en Basket 2024 - AS St Rogatien Basket",
+            "Club": "Saint Rogatien",
+            "Date": "22/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "27/10/2024",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Bleu Blanc"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation au tournoi U9",
+            "Club": "Bouguenais",
+            "Date": "26/10/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "18/10/2024",
+            "categories": [
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de la Mie C\u00e2line Samedi 14 D\u00e9cembre \u00e0 Neuvy",
+            "Club": "Neuvy-en-Mauges (49)",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "Tournoi Mie Caline",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D\u00e9partemental"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI PRE-QUALIFICATIF LA MIE CALINE",
+            "Club": "Chaumes-en-Retz - l\u2019Etoile Arthonnaise",
+            "Date": "26/10/2024",
+            "Particularit\u00e9": "Tournoi Mie Caline",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi U9/U11 - samedi 4 janvier \u00e0 Treilli\u00e8res (44)",
+            "Club": "Treilli\u00e8res",
+            "Date": "04/01/2025",
+            "Particularit\u00e9": "23/24/25 mai 2025 tournoi U13/U15/U18/Seniors",
+            "Date limite": "15/12/2024",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1/D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1/D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Bleu Blanc"
+                }
+            ]
         }
     ],
-    "last_update": "10/10/2024 22:26:08"
+    "last_update": "16/10/2024 18:12:24"
 }
