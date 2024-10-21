@@ -556,7 +556,7 @@
             "Club": "Logne",
             "Date": "02/11/2024",
             "Particularit\u00e9": "",
-            "Date limite": "",
+            "Date limite": "26/10/2024",
             "categories": [
                 {
                     "categorie": "U11M",
@@ -791,7 +791,24 @@
                     "niveau": "Bleu Blanc"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Etoile de Clisson Basket - Invitation Tournoi de No\u00ebl 2024",
+            "Club": "Clisson",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "01/12/2024",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "16/10/2024 18:12:24"
+    "last_update": "21/10/2024 09:16:58"
 }
