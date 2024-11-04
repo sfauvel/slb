@@ -645,14 +645,6 @@
                     "niveau": "3x3"
                 },
                 {
-                    "categorie": "U17M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U17F",
-                    "niveau": "3x3"
-                },
-                {
                     "categorie": "U15M",
                     "niveau": "3x3"
                 },
@@ -700,7 +692,7 @@
             "Club": "Saint Rogatien",
             "Date": "22/12/2024",
             "Particularit\u00e9": "",
-            "Date limite": "27/10/2024",
+            "Date limite": "10/11/2024",
             "categories": [
                 {
                     "categorie": "U11M",
@@ -808,7 +800,165 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi d'Hiver - U7/U9/U11 - La Chapelle Heulin",
+            "Club": "ASHBB \u2013 La Chapelle Heulin",
+            "Date": "04/01/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de basket de No\u00ebl reserv\u00e9 aux U7 - \u00e9cole de basket Sion-les-Mines (Nord 44)",
+            "Club": "Sion Lusanger",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "15/11/2024",
+            "categories": [
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de no\u00ebl ES Coueron Basket 2024",
+            "Club": "Cou\u00ebron",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "Nocturne pour les U18",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2/D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de no\u00ebl ES Coueron Basket 2024",
+            "Club": "Cou\u00ebron",
+            "Date": "15/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "04/12/2024",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc Rouge Orange"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc Rouge Orange"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation Tournoi qualificatif Mie C\u00e2line Basket Go U15 F&M",
+            "Club": "Basse Goulaine",
+            "Date": "04/01/2025",
+            "Particularit\u00e9": "Qualification Mie Caline",
+            "Date limite": "09/12/2024",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "R\u00e9gional/D\u00e9partemental"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R\u00e9gional/D\u00e9partemental"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI 3X3 DE NOEL : Dimanche 22 D\u00e9cembre",
+            "Club": "Port Saint Mars",
+            "Date": "22/12/2024",
+            "Particularit\u00e9": "3x3 au moins un licenci\u00e9 par \u00e9quipe",
+            "Date limite": "07/12/2024",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "3x3 mixte"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "3x3 mixte"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "3x3 mixte"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "3x3 mixte"
+                }
+            ]
         }
     ],
-    "last_update": "21/10/2024 09:16:58"
+    "last_update": "04/11/2024 08:41:44"
 }
