@@ -958,7 +958,40 @@
                     "niveau": "3x3 mixte"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi de No\u00ebl du PMBC - Samedi 14 d\u00e9cembre - U13--> U18 et Loisirs",
+            "Club": "Petit Mars",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "11/12/2024",
+            "categories": [
+                {
+                    "categorie": "Loisir",
+                    "niveau": "Nocturne"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2-D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1-D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2-D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2-D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2-D3"
+                }
+            ]
         }
     ],
-    "last_update": "04/11/2024 08:41:44"
+    "last_update": "05/11/2024 15:30:10"
 }
