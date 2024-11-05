@@ -961,7 +961,7 @@
         },
         {
             "Sujet mail": "Tournoi de No\u00ebl du PMBC - Samedi 14 d\u00e9cembre - U13--> U18 et Loisirs",
-            "Club": "Petit Mars",
+            "Club": "Vaillante Immacul\u00e9e Saint-Nazaire Basket",
             "Date": "14/12/2024",
             "Particularit\u00e9": "",
             "Date limite": "11/12/2024",
@@ -991,7 +991,32 @@
                     "niveau": "D2-D3"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi LPVB du 04 Janvier 2025",
+            "Club": "La Planche Vieillevigne",
+            "Date": "04/01/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "15/12/2024",
+            "categories": [
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "Mixte"
+                }
+            ]
         }
     ],
-    "last_update": "05/11/2024 15:30:10"
+    "last_update": "05/11/2024 21:24:55"
 }
