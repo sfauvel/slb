@@ -1016,7 +1016,28 @@
                     "niveau": "Mixte"
                 }
             ]
+        },
+        {
+            "Sujet mail": "[Animation Casson] Tournoi nocturne de No\u00ebl 14/12",
+            "Club": "Casson",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3 Mixte"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3 Mixte"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3 Mixte"
+                }
+            ]
         }
     ],
-    "last_update": "05/11/2024 21:24:55"
+    "last_update": "15/11/2024 22:06:37"
 }
