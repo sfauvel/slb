@@ -1037,7 +1037,36 @@
                     "niveau": "3x3 Mixte"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi 3x3 La Garnache",
+            "Club": "La Garnache (Nord 85)",
+            "Date": "13/12/2024",
+            "Particularit\u00e9": "D\u00e9but \u00e0 20h30",
+            "Date limite": "10/12/2024 ",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                }
+            ]
         }
     ],
-    "last_update": "21/11/2024 09:56:09"
+    "last_update": "21/11/2024 15:14:01"
 }
