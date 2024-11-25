@@ -1066,7 +1066,20 @@
                     "niveau": "3x3"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi La Mie C\u00e2line Basket Go - Cellier Mauves Basket Club",
+            "Club": "Cellier \u2013 Mauves",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "Tournoi MieCaline",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "24/11/2024 00:09:44"
+    "last_update": "25/11/2024 11:03:50"
 }
