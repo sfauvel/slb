@@ -961,7 +961,7 @@
         },
         {
             "Sujet mail": "Tournoi de No\u00ebl du PMBC - Samedi 14 d\u00e9cembre - U13--> U18 et Loisirs",
-            "Club": "Vaillante Immacul\u00e9e Saint-Nazaire Basket",
+            "Club": "PMBC Petit Mars",
             "Date": "14/12/2024",
             "Particularit\u00e9": "",
             "Date limite": "11/12/2024",
@@ -1079,7 +1079,53 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi U7 - U9 - U11 le 8 f\u00e9vrier 2025 \u00e0 Grandchamp-des-Fontaines",
+            "Club": "Grandchamp-des-Fontaines",
+            "Date": "04/01/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Relance - Tournoi U11 Bask'Fest Christmas - 2\u00e8me \u00e9dition",
+            "Club": "Essart en Bocage (85)",
+            "Date": "14/12/2024",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2 D3 (mixte)"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1 D2 D3 \u2018mixte)"
+                }
+            ]
         }
     ],
-    "last_update": "25/11/2024 11:03:50"
+    "last_update": "03/12/2024 16:33:11"
 }
