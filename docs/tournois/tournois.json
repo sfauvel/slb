@@ -1185,7 +1185,20 @@
                     "niveau": "D\u00e9partemental"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi Mie Caline",
+            "Club": "Rouans",
+            "Date": "15/02/2025",
+            "Particularit\u00e9": "Mie Caline",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "03/01/2025 09:18:22"
+    "last_update": "03/01/2025 19:33:31"
 }
