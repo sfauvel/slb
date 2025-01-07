@@ -1219,7 +1219,36 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi mini-basket RB44",
+            "Club": "Rez\u00e9",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "15/04/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "06/01/2025 08:36:09"
+    "last_update": "07/01/2025 13:52:59"
 }
