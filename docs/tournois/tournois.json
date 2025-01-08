@@ -1248,7 +1248,69 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi du Lac - 24 et 25 mai 2025 - La Chevroli\u00e8re",
+            "Club": "La Chevroli\u00e8re",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "11/05/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi du Lac - 24 et 25 mai 2025 - La Chevroli\u00e8re",
+            "Club": "La Chevroli\u00e8re",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "11/05/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "07/01/2025 13:52:59"
+    "last_update": "08/01/2025 16:05:44"
 }
