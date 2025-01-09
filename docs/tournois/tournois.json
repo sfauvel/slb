@@ -1310,7 +1310,36 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi U7 - U9 - U11 le 8 f\u00e9vrier 2025 \u00e0 Grandchamp-des-Fontaines",
+            "Club": "Grandchamp-des-Fontaines",
+            "Date": "08/02/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "08/01/2025 16:05:44"
+    "last_update": "09/01/2025 11:58:01"
 }
