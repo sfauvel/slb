@@ -1339,7 +1339,298 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
+            "Club": "Vallet",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
+            "Club": "Vallet",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
+            "Club": "Logne",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/Elite D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
+            "Club": "Logne",
+            "Date": "18/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1/D2 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1/D2 D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de la Cholti\u00e8re",
+            "Club": "Paulx / Cholti\u00e8re",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "09/05/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
+            "Club": "AL Garennes - Nantes",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "05/04/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite/D1/D2"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Bleu Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
+            "Club": "AL Garennes - Nantes",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "05/04/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "R\u00e9gion Elite D1"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "R\u00e9gion Elite D1"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "Elite D1 D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "R\u00e9gion Elite D1"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1 D2 D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI FTBC LUNDI DE PAQUES",
+            "Club": "FTBC Falleron (85)",
+            "Date": "21/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "16/03/2025",
+            "categories": [
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "INVITATION TOURNOI DU FAIR PLAY - 6 AVRIL 2025 - BASKET SAINT MACAIRE",
+            "Club": "Saint Macaire En Mauges (49)",
+            "Date": "06/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi des Jeunes du SHBC - 24 et 25 Mai 2025",
+            "Club": "SHBC \u2013 Saint Herblain",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi des Jeunes du SHBC - 24 et 25 Mai 2025",
+            "Club": "SHBC \u2013 Saint Herblain",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "01/05/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "09/01/2025 11:58:01"
+    "last_update": "16/01/2025 08:47:12"
 }
