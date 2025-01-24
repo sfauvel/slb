@@ -1630,7 +1630,202 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
+            "Club": "USBC \u2013 Savenay",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "R\u00e9gion"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "R\u00e9gion"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R\u00e9gion"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
+            "Club": "USBC \u2013 Savenay",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "Elite/D1 D2/D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi fluo",
+            "Club": "Bouguenais",
+            "Date": "15/02/2025",
+            "Particularit\u00e9": "3x3",
+            "Date limite": "02/02/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "3x3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi Loisirs mixte COC",
+            "Club": "La Chabossi\u00e8re",
+            "Date": "05/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Loisir",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi du club",
+            "Club": "Bouguenais",
+            "Date": "07/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite D1 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "Elite (pr\u00e9 r\u00e9gion) D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu Blanc Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Bleu Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi du club",
+            "Club": "Bouguenais",
+            "Date": "08/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "R1 D1 D2"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "R1 Elite D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi du club",
+            "Club": "Bouguenais",
+            "Date": "09/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "R2 Elite"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "R1 R2 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R1 Elite D2"
+                }
+            ]
         }
     ],
-    "last_update": "16/01/2025 08:47:12"
+    "last_update": "24/01/2025 16:52:41"
 }
