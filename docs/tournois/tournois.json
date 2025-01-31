@@ -1825,7 +1825,457 @@
                     "niveau": "R1 Elite D2"
                 }
             ]
+        },
+        {
+            "Sujet mail": "INDRE BC : Invitions tournoi des titis samedi 5 et dimanche 6 avril 2025 (U7 \u00e0 U18)",
+            "Club": "Indre BC",
+            "Date": "05/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "30/03/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu Blanc Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Bleu Blanc Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "INDRE BC : Invitions tournoi des titis samedi 5 et dimanche 6 avril 2025 (U7 \u00e0 U18)",
+            "Club": "Indre BC",
+            "Date": "06/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "30/03/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "R2 Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "R2 Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R1 R2 Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "R1 R2 Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "Elite D1 D2 D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
+            "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
+            "Date": "16/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "15/04/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "Nocturne"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "Nocturne"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
+            "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "15/04/2025",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
+            "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
+            "Date": "18/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "15/04/2025",
+            "categories": [
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
+            "Club": "Logne",
+            "Date": "21/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "PR/DM2 DM3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
+            "Club": "Logne",
+            "Date": "22/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "DM4"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "DF2/DF3/DF4"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI U13 - U15 - 19 avril 2025 au Loroux Bottereau",
+            "Club": "Loroux Bottereau",
+            "Date": "19/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de qualification mie c\u00e2line Samedi 22 f\u00e9vrier",
+            "Club": "3BC \u2013 Br\u00e9tignolles-sur-Mer ",
+            "Date": "22/02/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI MINI BASKET \ud83c\udfc0 RB44 \ud83c\udfc0",
+            "Club": "Rez\u00e9 basket",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "15/04/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi National U13-U15 Toulouse 7-8 juin 2025",
+            "Club": "Basket Club Quint-Fonsegrives (Toulouse)",
+            "Date": "07/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi National U13-U15 Toulouse 7-8 juin 2025",
+            "Club": "Basket Club Quint-Fonsegrives (Toulouse)",
+            "Date": "08/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournois des P'tits Champions",
+            "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
+            "Date": "29/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "31/03/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournois des P'tits Champions",
+            "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
+            "Date": "31/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "31/03/2025",
+            "categories": [
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournois des P'tits Champions",
+            "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
+            "Date": "01/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "31/03/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi 3X3 de l'Hirondelle Basket",
+            "Club": "Saint Julien de Concelles",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "30/04/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
+            "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
+            "Date": "14/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
+            "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
+            "Date": "15/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
         }
     ],
-    "last_update": "24/01/2025 16:52:41"
+    "last_update": "31/01/2025 13:34:12"
 }
