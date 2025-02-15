@@ -2714,7 +2714,11 @@
                 },
                 {
                     "categorie": "U9M",
-                    "niveau": "x"
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": null
                 },
                 {
                     "categorie": "U7",
@@ -2746,11 +2750,15 @@
                     "niveau": "D2 D3"
                 },
                 {
+                    "categorie": "U9F",
+                    "niveau": null
+                },
+                {
                     "categorie": "U7",
                     "niveau": null
                 }
             ]
         }
     ],
-    "last_update": "15/02/2025 12:20:48"
+    "last_update": "15/02/2025 12:21:37"
 }
