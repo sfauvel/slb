@@ -2689,15 +2689,11 @@
             "Date limite": "",
             "categories": [
                 {
-                    "categorie": "U18M",
-                    "niveau": "D2 D3"
-                },
-                {
                     "categorie": "U18F",
                     "niveau": "D2 D3"
                 },
                 {
-                    "categorie": "U15F",
+                    "categorie": "U17M",
                     "niveau": "D2 D3"
                 },
                 {
@@ -2706,19 +2702,19 @@
                 },
                 {
                     "categorie": "U13F",
-                    "niveau": "blanc rouge"
+                    "niveau": "D2 D3"
                 },
                 {
                     "categorie": "U11M",
-                    "niveau": "rouge"
+                    "niveau": "blanc rouge"
                 },
                 {
                     "categorie": "U11F",
-                    "niveau": "x"
+                    "niveau": "rouge"
                 },
                 {
-                    "categorie": "U9F",
-                    "niveau": null
+                    "categorie": "U9M",
+                    "niveau": "x"
                 },
                 {
                     "categorie": "U7",
@@ -2734,24 +2730,20 @@
             "Date limite": "",
             "categories": [
                 {
-                    "categorie": "U21M",
+                    "categorie": "U18M",
                     "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U17M",
-                    "niveau": "D1 D2"
                 },
                 {
                     "categorie": "U17F",
-                    "niveau": "D2 D3"
+                    "niveau": "D1 D2"
                 },
                 {
                     "categorie": "U15M",
                     "niveau": "D2 D3"
                 },
                 {
-                    "categorie": "U9F",
-                    "niveau": null
+                    "categorie": "U15F",
+                    "niveau": "D2 D3"
                 },
                 {
                     "categorie": "U7",
@@ -2760,5 +2752,5 @@
             ]
         }
     ],
-    "last_update": "15/02/2025 12:17:06"
+    "last_update": "15/02/2025 12:20:48"
 }
