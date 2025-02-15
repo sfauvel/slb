@@ -2680,7 +2680,85 @@
                     "niveau": "X"
                 }
             ]
+        },
+        {
+            "Sujet mail": "Tournoi Frossay St Viaud 14 & 15 juin - U6 \u00e0 U18",
+            "Club": "Frossay - Saint Viaud",
+            "Date": "2025-02-14",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "blanc rouge"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "rouge"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "x"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": null
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": null
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Frossay St Viaud 14 & 15 juin - U6 \u00e0 U18",
+            "Club": "Frossay - Saint Viaud",
+            "Date": "2025-02-15",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U21M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U17M",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U17F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": null
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": null
+                }
+            ]
         }
     ],
-    "last_update": "12/02/2025 09:20:02"
+    "last_update": "15/02/2025 12:14:11"
 }
