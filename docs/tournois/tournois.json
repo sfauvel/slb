@@ -2693,36 +2693,28 @@
                     "niveau": "D2 D3"
                 },
                 {
-                    "categorie": "U17M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U13F",
+                    "categorie": "U15M",
                     "niveau": "D2 D3"
                 },
                 {
                     "categorie": "U11M",
-                    "niveau": "blanc rouge"
+                    "niveau": "D2 D3"
                 },
                 {
                     "categorie": "U11F",
-                    "niveau": "rouge"
+                    "niveau": "D2 D3"
                 },
                 {
                     "categorie": "U9M",
-                    "niveau": "X"
+                    "niveau": "blanc rouge"
                 },
                 {
                     "categorie": "U9F",
-                    "niveau": null
+                    "niveau": "rouge"
                 },
                 {
                     "categorie": "U7",
-                    "niveau": null
+                    "niveau": "X"
                 }
             ]
         },
@@ -2738,27 +2730,19 @@
                     "niveau": "D2 D3"
                 },
                 {
-                    "categorie": "U17F",
+                    "categorie": "U15F",
                     "niveau": "D1 D2"
                 },
                 {
-                    "categorie": "U15M",
+                    "categorie": "U13M",
                     "niveau": "D2 D3"
                 },
                 {
-                    "categorie": "U15F",
+                    "categorie": "U13F",
                     "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": null
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": null
                 }
             ]
         }
     ],
-    "last_update": "15/02/2025 12:21:37"
+    "last_update": "15/02/2025 12:23:40"
 }
