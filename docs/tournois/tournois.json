@@ -2742,7 +2742,677 @@
                     "niveau": "D2 D3"
                 }
             ]
+        },
+        {
+            "Sujet mail": "TOURNOI LAC ET TENU BASKET / 24 et 25 MAI / U7 \u00e0 SENIORS",
+            "Club": "Lac et Tenu Basket \u2013 St M\u00eame le Tenu",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "Elite/D1 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "Elite/D1 D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI LAC ET TENU BASKET / 24 et 25 MAI / U7 \u00e0 SENIORS",
+            "Club": "Lac et Tenu Basket \u2013 St M\u00eame le Tenu",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "Mixte"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
+            "Club": "Logne",
+            "Date": "21/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "PR/DM2 DM3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
+            "Club": "Logne",
+            "Date": "22/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "DM4"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "DF2/DF3/DF4"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI SAINTE PAZANNE LE SAMEDI 14 JUIN 2025",
+            "Club": "Sainte Pazanne",
+            "Date": "14/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "rouge blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "rouge blanc"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi LMB - 14 et 15 Juin 2025",
+            "Club": "Lamboisi\u00e8res Martin Basket",
+            "Date": "14/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "D\u00e9partemental"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi LMB - 14 et 15 Juin 2025",
+            "Club": "Lamboisi\u00e8res Martin Basket",
+            "Date": "15/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D\u00e9partemental"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation Tournoi Saint-Br\u00e9vin - 21 & 22 JUIN 2025",
+            "Club": "Saint Br\u00e9vin",
+            "Date": "21/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "rouge blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "rouge blanc"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation Tournoi Saint-Br\u00e9vin - 21 & 22 JUIN 2025",
+            "Club": "Saint Br\u00e9vin",
+            "Date": "22/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "06/06/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "Elite D1 D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2 D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
+            "Club": "Abeille Sportive Neuvy",
+            "Date": "12/04/2025",
+            "Particularit\u00e9": "3x3",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "3x3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
+            "Club": "Abeille Sportive Neuvy",
+            "Date": "13/04/2025",
+            "Particularit\u00e9": "3x3",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
+            "Club": "LPVB  - La Planche Vieillevigne Basket",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
+            "Club": "LPVB  - La Planche Vieillevigne Basket",
+            "Date": "18/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI USCBM 17 ET 18 MAI",
+            "Club": "USCBM \u2013 La Chapelle Basse Mer",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "D2/D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "TOURNOI USCBM 17 ET 18 MAI",
+            "Club": "USCBM \u2013 La Chapelle Basse Mer",
+            "Date": "18/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2/D3 D1 possible"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2/D3 D1 possible"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3 D1 possible"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3 D1 possible"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi annuel Saint Seb Basket Club - WE du 7 et 8 juin 2025",
+            "Club": "Saint S\u00e9bastien",
+            "Date": "07/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1 D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu Blanc Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc rouge"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Invitation tournoi annuel Saint Seb Basket Club - WE du 7 et 8 juin 2025",
+            "Club": "Saint S\u00e9bastien",
+            "Date": "08/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1 D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1 D2/D3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
+            "Club": "Pont Saint Martin",
+            "Date": "10/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
+            "Club": "Pont Saint Martin",
+            "Date": "11/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Basket'athlon",
+            "Club": "Rouans",
+            "Date": "17/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "3x3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi Basket'athlon",
+            "Club": "Rouans",
+            "Date": "18/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "3x3"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi de Printemps du Petit Mars Basket Club",
+            "Club": "Petit-Mars",
+            "Date": "05/04/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "INVITATION Tournoi de la pentec\u00f4te 7/8 juin 2025 sp\u00e9cial U13F/M D1/R\u00e9gion",
+            "Club": "Theix-Noyalo S\u00e9n\u00e9 Basket Club (56)",
+            "Date": "07/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U13F",
+                    "niveau": "R\u00e9gion/D1"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "INVITATION Tournoi de la pentec\u00f4te 7/8 juin 2025 sp\u00e9cial U13F/M D1/R\u00e9gion",
+            "Club": "Theix-Noyalo S\u00e9n\u00e9 Basket Club (56)",
+            "Date": "08/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "R\u00e9gion/D1"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi jeunes SUD RETZ BASKET - les 7 & 8 juin 2025",
+            "Club": "Sud Retz Basket \u2013 Machecoul",
+            "Date": "07/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "Elite D\u00e9partemental"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "blanc rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "bleu blanc"
+                }
+            ]
+        },
+        {
+            "Sujet mail": "Tournoi jeunes SUD RETZ BASKET - les 7 & 8 juin 2025",
+            "Club": "Sud Retz Basket \u2013 Machecoul",
+            "Date": "08/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "R\u00e9gion Elite D\u00e9partemental"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D\u00e9partemental"
+                }
+            ]
         }
     ],
-    "last_update": "15/02/2025 12:26:24"
+    "last_update": "07/03/2025 09:24:30"
 }
