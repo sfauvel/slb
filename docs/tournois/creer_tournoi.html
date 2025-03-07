@@ -185,6 +185,11 @@
             });
         }
 
+        // Inverse la date du format anglais (yyyy-mm-dd) au format français (dd-mm-yyyy)
+        function date_to_text(date) {
+            return date.split("-").reverse().join("-");
+        }
+
         document.addEventListener('DOMContentLoaded', function () {
             for (categorie of CATEGORIES) {
                 ajouterCategorie(categorie);
@@ -195,13 +200,13 @@
             event.preventDefault();
 
             const formData = new FormData(event.target);
-
+ 
             const resultContainer = document.getElementById('result');
             resultContainer.textContent = [
                 formData.get("Mail"),
                 formData.get("Club"),
-                formData.get("Date"),
-                formData.get("Date limite"),
+                date_to_text(formData.get("Date")),
+                date_to_text(formData.get("Date limite")),
                 CATEGORIES.map(categorie => formData.get("niveau-" + categorie)).join(",")
             ].join(",");
 

@@ -207,7 +207,7 @@
         LINE_BACKGROUND_COLOR_EVEN = 'white';
 
         // Fonction pour afficher les détails du tournoi dans le modal
-        function afficherDetailsTournoi(event) {
+        async function afficherDetailsTournoi(event) {
             const modal = document.getElementById("tournoiModal");
             const detailsContainer = document.getElementById("tournoiDetails");
             const tournoi = JSON.parse(event.target.dataset.tournoi);
@@ -216,15 +216,38 @@
                 ? ['Non spécifiée']
                 : tournoi.categories.map(categorie => `<li>${categorie.categorie}: ${categorie.niveau}</li>`).join('');
 
+
+            const [day, month, year] = tournoi.Date.split('/').map(Number);
+            folder_date = `${year}-${String(month).padStart(2, '0')}`;
+                
             // Remplir les détails du tournoi
+            data = []
+            if (tournoi.resources) {
+                for (const ressource of tournoi.resources) {
+                    if (ressource.endsWith('.html')) {
+                        let response = await fetch(ressource);
+                        if (response.ok) {
+                            data.push(await response.text());
+                        } else {
+                            data.push("Détails supplémentaires non trouvés");
+                        }
+                    } else {
+                           data.push(`<img src="${ressource}" alt="Tournoi" style="display: block; margin: 0 auto;">`)
+                    }
+                  
+                }
+            } else {
+               // data.push("Pas de détails supplémentaires disponibles");
+            }
+
+            data = data.map(item => `<div>${item}</div>`).join('\n');
             detailsContainer.innerHTML = `
                 <p>Club: ${tournoi.Club}</p>
                 <p>Date: ${tournoi.Date}</p>
                 <p>Date limite: ${tournoi['Date limite']}</p>
                 <p>Catégories: <ul>${categories}<ul></p>
-                <!-- Ajoutez d'autres détails ici -->
+                ${data}
             `;
-
             // Afficher le modal
             modal.style.display = "block";
         }
@@ -242,7 +265,7 @@
             }
         });
 
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', async function () {
 
             function creer_cellule_texte(texte) {
                 const cellule = document.createElement('td');
@@ -351,8 +374,8 @@
                             //const dateCondition = dateValue ? new Date(dateText) <= new Date(dateValue) : true;
                             const categorieCondition = (selectedCategories.includes('') || selectedCategories.length === 0 || selectedCategories.includes(categorieText));
 
-                            console.log("dateText:" + dateText);
-                            console.log("dateMinValue:" + dateMinValue);
+                            //console.log("dateText:" + dateText);
+                            //console.log("dateMinValue:" + dateMinValue);
                             if (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition) {
                                 rows[i].style.display = '';
                                 rows[i].style.backgroundColor = (nb_lines_displayed & 1 == 1) ? LINE_BACKGROUND_COLOR_ODD:LINE_BACKGROUND_COLOR_EVEN;
