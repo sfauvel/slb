@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "Tournoi LMB - 14 et 15 Juin 2025",
+    "Club": "Lamboisi\u00e8res Martin Basket",
+    "Date": "14/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U11M",
+            "niveau": "D\u00e9partemental"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "D\u00e9partemental"
+        },
+        {
+            "categorie": "U9M",
+            "niveau": "D\u00e9partemental"
+        },
+        {
+            "categorie": "U9F",
+            "niveau": "D\u00e9partemental"
+        }
+    ]
+}

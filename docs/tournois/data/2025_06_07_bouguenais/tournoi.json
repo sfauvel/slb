@@ -1,0 +1,29 @@
+{
+    "Sujet mail": "Tournoi du club",
+    "Club": "Bouguenais",
+    "Date": "07/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U11M",
+            "niveau": "Elite D1 D3"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "Elite (pr\u00e9 r\u00e9gion) D2 D3"
+        },
+        {
+            "categorie": "U9M",
+            "niveau": "Bleu Blanc Rouge"
+        },
+        {
+            "categorie": "U9F",
+            "niveau": "Bleu Rouge"
+        },
+        {
+            "categorie": "U7",
+            "niveau": "X"
+        }
+    ]
+}

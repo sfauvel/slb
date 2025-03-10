@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "Tournois des P'tits Champions",
+    "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
+    "Date": "01/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "31/03/2025",
+    "categories": [
+        {
+            "categorie": "U11M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U9M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U9F",
+            "niveau": "X"
+        }
+    ]
+}

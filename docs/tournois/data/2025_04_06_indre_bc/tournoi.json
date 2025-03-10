@@ -1,0 +1,33 @@
+{
+    "Sujet mail": "INDRE BC : Invitions tournoi des titis samedi 5 et dimanche 6 avril 2025 (U7 \u00e0 U18)",
+    "Club": "Indre BC",
+    "Date": "06/04/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "30/03/2025",
+    "categories": [
+        {
+            "categorie": "U18M",
+            "niveau": "R2 Elite D1 D2 D3"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "Elite D1 D2 D3"
+        },
+        {
+            "categorie": "U15M",
+            "niveau": "R2 Elite D1 D2 D3"
+        },
+        {
+            "categorie": "U15F",
+            "niveau": "R1 R2 Elite D1 D2 D3"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "R1 R2 Elite D1 D2 D3"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "Elite D1 D2 D3"
+        }
+    ]
+}

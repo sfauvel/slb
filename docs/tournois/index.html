@@ -149,7 +149,7 @@
         <div id="last_update"> </div>
         <h1>Liste des tournois</h1>
         <div id="eventsTableContainer">
-            <h3>Liste des tournois proposés par les clubs de la région. </h3>
+            <h3>Liste des tournois proposés par les clubs de la région.</h3>
             <ul>
                 <li>La liste est triée par date pour afficher les prochains tounois en premier.</li>
                 <li>Sélectionnez la ou les catégories de vos équipes pour ne voir que les tournois qui vous concernent.</li>
@@ -222,8 +222,8 @@
                 
             // Remplir les détails du tournoi
             data = []
-            if (tournoi.resources) {
-                for (const ressource of tournoi.resources) {
+            if (tournoi.ressources) {
+                for (const ressource of tournoi.ressources) {
                     if (ressource.endsWith('.html')) {
                         let response = await fetch(ressource);
                         if (response.ok) {

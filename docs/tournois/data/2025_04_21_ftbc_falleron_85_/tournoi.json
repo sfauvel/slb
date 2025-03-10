@@ -1,0 +1,37 @@
+{
+    "Sujet mail": "TOURNOI FTBC LUNDI DE PAQUES",
+    "Club": "FTBC Falleron (85)",
+    "Date": "21/04/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "16/03/2025",
+    "categories": [
+        {
+            "categorie": "U15F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U11M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U9M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U9F",
+            "niveau": "X"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
+    "Club": "AL Garennes - Nantes",
+    "Date": "25/05/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "05/04/2025",
+    "categories": [
+        {
+            "categorie": "U18M",
+            "niveau": "R\u00e9gion Elite D1"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "D1 D2"
+        },
+        {
+            "categorie": "U15M",
+            "niveau": "R\u00e9gion Elite D1"
+        },
+        {
+            "categorie": "U15F",
+            "niveau": "Elite D1 D2"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "R\u00e9gion Elite D1"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "D1 D2 D3"
+        }
+    ]
+}

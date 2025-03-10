@@ -1,0 +1,17 @@
+{
+    "Sujet mail": "Tournoi du club",
+    "Club": "Bouguenais",
+    "Date": "08/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U13M",
+            "niveau": "R1 D1 D2"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "R1 Elite D3"
+        }
+    ]
+}

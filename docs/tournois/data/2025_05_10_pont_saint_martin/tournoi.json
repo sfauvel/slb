@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
+    "Club": "Pont Saint Martin",
+    "Date": "10/05/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U11M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "X"
+        }
+    ]
+}

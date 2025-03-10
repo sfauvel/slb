@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
+    "Club": "Logne",
+    "Date": "17/05/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U18M",
+            "niveau": "D1/D2 D3"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "D2/D3"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "D3"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "Elite/D1 D3"
+        }
+    ]
+}

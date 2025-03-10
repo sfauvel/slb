@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "TOURNOI LAC ET TENU BASKET / 24 et 25 MAI / U7 \u00e0 SENIORS",
+    "Club": "Lac et Tenu Basket \u2013 St M\u00eame le Tenu",
+    "Date": "25/05/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U11M",
+            "niveau": "D2"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "D1/D2"
+        },
+        {
+            "categorie": "U9M",
+            "niveau": "bleu"
+        },
+        {
+            "categorie": "U7",
+            "niveau": "Mixte"
+        }
+    ]
+}

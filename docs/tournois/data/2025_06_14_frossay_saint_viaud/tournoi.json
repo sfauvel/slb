@@ -1,0 +1,37 @@
+{
+    "Sujet mail": "Tournoi Frossay St Viaud 14 & 15 juin - U6 \u00e0 U18",
+    "Club": "Frossay - Saint Viaud",
+    "Date": "14/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U18F",
+            "niveau": "D2 D3"
+        },
+        {
+            "categorie": "U15M",
+            "niveau": "D2 D3"
+        },
+        {
+            "categorie": "U11M",
+            "niveau": "D2 D3"
+        },
+        {
+            "categorie": "U11F",
+            "niveau": "D2 D3"
+        },
+        {
+            "categorie": "U9M",
+            "niveau": "blanc rouge"
+        },
+        {
+            "categorie": "U9F",
+            "niveau": "rouge"
+        },
+        {
+            "categorie": "U7",
+            "niveau": "X"
+        }
+    ]
+}

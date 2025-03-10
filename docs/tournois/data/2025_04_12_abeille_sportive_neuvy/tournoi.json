@@ -1,0 +1,33 @@
+{
+    "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
+    "Club": "Abeille Sportive Neuvy",
+    "Date": "12/04/2025",
+    "Particularit\u00e9": "3x3",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U18M",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U15M",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U15F",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "3x3"
+        }
+    ]
+}

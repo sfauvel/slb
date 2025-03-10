@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "Invitation Tournoi Saint-Br\u00e9vin - 21 & 22 JUIN 2025",
+    "Club": "Saint Br\u00e9vin",
+    "Date": "22/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "06/06/2025",
+    "categories": [
+        {
+            "categorie": "U18M",
+            "niveau": "D1 D2 D3"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "Elite D1 D2"
+        },
+        {
+            "categorie": "U15M",
+            "niveau": "D1 D2 D3"
+        },
+        {
+            "categorie": "U15F",
+            "niveau": "D2 D3"
+        }
+    ]
+}

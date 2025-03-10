@@ -1,0 +1,33 @@
+{
+    "Sujet mail": "Tournoi 3X3 de l'Hirondelle Basket",
+    "Club": "Saint Julien de Concelles",
+    "Date": "17/05/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "30/04/2025",
+    "categories": [
+        {
+            "categorie": "Seniors M",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "Seniors F",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "Loisir",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U21M",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U18M",
+            "niveau": "3x3"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "3x3"
+        }
+    ]
+}
