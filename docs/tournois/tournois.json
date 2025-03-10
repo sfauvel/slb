@@ -41,7 +41,9 @@
                 }
             ],
             "repertoire": "data/2025_05_17_paulx_cholti_re",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_paulx_cholti_re/mail.html"
+            ]
         },
         {
             "Sujet mail": "Re: Tournoi Beaujoire BC 21/22 Juin 2025",
@@ -103,7 +105,9 @@
                 }
             ],
             "repertoire": "data/2025_05_24_shbc_saint_herblain",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_shbc_saint_herblain/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi des Jeunes du SHBC - 24 et 25 Mai 2025",
@@ -130,7 +134,9 @@
                 }
             ],
             "repertoire": "data/2025_05_25_shbc_saint_herblain",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_shbc_saint_herblain/mail.html"
+            ]
         },
         {
             "Sujet mail": "TOURNOI U13 - U15 - 19 avril 2025 au Loroux Bottereau",
@@ -157,7 +163,11 @@
                 }
             ],
             "repertoire": "data/2025_04_19_loroux_bottereau",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_19_loroux_bottereau/Feuille d'engagement U13-U15.pdf",
+                "data/2025_04_19_loroux_bottereau/Tournoi U13-U15.pdf",
+                "data/2025_04_19_loroux_bottereau/mail.html"
+            ]
         },
         {
             "Sujet mail": "COUPE DE LOIRE ATLANTIQUE 3X3 - ENGAGEMENTS + APPEL A CANDIDATURE D'ORGANISATION",
@@ -211,7 +221,10 @@
                 }
             ],
             "repertoire": "data/2025_05_17_rouans",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_rouans/mail.html",
+                "data/2025_05_17_rouans/IMG-20250206-WA0001.jpg"
+            ]
         },
         {
             "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
@@ -272,7 +285,9 @@
                 }
             ],
             "repertoire": "data/2025_06_21_logne",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_21_logne/mail.html"
+            ]
         },
         {
             "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
@@ -338,7 +353,9 @@
                 }
             ],
             "repertoire": "data/2025_05_16_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_16_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
+            ]
         },
         {
             "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
@@ -376,7 +393,9 @@
                 }
             ],
             "repertoire": "data/2025_06_22_logne",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_22_logne/mail.html"
+            ]
         },
         {
             "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
@@ -426,7 +445,10 @@
                 }
             ],
             "repertoire": "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/PHOTO-2025-02-14-07-27-24 (2).jpg",
+                "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/mail.txt"
+            ]
         },
         {
             "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
@@ -488,7 +510,11 @@
                 }
             ],
             "repertoire": "data/2025_05_25_al_garennes_nantes",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_al_garennes_nantes/Tournoi jeunes.pdf.pdf",
+                "data/2025_05_25_al_garennes_nantes/Coupon d\u2019inscription .pdf",
+                "data/2025_05_25_al_garennes_nantes/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi du Lac - 24 et 25 mai 2025 - La Chevroli\u00e8re",
@@ -523,7 +549,10 @@
                 }
             ],
             "repertoire": "data/2025_05_24_la_chevroli_re",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.pdf.pdf",
+                "data/2025_05_24_la_chevroli_re/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournois des P'tits Champions",
@@ -623,7 +652,9 @@
                 }
             ],
             "repertoire": "data/2025_05_18_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_18_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi jeunes csar",
@@ -724,7 +755,10 @@
                 }
             ],
             "repertoire": "data/2025_06_08_saint_s_bastien",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_08_saint_s_bastien/mail.html",
+                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf"
+            ]
         },
         {
             "Sujet mail": "INVITATION Tournoi de la pentec\u00f4te 7/8 juin 2025 sp\u00e9cial U13F/M D1/R\u00e9gion",
@@ -804,7 +838,10 @@
                 }
             ],
             "repertoire": "data/2025_05_25_la_chevroli_re",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.pdf.pdf",
+                "data/2025_05_25_la_chevroli_re/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi s\u00e9niors 5x5 du Haut Bocage Vend\u00e9e - 7 & 8 juin 2025 - niveau d\u00e9partemental",
@@ -846,7 +883,11 @@
                 }
             ],
             "repertoire": "data/2025_05_24_al_garennes_nantes",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_al_garennes_nantes/Tournoi jeunes.pdf.pdf",
+                "data/2025_05_24_al_garennes_nantes/Coupon d\u2019inscription .pdf",
+                "data/2025_05_24_al_garennes_nantes/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi du club",
@@ -927,7 +968,9 @@
                 }
             ],
             "repertoire": "data/2025_04_06_indre_bc",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_06_indre_bc/mail.html"
+            ]
         },
         {
             "Sujet mail": "TOURNOI FTBC LUNDI DE PAQUES",
@@ -1067,7 +1110,11 @@
                 }
             ],
             "repertoire": "data/2025_06_21_saint_br_vin",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_21_saint_br_vin/Affiche tournoi SBBC - 2025.pdf",
+                "data/2025_06_21_saint_br_vin/mail.html",
+                "data/2025_06_21_saint_br_vin/Inscription tournoi SBBC - 2025.pdf"
+            ]
         },
         {
             "Sujet mail": "Tournois des P'tits Champions",
@@ -1179,7 +1226,10 @@
                 }
             ],
             "repertoire": "data/2025_05_18_rouans",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_18_rouans/mail.html",
+                "data/2025_05_18_rouans/IMG-20250206-WA0001.jpg"
+            ]
         },
         {
             "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
@@ -1241,7 +1291,10 @@
                 }
             ],
             "repertoire": "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/PHOTO-2025-02-14-07-27-24 (2).jpg",
+                "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/mail.txt"
+            ]
         },
         {
             "Sujet mail": "Tournoi Frossay St Viaud 14 & 15 juin - U6 \u00e0 U18",
@@ -1350,7 +1403,9 @@
                 }
             ],
             "repertoire": "data/2025_04_05_indre_bc",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_05_indre_bc/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi jeunes SUD RETZ BASKET - les 7 & 8 juin 2025",
@@ -1373,7 +1428,12 @@
                 }
             ],
             "repertoire": "data/2025_06_08_sud_retz_basket_machecoul",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_08_sud_retz_basket_machecoul/mail.html",
+                "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.pdf",
+                "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.doc",
+                "data/2025_06_08_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.pdf"
+            ]
         },
         {
             "Sujet mail": "TOURNOI USCBM 17 ET 18 MAI",
@@ -1400,7 +1460,10 @@
                 }
             ],
             "repertoire": "data/2025_05_17_uscbm_la_chapelle_basse_mer",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_uscbm_la_chapelle_basse_mer/mail.html",
+                "data/2025_05_17_uscbm_la_chapelle_basse_mer/2023-2024 (33).png"
+            ]
         },
         {
             "Sujet mail": "TOURNOI USCBM 17 ET 18 MAI",
@@ -1427,7 +1490,10 @@
                 }
             ],
             "repertoire": "data/2025_05_18_uscbm_la_chapelle_basse_mer",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_18_uscbm_la_chapelle_basse_mer/mail.html",
+                "data/2025_05_18_uscbm_la_chapelle_basse_mer/2023-2024 (33).png"
+            ]
         },
         {
             "Sujet mail": "Invitation Tournoi Saint-Br\u00e9vin - 21 & 22 JUIN 2025",
@@ -1454,7 +1520,11 @@
                 }
             ],
             "repertoire": "data/2025_06_22_saint_br_vin",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_22_saint_br_vin/Affiche tournoi SBBC - 2025.pdf",
+                "data/2025_06_22_saint_br_vin/mail.html",
+                "data/2025_06_22_saint_br_vin/Inscription tournoi SBBC - 2025.pdf"
+            ]
         },
         {
             "Sujet mail": "TOURNOI SENIORS 5x5 DU HAUT BOCAGE VENDEE - 7 & 8 JUIN 2025",
@@ -1511,7 +1581,10 @@
                 }
             ],
             "repertoire": "data/2025_06_14_lamboisi_res_martin_basket",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_14_lamboisi_res_martin_basket/mail.html",
+                "data/2025_06_14_lamboisi_res_martin_basket/WhatsApp Image 2025-02-18 at 16.00.50.jpeg"
+            ]
         },
         {
             "Sujet mail": "Tournoi mini-basket RB44",
@@ -1577,7 +1650,12 @@
                 }
             ],
             "repertoire": "data/2025_06_07_sud_retz_basket_machecoul",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_07_sud_retz_basket_machecoul/mail.html",
+                "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.pdf",
+                "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.doc",
+                "data/2025_06_07_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.pdf"
+            ]
         },
         {
             "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
@@ -1612,7 +1690,12 @@
                 }
             ],
             "repertoire": "data/2025_04_12_abeille_sportive_neuvy",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_12_abeille_sportive_neuvy/Affiche 3x3 Dimanche 13 Avril 2025.png",
+                "data/2025_04_12_abeille_sportive_neuvy/mail.html",
+                "data/2025_04_12_abeille_sportive_neuvy/Affiche 3x3 -Samedi 12-2025.png",
+                "data/2025_04_12_abeille_sportive_neuvy/Affiche 3x3 Open Plus Access Juniorsleagues 2025.png"
+            ]
         },
         {
             "Sujet mail": "Re: Tournoi Beaujoire BC 21/22 Juin 2025",
@@ -1658,7 +1741,12 @@
                 }
             ],
             "repertoire": "data/2025_04_13_abeille_sportive_neuvy",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_13_abeille_sportive_neuvy/Affiche 3x3 Dimanche 13 Avril 2025.png",
+                "data/2025_04_13_abeille_sportive_neuvy/mail.html",
+                "data/2025_04_13_abeille_sportive_neuvy/Affiche 3x3 -Samedi 12-2025.png",
+                "data/2025_04_13_abeille_sportive_neuvy/Affiche 3x3 Open Plus Access Juniorsleagues 2025.png"
+            ]
         },
         {
             "Sujet mail": "TOURNOI SENIORS 5x5 DU HAUT BOCAGE VENDEE - 7 & 8 JUIN 2025",
@@ -1700,7 +1788,10 @@
                 }
             ],
             "repertoire": "data/2025_06_15_lamboisi_res_martin_basket",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_15_lamboisi_res_martin_basket/mail.html",
+                "data/2025_06_15_lamboisi_res_martin_basket/WhatsApp Image 2025-02-18 at 16.00.50.jpeg"
+            ]
         },
         {
             "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
@@ -1731,7 +1822,9 @@
                 }
             ],
             "repertoire": "data/2025_05_17_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi de Printemps du Petit Mars Basket Club",
@@ -1774,7 +1867,10 @@
                 }
             ],
             "repertoire": "data/2025_04_05_petit_mars",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_05_petit_mars/mail.html",
+                "data/2025_04_05_petit_mars/image(2).png"
+            ]
         },
         {
             "Sujet mail": "Tournois des P'tits Champions",
@@ -1863,7 +1959,10 @@
                 }
             ],
             "repertoire": "data/2025_05_17_saint_julien_de_concelles",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_saint_julien_de_concelles/unnamed.png",
+                "data/2025_05_17_saint_julien_de_concelles/mail.html"
+            ]
         },
         {
             "Sujet mail": "Invitation tournoi U13 / U15 - 5 avril 2025 Grandchamp-des-Fontaines",
@@ -1917,7 +2016,9 @@
                 }
             ],
             "repertoire": "data/2025_05_11_pont_saint_martin",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_11_pont_saint_martin/mail.html"
+            ]
         },
         {
             "Sujet mail": "Tournoi RCD Basket 24 & 25 mai",
@@ -1990,7 +2091,10 @@
                 }
             ],
             "repertoire": "data/2025_05_17_lpvb_la_planche_vieillevigne_basket",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_lpvb_la_planche_vieillevigne_basket/mail.html",
+                "data/2025_05_17_lpvb_la_planche_vieillevigne_basket/Tournoi LPVB - 17 et 18 Mai 2025.jpg"
+            ]
         },
         {
             "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
@@ -2017,7 +2121,9 @@
                 }
             ],
             "repertoire": "data/2025_05_10_pont_saint_martin",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_10_pont_saint_martin/mail.html"
+            ]
         },
         {
             "Sujet mail": "TOURNOI MINI BASKET \ud83c\udfc0 RB44 \ud83c\udfc0",
@@ -2145,7 +2251,11 @@
                 }
             ],
             "repertoire": "data/2025_06_14_sainte_pazanne",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_14_sainte_pazanne/mail.html",
+                "data/2025_06_14_sainte_pazanne/PBC 2025_affiche avec QR Code.jpg",
+                "data/2025_06_14_sainte_pazanne/PAZENAIS BASKET CLUB_invitation.jpg"
+            ]
         },
         {
             "Sujet mail": "Invitation tournoi annuel Saint Seb Basket Club - WE du 7 et 8 juin 2025",
@@ -2172,7 +2282,10 @@
                 }
             ],
             "repertoire": "data/2025_06_07_saint_s_bastien",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_07_saint_s_bastien/mail.html",
+                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf"
+            ]
         },
         {
             "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
@@ -2199,8 +2312,11 @@
                 }
             ],
             "repertoire": "data/2025_05_18_lpvb_la_planche_vieillevigne_basket",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/mail.html",
+                "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/Tournoi LPVB - 17 et 18 Mai 2025.jpg"
+            ]
         }
     ],
-    "last_update": "10/03/2025 23:57:36"
+    "last_update": "11/03/2025 00:26:44"
 }
