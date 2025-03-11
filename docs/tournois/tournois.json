@@ -447,7 +447,46 @@
             "repertoire": "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu",
             "ressources": [
                 "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/PHOTO-2025-02-14-07-27-24 (2).jpg",
-                "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/mail.txt"
+                "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/mail.html"
+            ]
+        },
+        {
+            "Sujet mail": "Pornic Basket Saint Michel tournoi de l'amiti\u00e9 24 et 25 mai",
+            "Club": "Pornic",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_05_24_pornic",
+            "ressources": [
+                "data/2025_05_24_pornic/mail.html",
+                "data/2025_05_24_pornic/BULLETIN INSCRIPTION PBSM TOURNOI AMITIE 24 ET 25 MAI .jpg",
+                "data/2025_05_24_pornic/AFFICHE TOURNOI AMITIE PBSM 24 ET 25 MAI .png"
             ]
         },
         {
@@ -555,6 +594,36 @@
             ]
         },
         {
+            "Sujet mail": "MGBB, Invitation tournois U15 et U18",
+            "Club": "MGBB, Montbert Geneston le Bignon",
+            "Date": "11/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_05_11_montbert_geneston",
+            "ressources": [
+                "data/2025_05_11_montbert_geneston/mail.html",
+                "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation.pdf"
+            ]
+        },
+        {
             "Sujet mail": "Tournois des P'tits Champions",
             "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
             "Date": "01/06/2025",
@@ -580,6 +649,64 @@
             ],
             "repertoire": "data/2025_06_01_monts_et_marais_basket_mmb_st_jean_de_monts_85_",
             "ressources": []
+        },
+        {
+            "Sujet mail": "Invitation Tournoi 24 Mai",
+            "Club": "LSBC: Saint Etienne de Montluc",
+            "Date": "24/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "D2 D4"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "D4"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "ouge bleu"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "rouge bleu"
+                }
+            ],
+            "repertoire": "data/2025_05_24_st_etienne_de_montluc",
+            "ressources": [
+                "data/2025_05_24_st_etienne_de_montluc/mail.html",
+                "data/2025_05_24_st_etienne_de_montluc/IMG_3486.JPG"
+            ]
         },
         {
             "Sujet mail": "COUPE DE LOIRE ATLANTIQUE 3X3 - ENGAGEMENTS + APPEL A CANDIDATURE D'ORGANISATION",
@@ -1232,6 +1359,37 @@
             ]
         },
         {
+            "Sujet mail": "Pornic Basket Saint Michel tournoi de l'amiti\u00e9 24 et 25 mai",
+            "Club": "Pornic",
+            "Date": "25/05/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "10/05/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_05_25_pornic",
+            "ressources": [
+                "data/2025_05_25_pornic/mail.html",
+                "data/2025_05_25_pornic/BULLETIN INSCRIPTION PBSM TOURNOI AMITIE 24 ET 25 MAI .jpg",
+                "data/2025_05_25_pornic/AFFICHE TOURNOI AMITIE PBSM 24 ET 25 MAI .png"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
             "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
             "Date": "14/06/2025",
@@ -1293,7 +1451,7 @@
             "repertoire": "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu",
             "ressources": [
                 "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/PHOTO-2025-02-14-07-27-24 (2).jpg",
-                "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/mail.txt"
+                "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/mail.html"
             ]
         },
         {
@@ -1372,7 +1530,11 @@
                 }
             ],
             "repertoire": "data/2025_05_25_rcd_donges",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_rcd_donges/Affiche Tournoi RCD Basket.pdf",
+                "data/2025_05_25_rcd_donges/mail.html",
+                "data/2025_05_25_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf"
+            ]
         },
         {
             "Sujet mail": "INDRE BC : Invitions tournoi des titis samedi 5 et dimanche 6 avril 2025 (U7 \u00e0 U18)",
@@ -2037,7 +2199,11 @@
                 }
             ],
             "repertoire": "data/2025_05_24_rcd_donges",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_rcd_donges/Affiche Tournoi RCD Basket.pdf",
+                "data/2025_05_24_rcd_donges/mail.html",
+                "data/2025_05_24_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf"
+            ]
         },
         {
             "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
@@ -2318,5 +2484,5 @@
             ]
         }
     ],
-    "last_update": "11/03/2025 00:26:44"
+    "last_update": "11/03/2025 14:09:21"
 }

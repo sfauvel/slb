@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "MGBB, Invitation tournois U15 et U18",
+    "Club": "MGBB, Montbert Geneston le Bignon",
+    "Date": "11/05/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "",
+    "categories": [
+        {
+            "categorie": "U18M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U18F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U15M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U15F",
+            "niveau": "X"
+        }
+    ]
+}
