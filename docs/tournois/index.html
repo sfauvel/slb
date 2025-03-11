@@ -72,8 +72,16 @@
         color: white;
     }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
+    tr.odd-row {
+        background-color: #ffffff;
+    }
+    tr.even-row {
+        background-color: #cfe7ff;
+    }
+    tr:hover {
+        background-color: #b1d6fa;
+        font-weight: bold;rgb(163, 207, 252);
+        cursor: pointer;
     }
 
     .filter-input {
@@ -101,9 +109,9 @@
     select.filter-input[multiple]:focus {
         /*height: auto;*/
         height: 400px;
-            width: auto;
-            position: absolute;
-            overflow: visible;
+        width: auto;
+        position: absolute;
+        overflow: visible;
     }
 
     .modal {
@@ -123,9 +131,16 @@
     .modal-content {
         background-color: #fefefe;
         margin: 5% auto;
-        padding: 20px;
+        padding: 0px;
         border: 1px solid #888;
         width: 80%;
+    }
+
+    .modal-content .subcontent {        
+        padding: 20px;
+    }
+    .modal-content .infos_tournoi {
+        background-color: #cfe7ff;
     }
 
     .close {
@@ -195,16 +210,16 @@
     <!-- Modal -->
     <div id="tournoiModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Détails du Tournoi</h2>
+            <span class="close subcontent">&times;</span>
+            <!-- <h2>Détails du Tournoi</h2> -->
             <div id="tournoiDetails"></div>
         </div>
     </div>
 
     <script>
-
-        LINE_BACKGROUND_COLOR_ODD = '#a4d1ff';
-        LINE_BACKGROUND_COLOR_EVEN = 'white';
+        function is_image(url) {
+            return url.match(/\.(jpeg|jpg|gif|png)$/) != null;
+        }
 
         // Fonction pour afficher les détails du tournoi dans le modal
         async function afficherDetailsTournoi(event) {
@@ -231,8 +246,11 @@
                         } else {
                             data.push("Détails supplémentaires non trouvés");
                         }
+                    } else if (is_image(ressource)) {
+                        data.push(`<img src="${ressource}" alt="Tournoi" style="display: block; margin: 0 auto;">`)
                     } else {
-                           data.push(`<img src="${ressource}" alt="Tournoi" style="display: block; margin: 0 auto;">`)
+                        const fileName = ressource.split('/').pop();
+                        data.push(`Télécharger le document: <a href="${ressource}" target="_blank">${fileName}</a>`);
                     }
                   
                 }
@@ -242,11 +260,17 @@
 
             data = data.map(item => `<div>${item}</div>`).join('\n');
             detailsContainer.innerHTML = `
-                <p>Club: ${tournoi.Club}</p>
-                <p>Date: ${tournoi.Date}</p>
-                <p>Date limite: ${tournoi['Date limite']}</p>
-                <p>Catégories: <ul>${categories}<ul></p>
-                ${data}
+                <div style="display: flex;">
+                    <div class="infos_tournoi subcontent" style="flex: 0 0 200px;">
+                        <p>Club: ${tournoi.Club}</p>
+                        <p>Date: ${tournoi.Date}</p>
+                        <p>Date limite: ${tournoi['Date limite']}</p>
+                        <p>Catégories: <ul>${categories}</ul></p>
+                    </div>
+                    <div class="subcontent" style="flex: 1; padding-left: 20px;">
+                        ${data}
+                    </div>
+                </div>
             `;
             // Afficher le modal
             modal.style.display = "block";
@@ -378,7 +402,7 @@
                             //console.log("dateMinValue:" + dateMinValue);
                             if (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition) {
                                 rows[i].style.display = '';
-                                rows[i].style.backgroundColor = (nb_lines_displayed & 1 == 1) ? LINE_BACKGROUND_COLOR_ODD:LINE_BACKGROUND_COLOR_EVEN;
+                                rows[i].classList.add((nb_lines_displayed & 1) ? "odd-row" : "even-row");
                                 nb_lines_displayed += 1;
                             } else {
                                 rows[i].style.display = 'none';
