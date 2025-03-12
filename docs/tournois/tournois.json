@@ -194,7 +194,11 @@
                 }
             ],
             "repertoire": "data/2025_06_07_loire_atlantique",
-            "ressources": []
+            "ressources": [
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA.pdf",
+                "data/2025_06_07_loire_atlantique/mail.html",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf"
+            ]
         },
         {
             "Sujet mail": "Tournoi Basket'athlon",
@@ -243,7 +247,9 @@
                 }
             ],
             "repertoire": "data/2025_05_18_logne",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_18_logne/mail.html"
+            ]
         },
         {
             "Sujet mail": "INVITATION TOURNOI DU FAIR PLAY - 6 AVRIL 2025 - BASKET SAINT MACAIRE",
@@ -270,7 +276,10 @@
                 }
             ],
             "repertoire": "data/2025_04_06_saint_macaire_en_mauges_49_",
-            "ressources": []
+            "ressources": [
+                "data/2025_04_06_saint_macaire_en_mauges_49_/mail.html",
+                "data/2025_04_06_saint_macaire_en_mauges_49_/Outlook-5s5oo5z3.png"
+            ]
         },
         {
             "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
@@ -334,7 +343,10 @@
                 }
             ],
             "repertoire": "data/2025_05_24_usbc_savenay",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_usbc_savenay/mail.html",
+                "data/2025_05_24_usbc_savenay/Affiche USBC.jpg"
+            ]
         },
         {
             "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
@@ -374,7 +386,11 @@
                 }
             ],
             "repertoire": "data/2025_05_25_vallet",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025.pdf",
+                "data/2025_05_25_vallet/mail.html",
+                "data/2025_05_25_vallet/TOURNOI PVB 2025.JPG"
+            ]
         },
         {
             "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
@@ -418,7 +434,11 @@
                 }
             ],
             "repertoire": "data/2025_05_24_vallet",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025.pdf",
+                "data/2025_05_24_vallet/mail.html",
+                "data/2025_05_24_vallet/TOURNOI PVB 2025.JPG"
+            ]
         },
         {
             "Sujet mail": "TOURNOI LAC ET TENU BASKET / 24 et 25 MAI / U7 \u00e0 SENIORS",
@@ -514,7 +534,10 @@
                 }
             ],
             "repertoire": "data/2025_05_25_usbc_savenay",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_25_usbc_savenay/mail.html",
+                "data/2025_05_25_usbc_savenay/Affiche USBC.jpg"
+            ]
         },
         {
             "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
@@ -2230,7 +2253,9 @@
                 }
             ],
             "repertoire": "data/2025_05_17_logne",
-            "ressources": []
+            "ressources": [
+                "data/2025_05_17_logne/mail.html"
+            ]
         },
         {
             "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
@@ -2484,5 +2509,5 @@
             ]
         }
     ],
-    "last_update": "11/03/2025 14:09:21"
+    "last_update": "12/03/2025 18:57:09"
 }
