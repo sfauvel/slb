@@ -25,7 +25,7 @@
         height: calc(100vh - 80px);
         display: flex;
         flex-direction: column;
-    
+
     }
 
     h1, h3 {
@@ -46,7 +46,7 @@
         border-collapse: collapse;
         margin-top: 20px;
         background-color: rgba(255, 255, 255, 0.9);
-    
+
     }
 
     th, td {
@@ -91,7 +91,7 @@
         gap: 10px;
     }
 
-    .date-input, 
+    .date-input,
     .deadline-input {
         width: 11em;
     }
@@ -131,20 +131,31 @@
         width: 80%;
     }
 
-    .modal-content .subcontent {        
+    .modal-content .subcontent {
         padding: 20px;
+    }
+    .modal-content .subcontent .title {
+        font-weight: bold;
     }
     .modal-content .infos_tournoi {
         background-color: #cfe7ff;
     }
-
+    .modal-content img {
+        max-width: 100%;
+    }
 
     .infos_tournoi {
         flex: 0 0 20%;
     }
 
     .details_tournoi {
-        flex: 1; padding-left: 20px;
+        flex: 1;
+        padding-left: 20px;
+    }
+
+    .telechargement {
+        /*font-weight: bold;
+        margin-left: 20px;*/
     }
 
     .close {
@@ -170,6 +181,7 @@
         <div id="eventsTableContainer">
             <h3>Liste des tournois proposés par les clubs de la région.</h3>
             <ul>
+                <li>Cliquez sur une ligne pour avoir le détail du tournoi.</li>
                 <li>La liste est triée par date pour afficher les prochains tounois en premier.</li>
                 <li>Sélectionnez la ou les catégories de vos équipes pour ne voir que les tournois qui vous concernent.</li>
             </ul>
@@ -196,7 +208,8 @@
                         -->
                     </th>
                     <th>
-                        <select id="categorieFilter" class="filter-input" multiple>
+                        <!-- select id="categorieFilter" class="filter-input" multiple -->
+                        <select id="categorieFilter" class="filter-input">
                             <option value="">Toutes</option>
                             <!-- Ajoutez les options ici -->
                         </select>
@@ -235,9 +248,10 @@
 
             const [day, month, year] = tournoi.Date.split('/').map(Number);
             folder_date = `${year}-${String(month).padStart(2, '0')}`;
-                
+
             // Remplir les détails du tournoi
             data = []
+            telechargements = []
             if (tournoi.ressources) {
                 for (const ressource of tournoi.ressources) {
                     if (ressource.endsWith('.html')) {
@@ -251,9 +265,10 @@
                         data.push(`<img src="${ressource}" alt="Tournoi" style="display: block; margin: 0 auto;">`)
                     } else {
                         const fileName = ressource.split('/').pop();
-                        data.push(`Télécharger le document: <a href="${ressource}" target="_blank">${fileName}</a>`);
+                        //data.push(`<li class="telechargement">Télécharger le document: <a href="${ressource}" target="_blank">${fileName}</a></li>`);
+                        telechargements.push(`<li class="telechargement"><a href="${ressource}" target="_blank">${fileName}</a></li>`);
                     }
-                  
+
                 }
             } else {
                // data.push("Pas de détails supplémentaires disponibles");
@@ -263,10 +278,14 @@
             detailsContainer.innerHTML = `
                 <div style="display: flex;">
                     <div class="infos_tournoi subcontent">
-                        <p>Club: ${tournoi.Club}</p>
-                        <p>Date: ${tournoi.Date}</p>
-                        <p>Date limite: ${tournoi['Date limite']}</p>
-                        <p>Catégories: <ul>${categories}</ul></p>
+                        <p><span class="title">Club:</span> ${tournoi.Club}</p>
+                        <p><span class="title">Date:</span> ${tournoi.Date}</p>
+                        <p><span class="title">Date limite:</span> ${tournoi['Date limite']}</p>
+                        <p><span class="title">Catégories:</span> <ul>${categories}</ul></p>
+                        <p><span class="title">Documents:</span>
+                        <ul>${telechargements.join('\n')}</ul>
+                        </p>
+
                     </div>
                     <div class="details_tournoi subcontent">
                         ${data}
@@ -304,7 +323,7 @@
             fetch('tournois.json?cache_buster=${uniqueParam}')
                 .then(response => response.json())
                 .then(data => {
-                    
+
                     last_update = data["last_update"];
                     document.querySelector('#last_update').innerHTML = `Dernière mise à jour: ${last_update}`;
 
@@ -312,9 +331,9 @@
                     const tableBody = document.querySelector('#eventsTable tbody');
                     const categorieFilter = document.getElementById('categorieFilter');
                     const categoriesSet = new Set();
-                    
+
                     data.sort((a, b) => a.Date.split('/').reverse().join('') > b.Date.split('/').reverse().join(''));
-                    
+
                     data.forEach(tournoi => {
                         console.log(tournoi.Club)
                         const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
@@ -383,6 +402,7 @@
                         const niveauValue = niveauFilter.value.toLowerCase();
                         const selectedCategories = Array.from(categorieFilter.selectedOptions).map(option => option.value.toLowerCase());
 
+                        console.log("Filter categories: " + selectedCategories);
 
                         const rows = tableBody.getElementsByTagName('tr');
                         nb_lines_displayed = 0;
@@ -403,6 +423,8 @@
                             //console.log("dateMinValue:" + dateMinValue);
                             if (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition) {
                                 rows[i].style.display = '';
+                                rows[i].classList.remove("odd-row");
+                                rows[i].classList.remove("even-row");
                                 rows[i].classList.add((nb_lines_displayed & 1) ? "odd-row" : "even-row");
                                 nb_lines_displayed += 1;
                             } else {

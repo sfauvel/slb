@@ -6,6 +6,9 @@ describe("Tournoi", function() {
       expect(is_image("file.jpg")).toBe(true);
       expect(is_image("file.gif")).toBe(true);
       expect(is_image("file.png")).toBe(true);
+      
+      expect(is_image("file.JPG")).toBe(true);
+      expect(is_image("file.PNG")).toBe(true);
 
       expect(is_image("file.txt")).toBe(false);
       expect(is_image("file.json")).toBe(false);
