@@ -725,7 +725,7 @@
                 },
                 {
                     "categorie": "U9M",
-                    "niveau": "ouge bleu"
+                    "niveau": "rouge bleu"
                 },
                 {
                     "categorie": "U9F",
@@ -2528,5 +2528,5 @@
             ]
         }
     ],
-    "last_update": "13/03/2025 00:20:35"
+    "last_update": "13/03/2025 00:30:09"
 }
