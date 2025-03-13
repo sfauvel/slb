@@ -2119,6 +2119,56 @@
             ]
         },
         {
+            "Sujet du mail": "Invitation au Tournoi de Fin d\u2019Ann\u00e9e \u2013 Samedi 17 Mai 2025 MALVILLE",
+            "Club": "Malville",
+            "Date": "2025-05-17",
+            "Date limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D1"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc"
+                }
+            ],
+            "repertoire": "data/2025_05_17_malville",
+            "ressources": [
+                "data/2025_05_17_malville/Fiche d'inscription au tournoi de fin d'ann\u00e9e (1).pdf",
+                "data/2025_05_17_malville/mail.html",
+                "data/2025_05_17_malville/IMG-20250217-WA0014.jpg"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi jeunes csar",
             "Club": "Aigrefeuille sur Maine",
             "Date": "04/05/2025",
@@ -2588,5 +2638,5 @@
             ]
         }
     ],
-    "last_update": "13/03/2025 09:11:56"
+    "last_update": "13/03/2025 14:53:42"
 }
