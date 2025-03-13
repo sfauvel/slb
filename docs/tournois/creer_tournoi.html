@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Créer un Tournoi</title>
     <style>
+        :root {
+            --labelwidth: 100px;
+        }
+
+          
         .form-categorie {
             display: flex;
             flex-wrap: wrap;
+            max-width: 600px;
             gap: 10px;
         }
 
         .form-container {
-            /*max-width: 600px;*/
             max-width: 80%;
             margin: 0 auto;
             padding: 20px;
@@ -23,12 +28,18 @@
         }
 
         .form-group {
+            width: 100%;
             margin-bottom: 15px;
         }
 
         .form-group label {
-            display: block;
+            display: inline-block;
             margin-bottom: 5px;
+            width: var(--labelwidth);
+        }
+
+        .empty {
+            background-color: #979797;
         }
 
         .form-group input:disabled,
@@ -42,8 +53,8 @@
             box-sizing: border-box;
         }
 
-        .form-group input {
-            width: 100%;
+       .form-group input {
+            width: calc(100% - var(--labelwidth) - 10px);
             padding: 6px;
             box-sizing: border-box;
         }
@@ -74,22 +85,24 @@
         <form id="tournoiForm">
             <div class="form-group">
                 <label for="mail">Mail *</label>
-                <input type="text" id="mail" name="Mail" required>
+                <input type="text" id="mail" name="Sujet du mail">
             </div>
             <div class="form-group">
                 <label for="club">Club *</label>
                 <input type="text" id="club" name="Club" required>
             </div>
-            <div class="form-group">
-                <label for="date">Date *</label>
-                <input type="date" id="date" name="Date" required>
-            </div>
-            <div class="form-group">
-                <label for="date-limite">Date limite</label>
-                <input type="date" id="date-limite" name="Date limite">
+            <div style="display: flex;"">
+                <div class="form-group" style="margin-right: 2em;">
+                    <label for="date">Date *</label>
+                    <input type="date" id="date" name="Date" required>
+                </div>
+                <div class="form-group">
+                    <label for="date-limite">Date limite</label>
+                    <input type="date" id="date-limite" name="Date limite">
+                </div>
             </div>
             <div>
-                <label>Catégorie</label>
+                <label>Catégories</label>
                 <div id="form-categorie" class="form-categorie">
 
                     <!-- <table id="table-categorie">
@@ -139,9 +152,10 @@
         }
 
         function ajouterCategorie(categorie) {
-            const checkbox_categorie = document.createElement('input');
-            checkbox_categorie.type = "checkbox";
-            checkbox_categorie.id = "categorie-" + categorie;
+        
+            //const checkbox_categorie = document.createElement('input');
+            //checkbox_categorie.type = "checkbox";
+            //checkbox_categorie.id = "categorie-" + categorie;
 
             const label_categorie = document.createElement('label');
             label_categorie.innerHTML = categorie;
@@ -151,13 +165,14 @@
             input_categorie.type = "text";
             input_categorie.id = "niveau-" + categorie;
             input_categorie.name = "niveau-" + categorie;
-            input_categorie.required = true;
-            input_categorie.disabled = true;
+            //input_categorie.required = true;
+            //input_categorie.disabled = true;
 
             const div_categorie = document.createElement('div');
-            div_categorie.appendChild(checkbox_categorie);
+            //div_categorie.appendChild(checkbox_categorie);
             div_categorie.appendChild(label_categorie);
             div_categorie.appendChild(input_categorie);
+            input_categorie.classList.add('empty');
 
             const form_categorie = document.getElementById("form-categorie");
             form_categorie.appendChild(div_categorie);
@@ -176,13 +191,23 @@
             //            const form_categorie = document.getElementById("table-categorie");
             //            form_categorie.appendChild(line_categorie);
 
-            checkbox_categorie.addEventListener('change', function () {
-                if (checkbox_categorie.checked) {
-                    input_categorie.disabled = false;
+            input_categorie.addEventListener('keyup', function (event) {
+                text = event.target.value;
+                if (text.length > 0) {
+                    event.target.classList.remove('empty');
                 } else {
-                    input_categorie.disabled = true;
+                    event.target.classList.add('empty');
                 }
+
             });
+
+            //checkbox_categorie.addEventListener('change', function () {
+            //    if (checkbox_categorie.checked) {
+            //        input_categorie.disabled = false;
+            //    } else {
+            //        input_categorie.disabled = true;
+            //    }
+            //});
         }
 
         // Inverse la date du format anglais (yyyy-mm-dd) au format français (dd-mm-yyyy)
@@ -202,13 +227,31 @@
             const formData = new FormData(event.target);
  
             const resultContainer = document.getElementById('result');
-            resultContainer.textContent = [
-                formData.get("Mail"),
-                formData.get("Club"),
-                date_to_text(formData.get("Date")),
-                date_to_text(formData.get("Date limite")),
-                CATEGORIES.map(categorie => formData.get("niveau-" + categorie)).join(",")
-            ].join(",");
+            //resultContainer.textContent = [
+            //    formData.get("Mail"),
+            //    formData.get("Club"),
+            //    date_to_text(formData.get("Date")),
+            //    date_to_text(formData.get("Date limite")),
+            //    CATEGORIES.map(categorie => formData.get("niveau-" + categorie)).join(",")
+            //].join(",");
+            const formObject = {};
+            categories = []
+            formData.forEach((value, key) => {
+                if (!key.startsWith("niveau-")) {
+                    formObject[key] = value;
+                } else {
+                    if (value.length > 0) {
+                        categories.push({ categorie: key.replace("niveau-", ""), niveau: value });
+                    }
+                }
+                
+            });
+            
+            formObject["categories"] = categories
+
+            //CATEGORIES.map(categorie => formData.get("niveau-" + categorie)).join(",")
+            resultContainer.textContent = JSON.stringify(formObject, null, 2);
+            navigator.clipboard.writeText(resultContainer.textContent); 
 
         });
     </script>
