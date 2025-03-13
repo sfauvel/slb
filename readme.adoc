@@ -8,16 +8,23 @@ La liste des tournois est visible à l'adresse: https://sfauvel.github.io/slb/to
 
 Les données sont validées via l'action https://github.com/marketplace/actions/validate-json[].
 
-Pour valider le fichier `json` localement, on utilise un container docker.
-----
-docker run -d --name my-validator -p 8080:8080 \
-             -v /validator/resources:/validator/resources/ \
-             -e validator.resourceRoot=/validator/resources/  \
-             isaitb/json-validator
+Pour valider le fichier `json` localement, on peut executer le script `validate_against_schema.js`.
 
+.To run validation
+----
+node validate_against_schema.js
 ----
 
-jsonschema -i docs/tournois/tournois.json schema_tournois.json 
+// Pour valider le fichier `json` localement, on utilise un container docker: https://github.com/ISAITB/json-validator.
+// ----
+// docker run -d --name my-validator -p 8080:8080 \
+//              -v /validator/resources:/validator/resources/ \
+//              -e validator.resourceRoot=/validator/resources/  \
+//              isaitb/json-validator
+
+// ----
+
+// jsonschema -i docs/tournois/tournois.json schema_tournois.json 
 
 == Test
 
