@@ -1,0 +1,25 @@
+{
+    "Sujet mail": "GRAND LIEU BASKET / tournoi de La Pentec\u00f4te 7&8 juin 2025",
+    "Club": "St Philbert de Grand Lieu",
+    "Date": "08/06/2025",
+    "Particularit\u00e9": "",
+    "Date limite": "24/05/2025",
+    "categories": [
+        {
+            "categorie": "U15M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U15F",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13F",
+            "niveau": "X"
+        }
+    ]
+}

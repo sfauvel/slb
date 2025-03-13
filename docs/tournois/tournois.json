@@ -1353,7 +1353,7 @@
                 },
                 {
                     "categorie": "U13M",
-                    "niveau": "D2 D3"
+                    "niveau": "R\u00e9gion Elite D1 D2 D3"
                 },
                 {
                     "categorie": "U13F",
@@ -1572,6 +1572,36 @@
             "ressources": [
                 "data/2025_06_14_frossay_saint_viaud/mail.html",
                 "data/2025_06_14_frossay_saint_viaud/Affiche tournoi FSV.png"
+            ]
+        },
+        {
+            "Sujet mail": "GRAND LIEU BASKET / tournoi de La Pentec\u00f4te 7&8 juin 2025",
+            "Club": "St Philbert de Grand Lieu",
+            "Date": "08/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "24/05/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_06_08_st_philibert_de_grand_lieu",
+            "ressources": [
+                "data/2025_06_08_st_philibert_de_grand_lieu/Affiche tournoi GLB 2025.jpg",
+                "data/2025_06_08_st_philibert_de_grand_lieu/mail.html"
             ]
         },
         {
@@ -2526,7 +2556,37 @@
                 "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/mail.html",
                 "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/Tournoi LPVB - 17 et 18 Mai 2025.jpg"
             ]
+        },
+        {
+            "Sujet mail": "GRAND LIEU BASKET / tournoi de La Pentec\u00f4te 7&8 juin 2025",
+            "Club": "St Philbert de Grand Lieu",
+            "Date": "07/06/2025",
+            "Particularit\u00e9": "",
+            "Date limite": "24/05/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_06_07_st_philibert_de_grand_lieu",
+            "ressources": [
+                "data/2025_06_07_st_philibert_de_grand_lieu/Affiche tournoi GLB 2025.jpg",
+                "data/2025_06_07_st_philibert_de_grand_lieu/mail.html"
+            ]
         }
     ],
-    "last_update": "13/03/2025 00:30:09"
+    "last_update": "13/03/2025 09:11:56"
 }
