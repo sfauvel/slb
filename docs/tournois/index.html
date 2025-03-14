@@ -228,26 +228,22 @@
     <div id="tournoiModal" class="modal">
         <div class="modal-content">
             <span class="close subcontent">&times;</span>
-            <!-- <h2>Détails du Tournoi</h2> -->
             <div id="tournoiDetails"></div>
         </div>
     </div>
+
     <script src="tournoi.js"></script>
     <script>
 
         // Fonction pour afficher les détails du tournoi dans le modal
-        async function afficherDetailsTournoi(event) {
+        async function afficherDetailsTournoi(event, tournoi) {
             const modal = document.getElementById("tournoiModal");
             const detailsContainer = document.getElementById("tournoiDetails");
-            const tournoi = JSON.parse(event.target.dataset.tournoi);
-
+          
             const categories = tournoi.categories === undefined
                 ? ['Non spécifiée']
                 : tournoi.categories.map(categorie => `<li>${categorie.categorie}: ${categorie.niveau}</li>`).join('');
 
-
-            const [day, month, year] = tournoi.Date.split('/').map(Number);
-            folder_date = `${year}-${String(month).padStart(2, '0')}`;
 
             // Remplir les détails du tournoi
             data = []
@@ -265,7 +261,6 @@
                         data.push(`<img src="${ressource}" alt="Tournoi" style="display: block; margin: 0 auto;">`)
                     } else {
                         const fileName = ressource.split('/').pop();
-                        //data.push(`<li class="telechargement">Télécharger le document: <a href="${ressource}" target="_blank">${fileName}</a></li>`);
                         telechargements.push(`<li class="telechargement"><a href="${ressource}" target="_blank">${fileName}</a></li>`);
                     }
 
@@ -287,9 +282,7 @@
                         </p>
 
                     </div>
-                    <div class="details_tournoi subcontent">
-                        ${data}
-                    </div>
+                    <div class="details_tournoi subcontent">${data}</div>
                 </div>
             `;
             // Afficher le modal
@@ -408,7 +401,7 @@
                 .then(data => migrate(data))
                 .then(data => {
 
-                    last_update = data.last_update;
+                    let last_update = data.last_update;
                     document.querySelector('#last_update').innerHTML = `Dernière mise à jour: ${last_update}`;
 
                     tournois = data.tournois
@@ -427,21 +420,20 @@
                             categoriesSet.add(categories[categorie].categorie);
                             const div_club = document.createElement('div');
                             div_club.innerHTML = tournoi.club;
-                            div_club.dataset.tournoi = JSON.stringify(tournoi);
-                            div_club.addEventListener('click', function (event) {
-                                afficherDetailsTournoi(event);
-                            });
+                            const cell_club = document.createElement('td');
+                            cell_club.appendChild(div_club);
 
                             const row = document.createElement('tr');
 
-                            const cell = document.createElement('td');
-                            cell.appendChild(div_club);
-                            row.appendChild(cell);
-
+                            row.appendChild(cell_club);
                             row.appendChild(creer_cellule_texte(tournoi.Date));
                             row.appendChild(creer_cellule_texte(dateLimite));
                             row.appendChild(creer_cellule_texte(categories[categorie].categorie));
                             row.appendChild(creer_cellule_texte(categories[categorie].niveau));
+                            
+                            row.addEventListener('click', function (event) {
+                                afficherDetailsTournoi(event, tournoi);
+                            });
 
                             tableBody.appendChild(row);
                         }
