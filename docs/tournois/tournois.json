@@ -474,6 +474,27 @@
             ]
         },
         {
+            "Sujet du mail": "Invitation Tournoi",
+            "Club": "Montoir de Bretagne",
+            "Date": "2025-06-22",
+            "Date limite": "2025-06-08",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                }
+            ],
+            "repertoire": "data/2025_06_22_montoir_de_bretagne",
+            "ressources": [
+                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025.pdf",
+                "data/2025_06_22_montoir_de_bretagne/mail.html"
+            ]
+        },
+        {
             "Sujet mail": "Pornic Basket Saint Michel tournoi de l'amiti\u00e9 24 et 25 mai",
             "Club": "Pornic",
             "Date": "24/05/2025",
@@ -2382,6 +2403,31 @@
             ]
         },
         {
+            "Sujet du mail": "Invitation Tournoi",
+            "Club": "Montoir de Bretagne",
+            "Date": "2025-06-21",
+            "Date limite": "2025-06-08",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_06_21_montoir_de_bretagne",
+            "ressources": [
+                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025.pdf",
+                "data/2025_06_21_montoir_de_bretagne/mail.html"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
             "Club": "Pont Saint Martin",
             "Date": "10/05/2025",
@@ -2638,5 +2684,5 @@
             ]
         }
     ],
-    "last_update": "13/03/2025 14:53:42"
+    "last_update": "14/03/2025 08:53:35"
 }

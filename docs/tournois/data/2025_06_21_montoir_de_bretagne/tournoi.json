@@ -1,0 +1,20 @@
+{
+    "Sujet du mail": "Invitation Tournoi",
+    "Club": "Montoir de Bretagne",
+    "Date": "2025-06-21",
+    "Date limite": "2025-06-08",
+    "categories": [
+      {
+        "categorie": "U18F",
+        "niveau": "D1 D3"
+      },
+      {
+        "categorie": "U13F",
+        "niveau": "D2"
+      },
+      {
+        "categorie": "U9F",
+        "niveau": "X"
+      }
+    ]
+  }
