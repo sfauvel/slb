@@ -476,8 +476,8 @@
         {
             "Sujet du mail": "Invitation Tournoi",
             "Club": "Montoir de Bretagne",
-            "Date": "2025-06-22",
-            "Date limite": "2025-06-08",
+            "Date": "22/06/2025",
+            "Date limite": "08/06/2025",
             "categories": [
                 {
                     "categorie": "U11M",
@@ -2142,7 +2142,7 @@
         {
             "Sujet du mail": "Invitation au Tournoi de Fin d\u2019Ann\u00e9e \u2013 Samedi 17 Mai 2025 MALVILLE",
             "Club": "Malville",
-            "Date": "2025-05-17",
+            "Date": "17/05/2025",
             "Date limite": "",
             "categories": [
                 {
@@ -2405,8 +2405,8 @@
         {
             "Sujet du mail": "Invitation Tournoi",
             "Club": "Montoir de Bretagne",
-            "Date": "2025-06-21",
-            "Date limite": "2025-06-08",
+            "Date": "21/06/2025",
+            "Date limite": "08/06/2025",
             "categories": [
                 {
                     "categorie": "U18F",
@@ -2684,5 +2684,5 @@
             ]
         }
     ],
-    "last_update": "14/03/2025 08:53:35"
+    "last_update": "14/03/2025 12:03:53"
 }
