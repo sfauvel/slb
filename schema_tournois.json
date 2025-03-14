@@ -18,7 +18,13 @@
                     },
                     "Date": {
                         "type": "string",
-                        "description": "Date du tournoi"
+                        "description": "Date du tournoi",
+                        "pattern": "^[0-9]{2}/[0-9]{2}/[0-9]{4}$"
+                    },
+                    "Date liimite": {
+                        "type": "string",
+                        "description": "Date limite d'inscription",
+                        "pattern": "^[0-9]{2}/[0-9]{2}/[0-9]{4}$"
                     },
                     "categories": {
                         "type": "array",

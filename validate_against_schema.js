@@ -20,9 +20,11 @@ try {
 console.log("Schema: " + schema_file)
 console.log("Data: " + data_file)
 const valid = ajv.validate(schema, json_read)
+
 if (!valid) {
-    console.log("Error !!!")
-    console.log(ajv.errors)
+    console.log("ERROR !!!");
+    console.log(ajv.errors);
+    process.exit(1);
 } else {
     console.log("Ok")
 }
