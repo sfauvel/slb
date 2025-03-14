@@ -10,7 +10,7 @@
             --labelwidth: 100px;
         }
 
-          
+
         .form-categorie {
             display: flex;
             flex-wrap: wrap;
@@ -152,7 +152,7 @@
         }
 
         function ajouterCategorie(categorie) {
-        
+
             //const checkbox_categorie = document.createElement('input');
             //checkbox_categorie.type = "checkbox";
             //checkbox_categorie.id = "categorie-" + categorie;
@@ -212,7 +212,7 @@
 
         // Inverse la date du format anglais (yyyy-mm-dd) au format français (dd-mm-yyyy)
         function date_to_text(date) {
-            return date.split("-").reverse().join("-");
+            return date.split("-").reverse().join("/");
         }
 
         document.addEventListener('DOMContentLoaded', function () {
@@ -225,7 +225,7 @@
             event.preventDefault();
 
             const formData = new FormData(event.target);
- 
+
             const resultContainer = document.getElementById('result');
             //resultContainer.textContent = [
             //    formData.get("Mail"),
@@ -237,21 +237,21 @@
             const formObject = {};
             categories = []
             formData.forEach((value, key) => {
-                if (!key.startsWith("niveau-")) {
+                if (key.startsWith("Date")) {
+                    formObject[key] = date_to_text(value);
+                } else if (!key.startsWith("niveau-")) {
                     formObject[key] = value;
-                } else {
+                }  else {
                     if (value.length > 0) {
                         categories.push({ categorie: key.replace("niveau-", ""), niveau: value });
                     }
                 }
-                
+
             });
-            
-            formObject["categories"] = categories
 
             //CATEGORIES.map(categorie => formData.get("niveau-" + categorie)).join(",")
             resultContainer.textContent = JSON.stringify(formObject, null, 2);
-            navigator.clipboard.writeText(resultContainer.textContent); 
+            navigator.clipboard.writeText(resultContainer.textContent);
 
         });
     </script>
