@@ -309,10 +309,9 @@
             }
         });
 
-        nameFilter.addEventListener('input', filterTable);
-        dateMinFilter.addEventListener('input', filterTable);
-        dateMaxFilter.addEventListener('input', filterTable);
-        niveauFilter.addEventListener('input', filterTable);
+        filters=[nameFilter, dateMinFilter, dateMaxFilter,niveauFilter,]
+        
+        filters.forEach((filter) => filter.addEventListener('input', filterTable));
         categorieFilter.addEventListener('change', filterTable);
 
         function creer_cellule_texte(texte) {
@@ -352,30 +351,31 @@
         }
 
         function match_filters(row) {
-            //console.log("Filter")
-            const nameValue = nameFilter.value.toLowerCase();
-            const dateMinValue = dateMinFilter.value.toLowerCase();
-            const dateMaxValue = dateMaxFilter.value.toLowerCase();
-            const niveauValue = niveauFilter.value.toLowerCase();
+            function is_includes_text(cell, filter) {
+                return filter.value === '' || cell.textContent.toLowerCase().includes(filter.value.toLowerCase());
+            }
+            
+            function is_date_greater_or_equal(cell, filter) {
+                return filter.value === '' || parseDate(cell.textContent) >= parseDateSelector(filter.value);
+            }   
+            
+            function is_date_less_or_equal(cell, filter) {
+                return filter.value === '' || parseDate(cell.textContent) <= parseDateSelector(filter.value);
+            }
+            
             const selectedCategories = Array.from(categorieFilter.selectedOptions).map(option => option.value.toLowerCase());
-
+            function is_categorie(cell, filter) {
+                return filter.value === '' || cell.textContent.toLowerCase() === filter.value.toLowerCase();
+            }
 
             const cells = row.getElementsByTagName('td');
-            const nameText = cells[0].textContent.toLowerCase();
-            const dateText = cells[1].textContent.toLowerCase();
-            const dateLimiteText = cells[2].textContent.toLowerCase();
-            const categorieText = cells[3].textContent.toLowerCase();
-            const niveauText = cells[4].textContent.toLowerCase();
-
-            const dateMinCondition = dateMinValue ? parseDate(dateText) >= parseDateSelector(dateMinValue) : true;
-            const dateMaxCondition = dateMaxValue ? parseDate(dateText) <= parseDateSelector(dateMaxValue) : true;
-            //const dateCondition = dateValue ? new Date(dateText) <= new Date(dateValue) : true;
-            const categorieCondition = (selectedCategories.includes('') || selectedCategories.length === 0 || selectedCategories.includes(categorieText));
-
-            //console.log("dateText:" + dateText);
-            //console.log("dateMinValue:" + dateMinValue);                         
-                
-            return (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition);
+            return (
+                is_includes_text(cells[0], nameFilter)
+                && is_date_greater_or_equal(cells[1], dateMinFilter) 
+                && is_date_less_or_equal(cells[1], dateMaxFilter) 
+                && is_includes_text(cells[4], niveauFilter)
+                && is_categorie(cells[3], categorieFilter)
+            );
                  
         }
 
