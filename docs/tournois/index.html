@@ -309,40 +309,124 @@
             }
         });
 
-        document.addEventListener('DOMContentLoaded', async function () {
+        nameFilter.addEventListener('input', filterTable);
+        dateMinFilter.addEventListener('input', filterTable);
+        dateMaxFilter.addEventListener('input', filterTable);
+        niveauFilter.addEventListener('input', filterTable);
+        categorieFilter.addEventListener('change', filterTable);
 
-            function creer_cellule_texte(texte) {
-                const cellule = document.createElement('td');
-                cellule.textContent = texte;
-                return cellule;
+        function creer_cellule_texte(texte) {
+            const cellule = document.createElement('td');
+            cellule.textContent = texte;
+            return cellule;
+        }
+
+        function migrate(data) {
+            data.tournois.forEach(tournoi => {
+                tournoi.club = tournoi.Club
+                tournoi.date = tournoi.Date
+            })
+            return data
+        }
+        
+        function parseDate(dateString) {
+            const [day, month, year] = dateString.split('/').map(Number);
+            return new Date(year, month - 1, day);
+        }
+        
+        function parseDateSelector(dateString) {
+            const [year, month, day] = dateString.split('-').map(Number);
+            return new Date(year, month - 1, day);
+        }
+        
+        function getCurrentDate() {
+            const today = new Date();
+            const day = String(today.getDate()).padStart(2, '0');
+            const month = String(today.getMonth() + 1).padStart(2, '0');
+            const year = today.getFullYear();
+            return `${year}-${month}-${day}`;
+        }
+
+        function sort_by_date(tounois) {
+            tournois.sort((a, b) => a.date.split('/').reverse().join('') > b.date.split('/').reverse().join(''));
+        }
+
+        function match_filters(row) {
+            //console.log("Filter")
+            const nameValue = nameFilter.value.toLowerCase();
+            const dateMinValue = dateMinFilter.value.toLowerCase();
+            const dateMaxValue = dateMaxFilter.value.toLowerCase();
+            const niveauValue = niveauFilter.value.toLowerCase();
+            const selectedCategories = Array.from(categorieFilter.selectedOptions).map(option => option.value.toLowerCase());
+
+
+            const cells = row.getElementsByTagName('td');
+            const nameText = cells[0].textContent.toLowerCase();
+            const dateText = cells[1].textContent.toLowerCase();
+            const dateLimiteText = cells[2].textContent.toLowerCase();
+            const categorieText = cells[3].textContent.toLowerCase();
+            const niveauText = cells[4].textContent.toLowerCase();
+
+            const dateMinCondition = dateMinValue ? parseDate(dateText) >= parseDateSelector(dateMinValue) : true;
+            const dateMaxCondition = dateMaxValue ? parseDate(dateText) <= parseDateSelector(dateMaxValue) : true;
+            //const dateCondition = dateValue ? new Date(dateText) <= new Date(dateValue) : true;
+            const categorieCondition = (selectedCategories.includes('') || selectedCategories.length === 0 || selectedCategories.includes(categorieText));
+
+            //console.log("dateText:" + dateText);
+            //console.log("dateMinValue:" + dateMinValue);                         
+                
+            return (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition);
+                 
+        }
+
+        function filterTable() {
+
+            const tableBody = document.querySelector('#eventsTable tbody');
+            const rows = tableBody.getElementsByTagName('tr');
+            //console.log("Filter with " + nameValue)  ;
+            nb_lines_displayed = 0;
+            for (let i = 0; i < rows.length; i++) {
+                let row = rows[i];
+                if (match_filters(row)) {
+                    row.style.display = '';
+                    row.classList.remove("odd-row");
+                    row.classList.remove("even-row");
+                    row.classList.add((nb_lines_displayed & 1) ? "odd-row" : "even-row");
+                    nb_lines_displayed += 1;
+                } else {
+                    row.style.display = 'none';
+                }
             }
+        }
+        document.addEventListener('DOMContentLoaded', async function () {
 
             // Générer un UUID pour éviter le cache
             const uniqueParam = crypto.randomUUID();
 
             fetch('tournois.json?cache_buster=${uniqueParam}')
                 .then(response => response.json())
+                .then(data => migrate(data))
                 .then(data => {
 
-                    last_update = data["last_update"];
+                    last_update = data.last_update;
                     document.querySelector('#last_update').innerHTML = `Dernière mise à jour: ${last_update}`;
 
-                    data = data["tournois"];
+                    tournois = data.tournois
                     const tableBody = document.querySelector('#eventsTable tbody');
                     const categorieFilter = document.getElementById('categorieFilter');
                     const categoriesSet = new Set();
 
-                    data.sort((a, b) => a.Date.split('/').reverse().join('') > b.Date.split('/').reverse().join(''));
+                    sort_by_date(tournois);
 
-                    data.forEach(tournoi => {
-                        console.log(tournoi.Club)
+                    tournois.forEach(tournoi => {
+                        //console.log(tournoi.club)
                         const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
                         const dateLimite = tournoi['Date limite'] === undefined ? '' : tournoi['Date limite'];
 
                         for (categorie in categories) {
                             categoriesSet.add(categories[categorie].categorie);
                             const div_club = document.createElement('div');
-                            div_club.innerHTML = tournoi.Club;
+                            div_club.innerHTML = tournoi.club;
                             div_club.dataset.tournoi = JSON.stringify(tournoi);
                             div_club.addEventListener('click', function (event) {
                                 afficherDetailsTournoi(event);
@@ -373,74 +457,10 @@
                         categorieFilter.appendChild(option);
                     });
 
-                    const nameFilter = document.getElementById('nameFilter');
-                    const dateMinFilter = document.getElementById('dateMinFilter');
-                    const dateMaxFilter = document.getElementById('dateMaxFilter');
-                    const niveauFilter = document.getElementById('niveauFilter');
-
-                    function parseDate(dateString) {
-                        const [day, month, year] = dateString.split('/').map(Number);
-                        return new Date(year, month - 1, day);
-                    }
-                    function parseDateSelector(dateString) {
-                        const [year, month, day] = dateString.split('-').map(Number);
-                        return new Date(year, month - 1, day);
-                    }
-                    function getCurrentDate() {
-                        const today = new Date();
-                        const day = String(today.getDate()).padStart(2, '0');
-                        const month = String(today.getMonth() + 1).padStart(2, '0');
-                        const year = today.getFullYear();
-                        return `${year}-${month}-${day}`;
-                    }
-
-                    function filterTable() {
-                        console.log("Filter")
-                        const nameValue = nameFilter.value.toLowerCase();
-                        const dateMinValue = dateMinFilter.value.toLowerCase();
-                        const dateMaxValue = dateMaxFilter.value.toLowerCase();
-                        const niveauValue = niveauFilter.value.toLowerCase();
-                        const selectedCategories = Array.from(categorieFilter.selectedOptions).map(option => option.value.toLowerCase());
-
-                        console.log("Filter categories: " + selectedCategories);
-
-                        const rows = tableBody.getElementsByTagName('tr');
-                        nb_lines_displayed = 0;
-                        for (let i = 0; i < rows.length; i++) {
-                            const cells = rows[i].getElementsByTagName('td');
-                            const nameText = cells[0].textContent.toLowerCase();
-                            const dateText = cells[1].textContent.toLowerCase();
-                            const dateLimiteText = cells[2].textContent.toLowerCase();
-                            const categorieText = cells[3].textContent.toLowerCase();
-                            const niveauText = cells[4].textContent.toLowerCase();
-
-                            const dateMinCondition = dateMinValue ? parseDate(dateText) >= parseDateSelector(dateMinValue) : true;
-                            const dateMaxCondition = dateMaxValue ? parseDate(dateText) <= parseDateSelector(dateMaxValue) : true;
-                            //const dateCondition = dateValue ? new Date(dateText) <= new Date(dateValue) : true;
-                            const categorieCondition = (selectedCategories.includes('') || selectedCategories.length === 0 || selectedCategories.includes(categorieText));
-
-                            //console.log("dateText:" + dateText);
-                            //console.log("dateMinValue:" + dateMinValue);
-                            if (nameText.includes(nameValue) && dateMinCondition && dateMaxCondition && niveauText.includes(niveauValue) && categorieCondition) {
-                                rows[i].style.display = '';
-                                rows[i].classList.remove("odd-row");
-                                rows[i].classList.remove("even-row");
-                                rows[i].classList.add((nb_lines_displayed & 1) ? "odd-row" : "even-row");
-                                nb_lines_displayed += 1;
-                            } else {
-                                rows[i].style.display = 'none';
-                            }
-                        }
-                    }
 
                     dateMinFilter.value = getCurrentDate();
                     filterTable();
 
-                    nameFilter.addEventListener('input', filterTable);
-                    dateMinFilter.addEventListener('input', filterTable);
-                    dateMaxFilter.addEventListener('input', filterTable);
-                    niveauFilter.addEventListener('input', filterTable);
-                    categorieFilter.addEventListener('change', filterTable);
                 })
                 .catch(error => console.error('Erreur lors du chargement du fichier JSON:', error));
         });

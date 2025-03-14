@@ -2142,7 +2142,7 @@
         {
             "Sujet du mail": "Invitation au Tournoi de Fin d\u2019Ann\u00e9e \u2013 Samedi 17 Mai 2025 MALVILLE",
             "Club": "Malville",
-            "Date": "17/05/2025",
+            "Date": "17/05/2025xxx",
             "Date limite": "",
             "categories": [
                 {
@@ -2684,5 +2684,5 @@
             ]
         }
     ],
-    "last_update": "14/03/2025 18:18:15"
+    "last_update": "14/03/2025 18:27:27"
 }
