@@ -307,19 +307,6 @@
         filters.forEach((filter) => filter.addEventListener('input', filterTable));
         categorieFilter.addEventListener('change', filterTable);
 
-        function creer_cellule_texte(texte) {
-            const cellule = document.createElement('td');
-            cellule.textContent = texte;
-            return cellule;
-        }
-
-        function migrate(data) {
-            data.tournois.forEach(tournoi => {
-                tournoi.club = tournoi.Club
-                tournoi.date = tournoi.Date
-            })
-            return data
-        }
         
         function parseDate(dateString) {
             const [day, month, year] = dateString.split('/').map(Number);
@@ -398,7 +385,7 @@
 
             fetch('tournois.json?cache_buster=${uniqueParam}')
                 .then(response => response.json())
-                .then(data => migrate(data))
+                .then(data => migrate_all(data))
                 .then(data => {
 
                     let last_update = data.last_update;
@@ -412,31 +399,14 @@
                     sort_by_date(tournois);
 
                     tournois.forEach(tournoi => {
-                        //console.log(tournoi.club)
-                        const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
-                        const dateLimite = tournoi['Date limite'] === undefined ? '' : tournoi['Date limite'];
-
-                        for (categorie in categories) {
-                            categoriesSet.add(categories[categorie].categorie);
-                            const div_club = document.createElement('div');
-                            div_club.innerHTML = tournoi.club;
-                            const cell_club = document.createElement('td');
-                            cell_club.appendChild(div_club);
-
-                            const row = document.createElement('tr');
-
-                            row.appendChild(cell_club);
-                            row.appendChild(creer_cellule_texte(tournoi.Date));
-                            row.appendChild(creer_cellule_texte(dateLimite));
-                            row.appendChild(creer_cellule_texte(categories[categorie].categorie));
-                            row.appendChild(creer_cellule_texte(categories[categorie].niveau));
-                            
+                        const rows = create_tournament_lines(document, tournoi);                 
+                        rows.forEach(row => {
                             row.addEventListener('click', function (event) {
                                 afficherDetailsTournoi(event, tournoi);
                             });
-
                             tableBody.appendChild(row);
-                        }
+                        });
+                        
                     });
                     function format_categorie(categorie) {
                         return categorie.replace("U", " U").replace("U9", "U09").replace("U7", "U07")
