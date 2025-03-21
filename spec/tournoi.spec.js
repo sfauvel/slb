@@ -72,17 +72,34 @@ describe("Tournoi", function() {
           ]
       };
 
-
+      let migrated = migrate(tournoi_legacy);
       content = [
         '[json]\n.json input\n----',
         JSON.stringify(tournoi_legacy, null, 4),
         "----",
         "",
         '[json]\n.json after migration\n----',
-        JSON.stringify(migrate(tournoi_legacy), null, 4),
+        JSON.stringify(migrated, null, 4),
         '----'
       ];
       
+      let migrate_twice = migrate(migrated);
+      if (JSON.stringify(migrate_twice) !== JSON.stringify(migrated)) {
+        content.push(
+          "",
+          "[WARNING]\n--\nmigration is not idempotent.\n--",
+          "",
+          '[json]\n.json after a second migration\n----',
+          JSON.stringify(migrate_twice, null, 4),
+          '----'
+        );
+      } else {
+        content.push(
+          "",
+          "[NOTE]\n--\nMigration is idempotent.\n\nWe can call it several times with the same result.\n--",
+        );
+      }
+
       verify(title, content.join('\n'));
     })
 

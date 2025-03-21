@@ -11,11 +11,11 @@ function migrate_all(data) {
 
 function migrate(tournoi) {
     var t = {};
-    t.mail = tournoi["Sujet mail"],
-    t.club = tournoi["Club"],
-    t.date = tournoi["Date"],
-    t.particularite = tournoi["Particularit\u00e9"],
-    t.date_limite = tournoi["Date limite"]
+    t.mail = tournoi.mail || tournoi["Sujet mail"],
+    t.club = tournoi.club || tournoi["Club"],
+    t.date = tournoi.date || tournoi["Date"],
+    t.particularite = tournoi.particularite || tournoi["Particularit\u00e9"],
+    t.date_limite = tournoi.date_limite || tournoi["Date limite"]
     t.categories = tournoi.categories
     t.repertoire = tournoi.repertoire
     t.ressources = tournoi.ressources

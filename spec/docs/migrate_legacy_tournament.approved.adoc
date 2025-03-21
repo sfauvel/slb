@@ -49,3 +49,10 @@
     ]
 }
 ----
+
+[NOTE]
+--
+Migration is idempotent.
+
+We can call it several times with the same result.
+--
