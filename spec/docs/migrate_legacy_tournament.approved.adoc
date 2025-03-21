@@ -1,0 +1,51 @@
+[json]
+.json input
+----
+{
+    "Sujet mail": "Tournoi du SLB",
+    "Club": "SLB",
+    "Date": "17/05/2025",
+    "Particularité": "RAS",
+    "Date limite": "09/05/2025",
+    "categories": [
+        {
+            "categorie": "U15M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        }
+    ],
+    "repertoire": "data/2025_05_17_slb",
+    "ressources": [
+        "data/2025_05_17_slb/mail.html"
+    ]
+}
+----
+
+[json]
+.json after migration
+----
+{
+    "mail": "Tournoi du SLB",
+    "club": "SLB",
+    "date": "17/05/2025",
+    "particularite": "RAS",
+    "date_limite": "09/05/2025",
+    "categories": [
+        {
+            "categorie": "U15M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        }
+    ],
+    "repertoire": "data/2025_05_17_slb",
+    "ressources": [
+        "data/2025_05_17_slb/mail.html"
+    ]
+}
+----

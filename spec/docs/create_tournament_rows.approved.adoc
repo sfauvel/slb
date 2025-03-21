@@ -1,0 +1,43 @@
+= Create tournament rows
+
+[json]
+.json input
+----
+{
+    "mail": "Tournoi du SLB",
+    "club": "SLB",
+    "date": "17/05/2025",
+    "particularite": "RAS",
+    "date_limite": "09/05/2025",
+    "categories": [
+        {
+            "categorie": "U15M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        }
+    ],
+    "repertoire": "data/2025_05_17_paulx_cholti_re",
+    "ressources": [
+        "data/2025_05_17_paulx_cholti_re/mail.html"
+    ]
+}
+----
+
+.HTML code generated
+----
+<td>SLB</td><td>17/05/2025</td><td>09/05/2025</td><td>U15M</td><td>X</td>
+<td>SLB</td><td>17/05/2025</td><td>09/05/2025</td><td>U13M</td><td>X</td>
+----
+
+.Rendering in a table
+--
+++++
+<table border="1">
+<tr><td>SLB</td><td>17/05/2025</td><td>09/05/2025</td><td>U15M</td><td>X</td></tr>
+<tr><td>SLB</td><td>17/05/2025</td><td>09/05/2025</td><td>U13M</td><td>X</td></tr>
+<table>
+++++
+--

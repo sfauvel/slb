@@ -1,0 +1,15 @@
+= Is extension an image
+
+.Image extensions
+* jpeg
+* jpg
+* gif
+* png
+* JPG
+* PNG
+
+.Not image extensions
+* txt
+* json
+* html
+* pdf

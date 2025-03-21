@@ -5,19 +5,21 @@ function is_image(url) {
 }
 
 function migrate_all(data) {
-    data.tournois.forEach(tournoi => {
-        migrate(tournoi)
-    })
-    return data
+    return { "tournois": data.tournois.map(tournoi => migrate(tournoi)) };
 }
 
+
 function migrate(tournoi) {
-    tournoi.mail = tournoi["Sujet mail"];
-    tournoi.club = tournoi["Club"];
-    tournoi.date = tournoi["Date"];
-    tournoi.particularite = tournoi["Particularit\u00e9"];
-    tournoi.date_limite = tournoi["Date limite"];
-    return tournoi;
+    var t = {};
+    t.mail = tournoi["Sujet mail"],
+    t.club = tournoi["Club"],
+    t.date = tournoi["Date"],
+    t.particularite = tournoi["Particularit\u00e9"],
+    t.date_limite = tournoi["Date limite"]
+    t.categories = tournoi.categories
+    t.repertoire = tournoi.repertoire
+    t.ressources = tournoi.ressources
+    return t;
   }
 
 function creer_cellule_texte(document, texte) {

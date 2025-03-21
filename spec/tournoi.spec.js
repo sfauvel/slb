@@ -1,29 +1,55 @@
 const {is_image, migrate, create_tournament_lines} = require('../docs/tournois/tournoi.js');
+const { doc, verify } = require('../spec/doc_as_test.js');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
+
+function group_by(values, fn_key, fn_value = function(value) { return value; }) {
+  return values.reduce(function(result, value) {
+    const key = fn_key(value);
+    (result[key] ??= []).push(fn_value(value));
+    return result;
+  }, {});
+}
+
 describe("Tournoi", function() {  
-  let document;
-  beforeEach(function(){
-    document = new JSDOM(`<!DOCTYPE html><html><body></body></html>`).window.document;
-  });
+    let document;
+    beforeEach(function(){
+      document = new JSDOM(`<!DOCTYPE html><html><body></body></html>`).window.document;
+    });
 
-    it("is image", function() {
-      expect(is_image("file.jpeg")).toBe(true);
-      expect(is_image("file.jpg")).toBe(true);
-      expect(is_image("file.gif")).toBe(true);
-      expect(is_image("file.png")).toBe(true);
-      
-      expect(is_image("file.JPG")).toBe(true);
-      expect(is_image("file.PNG")).toBe(true);
+    doc("Is extension an image", function(title) {
+      extensions = [
+        'jpeg',
+        'jpg',
+        'gif',
+        'png',
+        'JPG',
+        'PNG',
+        'txt',
+        'json',
+        'html',
+        'pdf',
+      ];
 
-      expect(is_image("file.txt")).toBe(false);
-      expect(is_image("file.json")).toBe(false);
-      expect(is_image("file.html")).toBe(false);
-      expect(is_image("file.pdf")).toBe(false);
+      result = group_by(extensions, 
+        fn_key = extension => is_image(`file.${extension}`),
+        fn_value = extension =>  `* ${extension}`
+      );
+
+      var content = [
+        `= ${title}\n`,
+        ".Image extensions",
+        result[true].join("\n"),
+        "",
+        ".Not image extensions",
+        result[false].join("\n")
+      ];
+
+      verify(title, content.join('\n'));
     })
 
-    it ("Migrate legacy tournament", function() {
+    doc ("Migrate legacy tournament", function(title) {
       const tournoi_legacy = {
         "Sujet mail": "Tournoi du SLB",
         "Club": "SLB",
@@ -46,28 +72,21 @@ describe("Tournoi", function() {
           ]
       };
 
-      const tournoi = migrate(tournoi_legacy);
-      expect(tournoi.mail).toEqual("Tournoi du SLB");
-      expect(tournoi.date).toEqual("17/05/2025");
-      expect(tournoi.date_limite).toEqual("09/05/2025");
-      expect(tournoi.particularite).toEqual("RAS");
-      expect(tournoi.categories).toEqual([
-        {
-          "categorie": "U15M",
-          "niveau": "X"
-        },
-        {
-            "categorie": "U13M",
-            "niveau": "X"
-        }
-      ]);
-      expect(tournoi.repertoire).toEqual("data/2025_05_17_slb");
-      expect(tournoi.ressources).toEqual([
-        "data/2025_05_17_slb/mail.html"
-      ]);
+
+      content = [
+        '[json]\n.json input\n----',
+        JSON.stringify(tournoi_legacy, null, 4),
+        "----",
+        "",
+        '[json]\n.json after migration\n----',
+        JSON.stringify(migrate(tournoi_legacy), null, 4),
+        '----'
+      ];
+      
+      verify(title, content.join('\n'));
     })
 
-    it ("Create tournament rows" , function() {
+    doc ("Create tournament rows" , function(title) {
      
       const tournoi = {
         "mail": "Tournoi du SLB",
@@ -90,23 +109,28 @@ describe("Tournoi", function() {
             "data/2025_05_17_paulx_cholti_re/mail.html"
         ]
     };
+  
     const rows = create_tournament_lines(document, tournoi);
-    expect(rows.length).toBe(2);
-    {
-      const cells = rows[0].getElementsByTagName('td');
-      expect(cells[0].innerHTML).toBe("SLB");
-      expect(cells[1].innerHTML).toBe("17/05/2025");
-      expect(cells[2].innerHTML).toBe("09/05/2025");
-      expect(cells[3].innerHTML).toBe("U15M");
-      expect(cells[4].innerHTML).toBe("X");
-    }
-    {
-      const cells = rows[1].getElementsByTagName('td');
-      expect(cells[0].innerHTML).toBe("SLB");
-      expect(cells[1].innerHTML).toBe("17/05/2025");
-      expect(cells[2].innerHTML).toBe("09/05/2025");
-      expect(cells[3].innerHTML).toBe("U13M");
-      expect(cells[4].innerHTML).toBe("X");
-    }
+  
+    var content = [`= ${title}\n`];
+
+    content = content.concat([
+      '[json]\n.json input\n----',
+      JSON.stringify(tournoi, null, 4),
+      '----\n'
+    ]);
+    
+    content = content.concat([
+      '.HTML code generated\n----',
+      rows.map(r => r.innerHTML).join('\n'),
+      '----\n'
+    ]);
+
+    content = content.concat(['.Rendering in a table\n--\n++++\n<table border="1">',
+      rows.map(r => `<tr>${r.innerHTML}</tr>`).join('\n'),
+      '<table>\n++++\n--'
+    ]);
+
+    verify(title, content.join('\n'));
   })
 });
