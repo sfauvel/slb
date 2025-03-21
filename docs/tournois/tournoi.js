@@ -5,7 +5,10 @@ function is_image(url) {
 }
 
 function migrate_all(data) {
-    return { "tournois": data.tournois.map(tournoi => migrate(tournoi)) };
+    return { 
+        "tournois": data.tournois.map(tournoi => migrate(tournoi)),
+        "last_update": data.last_update
+    };
 }
 
 
