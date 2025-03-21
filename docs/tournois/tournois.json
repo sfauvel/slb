@@ -46,6 +46,76 @@
             ]
         },
         {
+            "mail": "Invitation Tournois 14/15 juin 2025",
+            "club": "USVR Varades",
+            "date": "14/06/2025",
+            "date_limite": "14/05/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "D3 D4"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "D3 D4"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_06_14_usvr_varades",
+            "ressources": [
+                "data/2025_06_14_usvr_varades/invit tournoi 2025 .pdf",
+                "data/2025_06_14_usvr_varades/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation Tournois 14/15 juin 2025",
+            "club": "USVR Varades",
+            "date": "15/06/2025",
+            "date_limite": "14/05/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2 D3"
+                }
+            ],
+            "repertoire": "data/2025_06_15_usvr_varades",
+            "ressources": [
+                "data/2025_06_15_usvr_varades/invit tournoi 2025 .pdf",
+                "data/2025_06_15_usvr_varades/mail.html"
+            ]
+        },
+        {
             "Sujet mail": "Re: Tournoi Beaujoire BC 21/22 Juin 2025",
             "Club": "Beaujoire",
             "Date": "22/06/2025",
@@ -671,6 +741,35 @@
             ]
         },
         {
+            "mail": "Tournoi Erdre Basket Club - le 14 & 15 juin 2025 ( U6 \u00e0 U15 M&F)",
+            "club": "La Chapelle sur Erdre",
+            "date": "15/06/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1 D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2 D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2"
+                }
+            ],
+            "repertoire": "data/2025_06_15_la_chapelle_sur_erdre",
+            "ressources": [
+                "data/2025_06_15_la_chapelle_sur_erdre/mail.html",
+                "data/2025_06_15_la_chapelle_sur_erdre/TOURNOI EBC 2025.jpg"
+            ]
+        },
+        {
             "Sujet mail": "Tournois des P'tits Champions",
             "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
             "Date": "01/06/2025",
@@ -1177,6 +1276,43 @@
             ]
         },
         {
+            "mail": "Tournoi Erdre Basket Club - le 14 & 15 juin 2025 ( U6 \u00e0 U15 M&F)",
+            "club": "La Chapelle sur Erdre",
+            "date": "14/06/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "bleu"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "Mixte familial"
+                }
+            ],
+            "repertoire": "data/2025_06_14_la_chapelle_sur_erdre",
+            "ressources": [
+                "data/2025_06_14_la_chapelle_sur_erdre/mail.html",
+                "data/2025_06_14_la_chapelle_sur_erdre/TOURNOI EBC 2025.jpg"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI FTBC LUNDI DE PAQUES",
             "Club": "FTBC Falleron (85)",
             "Date": "21/04/2025",
@@ -1486,6 +1622,34 @@
             ]
         },
         {
+            "mail": "mail_tournoi.docx",
+            "club": "Orvault",
+            "date": "25/05/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_05_25_orvault",
+            "ressources": [
+                "data/2025_05_25_orvault/mail.html"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
             "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
             "Date": "14/06/2025",
@@ -1699,6 +1863,39 @@
             "repertoire": "data/2025_04_05_indre_bc",
             "ressources": [
                 "data/2025_04_05_indre_bc/mail.html"
+            ]
+        },
+        {
+            "mail": "Objet : Invitation au tournoi du Cellier Mauves Basket \u2013 14 et 15 juin 2025 et Camp d\u2019\u00e9t\u00e9 Mansour Sy",
+            "club": "Cellier Mauves",
+            "date": "14/06/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "rouge (mixte)"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "rouge (mixte)"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_06_14_cellier_mauves",
+            "ressources": [
+                "data/2025_06_14_cellier_mauves/mail.html",
+                "data/2025_06_14_cellier_mauves/Affiche tournoi d'\u00e9t\u00e9 du Cellier Mauves Basket (1).jpg"
             ]
         },
         {
@@ -2344,6 +2541,39 @@
             ]
         },
         {
+            "mail": "Objet : Invitation au tournoi du Cellier Mauves Basket \u2013 14 et 15 juin 2025 et Camp d\u2019\u00e9t\u00e9 Mansour Sy",
+            "club": "Cellier Mauves",
+            "date": "15/06/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1 D2 D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D3"
+                }
+            ],
+            "repertoire": "data/2025_06_15_cellier_mauves",
+            "ressources": [
+                "data/2025_06_15_cellier_mauves/mail.html",
+                "data/2025_06_15_cellier_mauves/Affiche tournoi d'\u00e9t\u00e9 du Cellier Mauves Basket (1).jpg"
+            ]
+        },
+        {
             "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
             "Club": "Logne",
             "Date": "17/05/2025",
@@ -2684,5 +2914,5 @@
             ]
         }
     ],
-    "last_update": "14/03/2025 23:59:43"
+    "last_update": "21/03/2025 18:25:04"
 }

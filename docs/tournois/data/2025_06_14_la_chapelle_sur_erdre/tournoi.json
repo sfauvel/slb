@@ -1,0 +1,32 @@
+{
+    "mail": "Tournoi Erdre Basket Club - le 14 & 15 juin 2025 ( U6 à U15 M&F)",
+    "club": "La Chapelle sur Erdre",
+    "date": "14/06/2025",
+    "date_limite": "",
+    "categories": [
+      {
+        "categorie": "U11M",
+        "niveau": "Elite D3"
+      },
+      {
+        "categorie": "U11F",
+        "niveau": "D1 D3"
+      },
+      {
+        "categorie": "U9M",
+        "niveau": "bleu"
+      },
+      {
+        "categorie": "U9F",
+        "niveau": "bleu"
+      },
+      {
+        "categorie": "U7",
+        "niveau": "X"
+      },
+      {
+        "categorie": "Loisir",
+        "niveau": "Mixte familial"
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "mail": "mail_tournoi.docx",
+    "club": "Orvault",
+    "date": "25/05/2025",
+    "date_limite": "",
+    "categories": [
+      {
+        "categorie": "U13M",
+        "niveau": "X"
+      },
+      {
+        "categorie": "U13F",
+        "niveau": "X"
+      },
+      {
+        "categorie": "U11M",
+        "niveau": "X"
+      },
+      {
+        "categorie": "U11F",
+        "niveau": "X"
+      }
+    ]
+  }
