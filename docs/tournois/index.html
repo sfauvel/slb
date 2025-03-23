@@ -228,7 +228,7 @@
                     const tableBody = document.querySelector('#eventsTable tbody');
                     const categorieFilter = document.getElementById('categorieFilter');
                     const categoriesSet = new Set();
-                    console.log(tournois)
+                    
                     sort_by_date(tournois);
 
                     tournois.forEach(tournoi => {
@@ -241,6 +241,14 @@
                         });
                         
                     });
+
+                    tournois.forEach(tournoi => {
+                        const categories = tournoi.categories === undefined ? ['Non spécifiée'] : tournoi.categories;
+                        for (categorie in categories) {
+                            categoriesSet.add(categories[categorie].categorie);
+                        }
+                    });
+                  
                     function format_categorie(categorie) {
                         return categorie.replace("U", " U").replace("U9", "U09").replace("U7", "U07")
                     }
