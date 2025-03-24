@@ -159,8 +159,12 @@
             return `${year}-${month}-${day}`;
         }
 
+        function sortable_date(d) {
+            return d.split('/').reverse().join('')
+        }
+
         function sort_by_date(tounois) {
-            tournois.sort((a, b) => a.date.split('/').reverse().join('') > b.date.split('/').reverse().join(''));
+            tournois.sort((a, b) => sortable_date(a.date) - sortable_date(b.date));
         }
 
         function match_filters(row) {
