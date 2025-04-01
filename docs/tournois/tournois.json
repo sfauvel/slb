@@ -1524,6 +1524,31 @@
             ]
         },
         {
+            "mail": "Un tournoi 3x3 100% f\u00e9minin !",
+            "club": "Chabossi\u00e8re",
+            "date": "16/05/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2025_05_16_chabossiere",
+            "ressources": [
+                "data/2025_05_16_chabossiere/mail.txt",
+                "data/2025_05_16_chabossiere/IMG-20250401-WA0003.jpg"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi National U13-U15 Toulouse 7-8 juin 2025",
             "Club": "Basket Club Quint-Fonsegrives (Toulouse)",
             "Date": "08/06/2025",
@@ -2916,5 +2941,5 @@
             ]
         }
     ],
-    "last_update": "01/04/2025 09:38:14"
+    "last_update": "01/04/2025 18:40:24"
 }
