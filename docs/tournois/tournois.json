@@ -1647,6 +1647,35 @@
             ]
         },
         {
+            "mail": "Tournoi 3x3 - BCBG - Lundi 21 Avril 2025",
+            "club": "BCBG- Basket Club Basse Goulaine",
+            "date": "21/04/2025",
+            "date_limite": "06/04/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2025_04_21_basse_goulaine",
+            "ressources": [
+                "data/2025_04_21_basse_goulaine/Tournoi 3X3 BCBG.jpeg",
+                "data/2025_04_21_basse_goulaine/mail.html"
+            ]
+        },
+        {
             "mail": "mail_tournoi.docx",
             "club": "Orvault",
             "date": "25/05/2025",
@@ -2941,5 +2970,5 @@
             ]
         }
     ],
-    "last_update": "01/04/2025 18:42:21"
+    "last_update": "01/04/2025 18:48:55"
 }
