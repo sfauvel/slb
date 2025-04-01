@@ -1544,7 +1544,7 @@
             ],
             "repertoire": "data/2025_05_16_chabossiere",
             "ressources": [
-                "data/2025_05_16_chabossiere/mail.txt",
+                "data/2025_05_16_chabossiere/mail.html",
                 "data/2025_05_16_chabossiere/IMG-20250401-WA0003.jpg"
             ]
         },
@@ -2941,5 +2941,5 @@
             ]
         }
     ],
-    "last_update": "01/04/2025 18:40:24"
+    "last_update": "01/04/2025 18:42:21"
 }
