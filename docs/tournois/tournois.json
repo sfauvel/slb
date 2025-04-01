@@ -2514,6 +2514,7 @@
             ],
             "repertoire": "data/2025_05_11_pont_saint_martin",
             "ressources": [
+                "data/2025_05_11_pont_saint_martin/unnamed.jpg",
                 "data/2025_05_11_pont_saint_martin/mail.html"
             ]
         },
@@ -2683,6 +2684,7 @@
             ],
             "repertoire": "data/2025_05_10_pont_saint_martin",
             "ressources": [
+                "data/2025_05_10_pont_saint_martin/unnamed.jpg",
                 "data/2025_05_10_pont_saint_martin/mail.html"
             ]
         },
@@ -2914,5 +2916,5 @@
             ]
         }
     ],
-    "last_update": "21/03/2025 18:25:04"
+    "last_update": "01/04/2025 09:38:14"
 }
