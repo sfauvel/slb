@@ -55,12 +55,31 @@ function create_tournament_lines(document, tournoi) {
     });
 }
 
+function create_tournament_details(tournoi, telechargements) {
+    const categories = tournoi.categories === undefined
+                ? ['Non spécifiée']
+                : tournoi.categories.map(categorie => `<li>${categorie.categorie}: ${categorie.niveau}</li>`);
+
+    return `
+    <div class="infos_tournoi subcontent">
+        <p><span class="title">Club:</span> ${tournoi.club}</p>
+        <p><span class="title">Date:</span> ${tournoi.date}</p>
+        <p><span class="title">Date limite:</span> ${tournoi.date_limite}</p>
+        <p><span class="title">Catégories:</span><ul>
+${categories.map(categorie => `            ${categorie}`).join('\n')}
+        </ul></p>
+        <p><span class="title">Documents:</span>
+        <ul>${telechargements.join('\n')}</ul>
+        </p>
+    </div>`
+}
 
 if (typeof module !== 'undefined') {
     module.exports = {
         is_image,
         migrate,
         migrate_all,
-        create_tournament_lines
+        create_tournament_lines,
+        create_tournament_details
     };
 }

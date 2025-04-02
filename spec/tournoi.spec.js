@@ -1,4 +1,4 @@
-const {is_image, migrate, create_tournament_lines} = require('../docs/tournois/tournoi.js');
+const {is_image, migrate, create_tournament_lines, create_tournament_details} = require('../docs/tournois/tournoi.js');
 const { doc, verify } = require('../spec/doc_as_test.js');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -146,6 +146,57 @@ describe("Tournoi", function() {
     content = content.concat(['.Rendering in a table\n--\n++++\n<table border="1">',
       rows.map(r => `<tr>${r.innerHTML}</tr>`).join('\n'),
       '<table>\n++++\n--'
+    ]);
+
+    verify(title, content.join('\n'));
+  })
+
+  doc ("Create tournament details" , function(title) {
+     
+    const tournoi = {
+      "mail": "Tournoi du SLB",
+      "club": "SLB",
+      "date": "17/05/2025",
+      "particularite": "RAS",
+      "date_limite": "09/05/2025",
+      "categories": [
+          {
+              "categorie": "U15M",
+              "niveau": "X"
+          },
+          {
+              "categorie": "U13M",
+              "niveau": "X"
+          },
+      ],
+      "repertoire": "data/2025_05_17_paulx_cholti_re",
+      "ressources": [
+          "data/2025_05_17_paulx_cholti_re/mail.html"
+      ]
+    };
+
+    var telechargements = [];
+    telechargements.push(`<li class="telechargement"><a href="http://localhost/affiche.pdf" target="_blank">affiche.pdf</a></li>`);
+               
+    const details = create_tournament_details(tournoi, telechargements);
+
+    var content = [`= ${title}\n`];
+
+    content = content.concat([
+      '[json]\n.json input\n----',
+      JSON.stringify(tournoi, null, 4),
+      '----\n'
+    ]);
+    
+    content = content.concat([
+      '.HTML code generated\n----',
+      details,
+      '----\n'
+    ]);
+
+    content = content.concat(['.Rendering\n--\n++++\n',
+      details,
+      '\n++++\n--'
     ]);
 
     verify(title, content.join('\n'));
