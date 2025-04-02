@@ -1,0 +1,65 @@
+= Create tournament details
+
+[json]
+.json input
+----
+{
+    "mail": "Tournoi du SLB",
+    "club": "SLB",
+    "date": "17/05/2025",
+    "particularite": "RAS",
+    "date_limite": "09/05/2025",
+    "categories": [
+        {
+            "categorie": "U15M",
+            "niveau": "X"
+        },
+        {
+            "categorie": "U13M",
+            "niveau": "X"
+        }
+    ],
+    "repertoire": "data/2025_05_17_paulx_cholti_re",
+    "ressources": [
+        "data/2025_05_17_paulx_cholti_re/mail.html"
+    ]
+}
+----
+
+.HTML code generated
+----
+
+    <div class="infos_tournoi subcontent">
+        <p><span class="title">Club:</span> SLB</p>
+        <p><span class="title">Date:</span> 17/05/2025</p>
+        <p><span class="title">Date limite:</span> 09/05/2025</p>
+        <p><span class="title">Catégories:</span><ul>
+            <li>U15M: X</li>
+            <li>U13M: X</li>
+        </ul></p>
+        <p><span class="title">Documents:</span>
+        <ul><li class="telechargement"><a href="http://localhost/affiche.pdf" target="_blank">affiche.pdf</a></li></ul>
+        </p>
+    </div>
+----
+
+.Rendering
+--
+++++
+
+
+    <div class="infos_tournoi subcontent">
+        <p><span class="title">Club:</span> SLB</p>
+        <p><span class="title">Date:</span> 17/05/2025</p>
+        <p><span class="title">Date limite:</span> 09/05/2025</p>
+        <p><span class="title">Catégories:</span><ul>
+            <li>U15M: X</li>
+            <li>U13M: X</li>
+        </ul></p>
+        <p><span class="title">Documents:</span>
+        <ul><li class="telechargement"><a href="http://localhost/affiche.pdf" target="_blank">affiche.pdf</a></li></ul>
+        </p>
+    </div>
+
+++++
+--

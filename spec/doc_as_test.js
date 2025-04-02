@@ -15,7 +15,7 @@ function verify(title, text) {
         fail(`No approved file: ${approved_filename}`);
         return;
     }
-        console.log("xxx");
+    
     var approved;
     try {
         approved = fs.readFileSync(approved_filename, 'utf8');

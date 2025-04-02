@@ -3,6 +3,15 @@
 pushd "${BASH_SOURCE%/*}"
 
 pushd docs/tournois;
+
+find ./data -type f -name '*.pdf' | while read pdf_file; do
+    image_file=${pdf_file//.pdf/.jpg}
+    if [ ! -f "$image_file" ]; then
+        echo "Convert $pdf_file to $image_file"
+        convert "$pdf_file" "$image_file"
+    fi
+done
+
 python3 ../../tournois.py;
 popd
 

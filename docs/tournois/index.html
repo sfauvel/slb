@@ -103,18 +103,10 @@
             }
 
             data = data.map(item => `<div>${item}</div>`).join('\n');
+            var details = create_tournament_details(tournoi, telechargements)
             detailsContainer.innerHTML = `
                 <div style="display: flex;">
-                    <div class="infos_tournoi subcontent">
-                        <p><span class="title">Club:</span> ${tournoi.Club}</p>
-                        <p><span class="title">Date:</span> ${tournoi.Date}</p>
-                        <p><span class="title">Date limite:</span> ${tournoi['Date limite']}</p>
-                        <p><span class="title">Catégories:</span> <ul>${categories}</ul></p>
-                        <p><span class="title">Documents:</span>
-                        <ul>${telechargements.join('\n')}</ul>
-                        </p>
-
-                    </div>
+                    ${details}
                     <div class="details_tournoi subcontent">${data}</div>
                 </div>
             `;
