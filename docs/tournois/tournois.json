@@ -82,8 +82,11 @@
             ],
             "repertoire": "data/2025_06_14_usvr_varades",
             "ressources": [
+                "data/2025_06_14_usvr_varades/invit tournoi 2025 -0.jpg",
+                "data/2025_06_14_usvr_varades/invit tournoi 2025 -2.jpg",
                 "data/2025_06_14_usvr_varades/invit tournoi 2025 .pdf",
-                "data/2025_06_14_usvr_varades/mail.html"
+                "data/2025_06_14_usvr_varades/mail.html",
+                "data/2025_06_14_usvr_varades/invit tournoi 2025 -1.jpg"
             ]
         },
         {
@@ -111,8 +114,11 @@
             ],
             "repertoire": "data/2025_06_15_usvr_varades",
             "ressources": [
+                "data/2025_06_15_usvr_varades/invit tournoi 2025 -0.jpg",
+                "data/2025_06_15_usvr_varades/invit tournoi 2025 -2.jpg",
                 "data/2025_06_15_usvr_varades/invit tournoi 2025 .pdf",
-                "data/2025_06_15_usvr_varades/mail.html"
+                "data/2025_06_15_usvr_varades/mail.html",
+                "data/2025_06_15_usvr_varades/invit tournoi 2025 -1.jpg"
             ]
         },
         {
@@ -239,7 +245,9 @@
             "ressources": [
                 "data/2025_04_19_loroux_bottereau/Feuille d'engagement U13-U15.pdf",
                 "data/2025_04_19_loroux_bottereau/Tournoi U13-U15.pdf",
-                "data/2025_04_19_loroux_bottereau/mail.html"
+                "data/2025_04_19_loroux_bottereau/mail.html",
+                "data/2025_04_19_loroux_bottereau/Feuille d'engagement U13-U15.jpg",
+                "data/2025_04_19_loroux_bottereau/Tournoi U13-U15.jpg"
             ]
         },
         {
@@ -268,9 +276,18 @@
             ],
             "repertoire": "data/2025_06_07_loire_atlantique",
             "ressources": [
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-2.jpg",
                 "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA.pdf",
                 "data/2025_06_07_loire_atlantique/mail.html",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf"
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-3.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-1.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-0.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-0.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-2.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-1.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-3.jpg",
+                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-4.jpg"
             ]
         },
         {
@@ -372,6 +389,23 @@
             ]
         },
         {
+            "mail": "Fwd: Invitation tournoi basket U18 r\u00e9gion",
+            "club": "Chemill\u00e9",
+            "date": "14/06/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "R\u00e9gion"
+                }
+            ],
+            "repertoire": "data/2025_06_14_chemille",
+            "ressources": [
+                "data/2025_06_14_chemille/mail.html",
+                "data/2025_06_14_chemille/AFFICHE.jpg"
+            ]
+        },
+        {
             "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
             "Club": "USBC \u2013 Savenay",
             "Date": "24/05/2025",
@@ -460,7 +494,9 @@
             ],
             "repertoire": "data/2025_05_25_vallet",
             "ressources": [
+                "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-1.jpg",
                 "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025.pdf",
+                "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-0.jpg",
                 "data/2025_05_25_vallet/mail.html",
                 "data/2025_05_25_vallet/TOURNOI PVB 2025.JPG"
             ]
@@ -487,6 +523,43 @@
             ]
         },
         {
+            "mail": "TOUNOI 3x3 U18 - SENIORS SEMI NOCTURNE Lac et tenu basket",
+            "club": "Lac et Tenu Basket",
+            "date": "19/04/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2025_04_19_lac_et_tenu",
+            "ressources": [
+                "data/2025_04_19_lac_et_tenu/mail.html",
+                "data/2025_04_19_lac_et_tenu/tounoi.jpg"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
             "Club": "Vallet",
             "Date": "24/05/2025",
@@ -508,7 +581,9 @@
             ],
             "repertoire": "data/2025_05_24_vallet",
             "ressources": [
+                "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-1.jpg",
                 "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025.pdf",
+                "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-0.jpg",
                 "data/2025_05_24_vallet/mail.html",
                 "data/2025_05_24_vallet/TOURNOI PVB 2025.JPG"
             ]
@@ -561,7 +636,11 @@
             "repertoire": "data/2025_06_22_montoir_de_bretagne",
             "ressources": [
                 "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025.pdf",
-                "data/2025_06_22_montoir_de_bretagne/mail.html"
+                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-2.jpg",
+                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-1.jpg",
+                "data/2025_06_22_montoir_de_bretagne/mail.html",
+                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-0.jpg",
+                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-3.jpg"
             ]
         },
         {
@@ -667,8 +746,10 @@
             ],
             "repertoire": "data/2025_05_25_al_garennes_nantes",
             "ressources": [
+                "data/2025_05_25_al_garennes_nantes/Tournoi jeunes.jpg.jpg",
                 "data/2025_05_25_al_garennes_nantes/Tournoi jeunes.pdf.pdf",
                 "data/2025_05_25_al_garennes_nantes/Coupon d\u2019inscription .pdf",
+                "data/2025_05_25_al_garennes_nantes/Coupon d\u2019inscription .jpg",
                 "data/2025_05_25_al_garennes_nantes/mail.html"
             ]
         },
@@ -707,7 +788,8 @@
             "repertoire": "data/2025_05_24_la_chevroli_re",
             "ressources": [
                 "data/2025_05_24_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.pdf.pdf",
-                "data/2025_05_24_la_chevroli_re/mail.html"
+                "data/2025_05_24_la_chevroli_re/mail.html",
+                "data/2025_05_24_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.jpg.jpg"
             ]
         },
         {
@@ -736,7 +818,9 @@
             ],
             "repertoire": "data/2025_05_11_montbert_geneston",
             "ressources": [
+                "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation-0.jpg",
                 "data/2025_05_11_montbert_geneston/mail.html",
+                "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation-1.jpg",
                 "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation.pdf"
             ]
         },
@@ -876,9 +960,18 @@
             ],
             "repertoire": "data/2025_06_08_loire_atlantique",
             "ressources": [
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-2.jpg",
                 "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA.pdf",
                 "data/2025_06_08_loire_atlantique/mail.html",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf"
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-3.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-1.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-0.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-0.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-2.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-1.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-3.jpg",
+                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-4.jpg"
             ]
         },
         {
@@ -1047,7 +1140,9 @@
             "repertoire": "data/2025_06_08_saint_s_bastien",
             "ressources": [
                 "data/2025_06_08_saint_s_bastien/mail.html",
-                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf"
+                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-1.jpg",
+                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf",
+                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-0.jpg"
             ]
         },
         {
@@ -1133,7 +1228,8 @@
             "repertoire": "data/2025_05_25_la_chevroli_re",
             "ressources": [
                 "data/2025_05_25_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.pdf.pdf",
-                "data/2025_05_25_la_chevroli_re/mail.html"
+                "data/2025_05_25_la_chevroli_re/mail.html",
+                "data/2025_05_25_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.jpg.jpg"
             ]
         },
         {
@@ -1150,8 +1246,17 @@
             ],
             "repertoire": "data/2025_06_08_sevremont_haut_bocage_85_",
             "ressources": [
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-3.jpg",
                 "data/2025_06_08_sevremont_haut_bocage_85_/mail.html",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-5.jpg",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-1.jpg",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-0.jpg",
                 "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation.pdf",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Formulaire d'inscription.jpg",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-6.jpg",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-7.jpg",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-2.jpg",
+                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-4.jpg",
                 "data/2025_06_08_sevremont_haut_bocage_85_/Formulaire d'inscription.pdf"
             ]
         },
@@ -1181,8 +1286,10 @@
             ],
             "repertoire": "data/2025_05_24_al_garennes_nantes",
             "ressources": [
+                "data/2025_05_24_al_garennes_nantes/Tournoi jeunes.jpg.jpg",
                 "data/2025_05_24_al_garennes_nantes/Tournoi jeunes.pdf.pdf",
                 "data/2025_05_24_al_garennes_nantes/Coupon d\u2019inscription .pdf",
+                "data/2025_05_24_al_garennes_nantes/Coupon d\u2019inscription .jpg",
                 "data/2025_05_24_al_garennes_nantes/mail.html"
             ]
         },
@@ -1352,7 +1459,9 @@
             "ressources": [
                 "data/2025_04_21_ftbc_falleron_85_/flyer tournoi de paques.pdf",
                 "data/2025_04_21_ftbc_falleron_85_/Invitation tournoi de paques.pdf",
-                "data/2025_04_21_ftbc_falleron_85_/mail.html"
+                "data/2025_04_21_ftbc_falleron_85_/mail.html",
+                "data/2025_04_21_ftbc_falleron_85_/Invitation tournoi de paques.jpg",
+                "data/2025_04_21_ftbc_falleron_85_/flyer tournoi de paques.jpg"
             ]
         },
         {
@@ -1423,8 +1532,21 @@
             ],
             "repertoire": "data/2025_06_15_alt_empord_catalogne_espagne_",
             "ressources": [
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-4.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-11.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-8.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-7.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-1.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-12.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-9.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-2.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-10.jpg",
                 "data/2025_06_15_alt_empord_catalogne_espagne_/mail.html",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25.pdf"
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-0.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25.pdf",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-6.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-5.jpg",
+                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-3.jpg"
             ]
         },
         {
@@ -1463,6 +1585,8 @@
             "ressources": [
                 "data/2025_06_21_saint_br_vin/Affiche tournoi SBBC - 2025.pdf",
                 "data/2025_06_21_saint_br_vin/mail.html",
+                "data/2025_06_21_saint_br_vin/Affiche tournoi SBBC - 2025.jpg",
+                "data/2025_06_21_saint_br_vin/Inscription tournoi SBBC - 2025.jpg",
                 "data/2025_06_21_saint_br_vin/Inscription tournoi SBBC - 2025.pdf"
             ]
         },
@@ -1546,6 +1670,23 @@
             "ressources": [
                 "data/2025_05_16_chabossiere/mail.html",
                 "data/2025_05_16_chabossiere/IMG-20250401-WA0003.jpg"
+            ]
+        },
+        {
+            "mail": "Fwd: Invitation tournoi basket U18 r\u00e9gion",
+            "club": "Chemill\u00e9",
+            "date": "15/06/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1"
+                }
+            ],
+            "repertoire": "data/2025_06_15_chemille",
+            "ressources": [
+                "data/2025_06_15_chemille/mail.html",
+                "data/2025_06_15_chemille/AFFICHE.jpg"
             ]
         },
         {
@@ -1648,7 +1789,7 @@
         },
         {
             "mail": "Tournoi 3x3 - BCBG - Lundi 21 Avril 2025",
-            "club": "BCBG- Basket Club Basse Goulaine",
+            "club": "BCBG - Basket Club Basse Goulaine",
             "date": "21/04/2025",
             "date_limite": "06/04/2025",
             "categories": [
@@ -1737,8 +1878,21 @@
             ],
             "repertoire": "data/2025_06_14_alt_empord_catalogne_espagne_",
             "ressources": [
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-4.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-11.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-8.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-7.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-1.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-12.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-9.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-2.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-10.jpg",
                 "data/2025_06_14_alt_empord_catalogne_espagne_/mail.html",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25.pdf"
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-0.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25.pdf",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-6.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-5.jpg",
+                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-3.jpg"
             ]
         },
         {
@@ -1883,7 +2037,9 @@
             "ressources": [
                 "data/2025_05_25_rcd_donges/Affiche Tournoi RCD Basket.pdf",
                 "data/2025_05_25_rcd_donges/mail.html",
-                "data/2025_05_25_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf"
+                "data/2025_05_25_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.jpg",
+                "data/2025_05_25_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf",
+                "data/2025_05_25_rcd_donges/Affiche Tournoi RCD Basket.jpg"
             ]
         },
         {
@@ -1976,7 +2132,9 @@
             "ressources": [
                 "data/2025_06_08_sud_retz_basket_machecoul/mail.html",
                 "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.pdf",
+                "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.jpg",
                 "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.doc",
+                "data/2025_06_08_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.jpg",
                 "data/2025_06_08_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.pdf"
             ]
         },
@@ -2068,6 +2226,8 @@
             "ressources": [
                 "data/2025_06_22_saint_br_vin/Affiche tournoi SBBC - 2025.pdf",
                 "data/2025_06_22_saint_br_vin/mail.html",
+                "data/2025_06_22_saint_br_vin/Affiche tournoi SBBC - 2025.jpg",
+                "data/2025_06_22_saint_br_vin/Inscription tournoi SBBC - 2025.jpg",
                 "data/2025_06_22_saint_br_vin/Inscription tournoi SBBC - 2025.pdf"
             ]
         },
@@ -2085,8 +2245,17 @@
             ],
             "repertoire": "data/2025_06_07_sevremont_haut_bocage_85_",
             "ressources": [
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-3.jpg",
                 "data/2025_06_07_sevremont_haut_bocage_85_/mail.html",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-5.jpg",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-1.jpg",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-0.jpg",
                 "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation.pdf",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Formulaire d'inscription.jpg",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-6.jpg",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-7.jpg",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-2.jpg",
+                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-4.jpg",
                 "data/2025_06_07_sevremont_haut_bocage_85_/Formulaire d'inscription.pdf"
             ]
         },
@@ -2156,7 +2325,9 @@
             "ressources": [
                 "data/2025_06_07_sud_retz_basket_machecoul/mail.html",
                 "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.pdf",
+                "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.jpg",
                 "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.doc",
+                "data/2025_06_07_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.jpg",
                 "data/2025_06_07_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.pdf"
             ]
         },
@@ -2435,6 +2606,7 @@
             ],
             "repertoire": "data/2025_05_17_malville",
             "ressources": [
+                "data/2025_05_17_malville/Fiche d'inscription au tournoi de fin d'ann\u00e9e (1).jpg",
                 "data/2025_05_17_malville/Fiche d'inscription au tournoi de fin d'ann\u00e9e (1).pdf",
                 "data/2025_05_17_malville/mail.html",
                 "data/2025_05_17_malville/IMG-20250217-WA0014.jpg"
@@ -2592,7 +2764,9 @@
             "ressources": [
                 "data/2025_05_24_rcd_donges/Affiche Tournoi RCD Basket.pdf",
                 "data/2025_05_24_rcd_donges/mail.html",
-                "data/2025_05_24_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf"
+                "data/2025_05_24_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.jpg",
+                "data/2025_05_24_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf",
+                "data/2025_05_24_rcd_donges/Affiche Tournoi RCD Basket.jpg"
             ]
         },
         {
@@ -2709,7 +2883,11 @@
             "repertoire": "data/2025_06_21_montoir_de_bretagne",
             "ressources": [
                 "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025.pdf",
-                "data/2025_06_21_montoir_de_bretagne/mail.html"
+                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-2.jpg",
+                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-1.jpg",
+                "data/2025_06_21_montoir_de_bretagne/mail.html",
+                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-0.jpg",
+                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-3.jpg"
             ]
         },
         {
@@ -2906,7 +3084,9 @@
             "repertoire": "data/2025_06_07_saint_s_bastien",
             "ressources": [
                 "data/2025_06_07_saint_s_bastien/mail.html",
-                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf"
+                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-1.jpg",
+                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf",
+                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-0.jpg"
             ]
         },
         {
@@ -2970,5 +3150,5 @@
             ]
         }
     ],
-    "last_update": "01/04/2025 18:48:55"
+    "last_update": "02/04/2025 13:03:41"
 }
