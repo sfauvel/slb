@@ -42,7 +42,9 @@
             ],
             "repertoire": "data/2025_05_17_paulx_cholti_re",
             "ressources": [
-                "data/2025_05_17_paulx_cholti_re/mail.html"
+                "data/2025_05_17_paulx_cholti_re/mail.html",
+                "data/2025_05_17_paulx_cholti_re/IMG-20250113-WA0001 (3).jpg",
+                "data/2025_05_17_paulx_cholti_re/IMG-20250113-WA0001 (3).pdf"
             ]
         },
         {
@@ -3150,5 +3152,5 @@
             ]
         }
     ],
-    "last_update": "02/04/2025 13:55:54"
+    "last_update": "18/04/2025 08:38:45"
 }
