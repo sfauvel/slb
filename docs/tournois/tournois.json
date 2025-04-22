@@ -2292,6 +2292,35 @@
             ]
         },
         {
+            "mail": "U15 F/M R\u00e9gion : Invitation au tournoi de TREILLIERES (44) le dimanche 25 Mai 2025",
+            "club": "Treilli\u00e8res",
+            "date": "24/05/2025",
+            "date_limite": "30/04/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "R1/R2/Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "R1/R2/Elite/D1/D2/D3"
+                }
+            ],
+            "repertoire": "data/2025_05_24_treilleres",
+            "ressources": [
+                "data/2025_05_24_treilleres/mail.html",
+                "data/2025_05_24_treilleres/Capture d\u2019\u00e9cran 2024-06-23 185907.png"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi jeunes SUD RETZ BASKET - les 7 & 8 juin 2025",
             "Club": "Sud Retz Basket \u2013 Machecoul",
             "Date": "07/06/2025",
@@ -2805,6 +2834,48 @@
             ]
         },
         {
+            "mail": "U15 F/M R\u00e9gion : Invitation au tournoi de TREILLIERES (44) le dimanche 25 Mai 2025",
+            "club": "Treilli\u00e8res",
+            "date": "25/05/2025",
+            "date_limite": "30/04/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "R1/R2/Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R1/R2/Elite/D1/D2/D3"
+                }
+            ],
+            "repertoire": "data/2025_05_25_treilleres",
+            "ressources": [
+                "data/2025_05_25_treilleres/mail.html",
+                "data/2025_05_25_treilleres/Capture d\u2019\u00e9cran 2024-06-23 185907.png"
+            ]
+        },
+        {
+            "mail": "U15 F/M R\u00e9gion : Invitation au tournoi de TREILLIERES (44) le dimanche 25 Mai 2025",
+            "club": "Treilli\u00e8res",
+            "date": "23/05/2025",
+            "date_limite": "30/04/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "D\u00e9partemental"
+                }
+            ],
+            "repertoire": "data/2025_05_23_treilleres",
+            "ressources": [
+                "data/2025_05_23_treilleres/mail.html",
+                "data/2025_05_23_treilleres/Capture d\u2019\u00e9cran 2024-06-23 185907.png"
+            ]
+        },
+        {
             "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
             "Club": "Logne",
             "Date": "17/05/2025",
@@ -3152,5 +3223,5 @@
             ]
         }
     ],
-    "last_update": "18/04/2025 08:38:45"
+    "last_update": "22/04/2025 17:53:46"
 }
