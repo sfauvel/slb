@@ -344,6 +344,27 @@
             ]
         },
         {
+            "mail": "Invitation tournoi Loisirs et Seniors F & M",
+            "club": "Grandchamp des Fontaines / H\u00e9ric",
+            "date": "14/06/2025",
+            "date_limite": "25/05/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "F\u00e9minine"
+                }
+            ],
+            "repertoire": "data/2025_06_15_grandchamp_des_fontaines",
+            "ressources": [
+                "data/2025_06_15_grandchamp_des_fontaines/mail.html",
+                "data/2025_06_15_grandchamp_des_fontaines/Tournoi seniors 14 & 15 juin.png"
+            ]
+        },
+        {
             "Sujet mail": "INVITATION TOURNOI DU FAIR PLAY - 6 AVRIL 2025 - BASKET SAINT MACAIRE",
             "Club": "Saint Macaire En Mauges (49)",
             "Date": "06/04/2025",
@@ -2644,6 +2665,27 @@
             ]
         },
         {
+            "mail": "Invitation tournoi Loisirs et Seniors F & M",
+            "club": "Grandchamp des Fontaines / H\u00e9ric",
+            "date": "14/06/2025",
+            "date_limite": "25/05/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "D\u00e9partemental"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "Masculin"
+                }
+            ],
+            "repertoire": "data/2025_06_14_grandchamp_des_fontaines",
+            "ressources": [
+                "data/2025_06_14_grandchamp_des_fontaines/mail.html",
+                "data/2025_06_14_grandchamp_des_fontaines/Tournoi seniors 14 & 15 juin.png"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi jeunes csar",
             "Club": "Aigrefeuille sur Maine",
             "Date": "04/05/2025",
@@ -3223,5 +3265,5 @@
             ]
         }
     ],
-    "last_update": "22/04/2025 17:53:46"
+    "last_update": "22/04/2025 18:11:08"
 }
