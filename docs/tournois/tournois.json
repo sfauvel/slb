@@ -707,7 +707,7 @@
             "categories": [
                 {
                     "categorie": "U11M",
-                    "niveau": "D1/D2/D3"
+                    "niveau": "D1"
                 },
                 {
                     "categorie": "U11F",
@@ -1629,15 +1629,15 @@
             "categories": [
                 {
                     "categorie": "U15M",
-                    "niveau": "D2/D3"
+                    "niveau": "D1"
                 },
                 {
                     "categorie": "U15F",
-                    "niveau": "D2/D3"
+                    "niveau": "D3"
                 },
                 {
                     "categorie": "U13M",
-                    "niveau": "D2/D3"
+                    "niveau": "D1"
                 },
                 {
                     "categorie": "U13F",
@@ -1681,6 +1681,64 @@
             "repertoire": "data/2025_05_17_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
             "ressources": [
                 "data/2025_05_17_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
+            ]
+        },
+        {
+            "mail": "Tournoi Halloween 2025 ABC 3 Rivi\u00e8res",
+            "club": "Saint Gildas des Bois",
+            "date": "01/11/2025",
+            "date_limite": "20/10/2025",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_11_01_saint_gildas_des_bois",
+            "ressources": [
+                "data/2025_11_01_saint_gildas_des_bois/mail.html",
+                "data/2025_11_01_saint_gildas_des_bois/d857ee57-4997-4538-b117-d4f3c615a956.jfif"
+            ]
+        },
+        {
+            "mail": "Tournoi Halloween PAB",
+            "club": "Ancenis",
+            "date": "01/11/2025",
+            "date_limite": "20/10/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2025_11_01_ancenis",
+            "ressources": [
+                "data/2025_11_01_ancenis/mail.html",
+                "data/2025_11_01_ancenis/AFFICHE TOURNOI HALLOWEEN.jpg"
             ]
         },
         {
@@ -1844,6 +1902,27 @@
             "ressources": [
                 "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/mail.html",
                 "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/Tournoi LPVB - 17 et 18 Mai 2025.jpg"
+            ]
+        },
+        {
+            "mail": "Tournoi COGELEC - EDB CHOLET BASKET 2026-3 et 4 janvier 2026- U9 et U11 Filles et Gar\u00e7ons",
+            "club": "Cholet",
+            "date": "04/01/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U9M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2026_01_03_cholet",
+            "ressources": [
+                "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR.pdf",
+                "data/2026_01_03_cholet/mail.html"
             ]
         },
         {
@@ -3093,6 +3172,27 @@
             ]
         },
         {
+            "mail": "Tournoi COGELEC - EDB CHOLET BASKET 2026-3 et 4 janvier 2026- U9 et U11 Filles et Gar\u00e7ons",
+            "club": "Cholet",
+            "date": "03/01/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2026_01_04_cholet",
+            "ressources": [
+                "data/2026_01_04_cholet/25. Tournoi EDB Association Cholet Basket QR.pdf",
+                "data/2026_01_04_cholet/mail.html"
+            ]
+        },
+        {
             "mail": "Un tournoi 3x3 100% f\u00e9minin !",
             "club": "Chabossi\u00e8re",
             "date": "16/05/2025",
@@ -3342,6 +3442,37 @@
             ]
         },
         {
+            "mail": "AS SAINT ROGATIEN NANTES",
+            "club": "Saint Rogatien",
+            "date": "21/12/2025",
+            "date_limite": "26/10/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Bleu/Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Bleu/Blanc"
+                }
+            ],
+            "repertoire": "data/2025_12_21_saint_rogatien",
+            "ressources": [
+                "data/2025_12_21_saint_rogatien/mail.html",
+                "data/2025_12_21_saint_rogatien/Courrier d'invitation Tournoi.pdf",
+                "data/2025_12_21_saint_rogatien/Affiche TNB 2025.jpg",
+                "data/2025_12_21_saint_rogatien/Coupon r\u00e9ponse inscription Tournoi.docx"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
             "Club": "Abeille Sportive Neuvy",
             "Date": "12/04/2025",
@@ -3467,7 +3598,28 @@
                 "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-1.jpg",
                 "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-0.jpg"
             ]
+        },
+        {
+            "mail": "Tournoi Halloween PAB",
+            "club": "Ancenis",
+            "date": "02/11/2025",
+            "date_limite": "20/10/2025",
+            "categories": [
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc/rouge mixte"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "bleu/blanc/rouge mixte"
+                }
+            ],
+            "repertoire": "data/2025_11_02_ancenis",
+            "ressources": [
+                "data/2025_11_02_ancenis/mail.html",
+                "data/2025_11_02_ancenis/AFFICHE TOURNOI HALLOWEEN.jpg"
+            ]
         }
     ],
-    "last_update": "29/09/2025 16:44:37"
+    "last_update": "29/09/2025 17:03:47"
 }

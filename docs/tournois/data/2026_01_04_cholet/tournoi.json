@@ -1,0 +1,16 @@
+{
+  "mail": "Tournoi COGELEC - EDB CHOLET BASKET 2026-3 et 4 janvier 2026- U9 et U11 Filles et Garçons",
+  "club": "Cholet",
+  "date": "03/01/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "3x3"
+    }
+  ]
+}
