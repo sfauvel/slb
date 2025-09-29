@@ -1924,6 +1924,51 @@
             ]
         },
         {
+            "mail": "Instagram",
+            "club": "Blain",
+            "date": "01/11/2025",
+            "date_limite": "01/11/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc"
+                }
+            ],
+            "repertoire": "data/2025_11_01_blain",
+            "ressources": [
+                "data/2025_11_01_blain/mail.html",
+                "data/2025_11_01_blain/Screenshot 2025-09-29 at 17-34-26 Instagram.png"
+            ]
+        },
+        {
             "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
             "Club": "LPVB  - La Planche Vieillevigne Basket",
             "Date": "18/05/2025",
@@ -3687,5 +3732,5 @@
             ]
         }
     ],
-    "last_update": "29/09/2025 17:31:26"
+    "last_update": "29/09/2025 17:37:54"
 }
