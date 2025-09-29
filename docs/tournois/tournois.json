@@ -2238,6 +2238,23 @@
             ]
         },
         {
+            "mail": "Instagram",
+            "club": "Brains",
+            "date": "24/10/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Loisir",
+                    "niveau": "A partir de 19h"
+                }
+            ],
+            "repertoire": "data/2025_10_24_brains",
+            "ressources": [
+                "data/2025_10_24_brains/Screenshot 2025-09-29 at 17-30-16 Instagram.png",
+                "data/2025_10_24_brains/mail.html"
+            ]
+        },
+        {
             "Sujet mail": "Pornic Basket Saint Michel tournoi de l'amiti\u00e9 24 et 25 mai",
             "Club": "Pornic",
             "Date": "24/05/2025",
@@ -3670,5 +3687,5 @@
             ]
         }
     ],
-    "last_update": "29/09/2025 17:11:17"
+    "last_update": "29/09/2025 17:31:26"
 }
