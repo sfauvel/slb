@@ -1,0 +1,24 @@
+{
+  "mail": "AS SAINT ROGATIEN NANTES",
+  "club": "Saint Rogatien",
+  "date": "21/12/2025",
+  "date_limite": "26/10/2025",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "Bleu/Blanc"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "Bleu/Blanc"
+    }
+  ]
+}
