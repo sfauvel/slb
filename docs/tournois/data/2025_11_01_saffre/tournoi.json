@@ -1,0 +1,44 @@
+{
+  "mail": "TOURNOI HALLOWEEN 2025",
+  "club": "AS Saffré Basket",
+  "date": "01/11/2025",
+  "date_limite": "30/10/2025",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    },
+    {
+      "categorie": "Loisir",
+      "niveau": "En soirée, mixte, licenciés et non licenciés"
+    }
+  ]
+}
