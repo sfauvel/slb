@@ -700,6 +700,35 @@
             ]
         },
         {
+            "mail": "Invitation tournoi d'halloween COC",
+            "club": "Chabossi\u00e8re",
+            "date": "25/10/2025",
+            "date_limite": "25/09/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Rouge/Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Rouge/Blanc"
+                }
+            ],
+            "repertoire": "data/2025_10_25_chabossiere",
+            "ressources": [
+                "data/2025_10_25_chabossiere/mail.html",
+                "data/2025_10_25_chabossiere/unnamed.jpg"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
             "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
             "Date": "15/06/2025",
@@ -1593,6 +1622,35 @@
             ]
         },
         {
+            "mail": "Invitation tournoi d'halloween COC",
+            "club": "Chabossi\u00e8re",
+            "date": "26/10/2025",
+            "date_limite": "25/09/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2025_10_26_chabossiere",
+            "ressources": [
+                "data/2025_10_26_chabossiere/mail.html",
+                "data/2025_10_26_chabossiere/unnamed.jpg"
+            ]
+        },
+        {
             "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
             "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
             "Date": "17/05/2025",
@@ -1697,6 +1755,35 @@
             "repertoire": "data/2025_04_06_indre_bc",
             "ressources": [
                 "data/2025_04_06_indre_bc/mail.html"
+            ]
+        },
+        {
+            "mail": "MGBB, Invitation tournoi Halloween U11 et U13",
+            "club": "MGBB, Montbert Geneston le Bignon",
+            "date": "25/10/2025",
+            "date_limite": "18/10/2025",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_10_25_mgbb",
+            "ressources": [
+                "data/2025_10_25_mgbb/mail.html",
+                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation.pdf"
             ]
         },
         {
@@ -3128,6 +3215,39 @@
             ]
         },
         {
+            "mail": "HIRONDELLE BASKET SAINT JULIEN DE CONCELLES",
+            "club": "Saint Julien de Concelles",
+            "date": "01/11/2025",
+            "date_limite": "15/10/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc/Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc/Rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_11_01_saint_julien_de_concelles",
+            "ressources": [
+                "data/2025_11_01_saint_julien_de_concelles/mail.html",
+                "data/2025_11_01_saint_julien_de_concelles/affiche.jpg"
+            ]
+        },
+        {
             "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
             "Club": "USBC \u2013 Savenay",
             "Date": "25/05/2025",
@@ -3349,5 +3469,5 @@
             ]
         }
     ],
-    "last_update": "29/09/2025 16:30:05"
+    "last_update": "29/09/2025 16:44:37"
 }
