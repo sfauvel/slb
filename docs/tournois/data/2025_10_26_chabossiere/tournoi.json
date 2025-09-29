@@ -1,0 +1,24 @@
+{
+  "mail": "Invitation tournoi d'halloween COC",
+  "club": "Chabossière",
+  "date": "26/10/2025",
+  "date_limite": "25/09/2025",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D2/D3"
+    }
+  ]
+}

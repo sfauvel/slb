@@ -1,0 +1,28 @@
+{
+  "mail": "HIRONDELLE BASKET SAINT JULIEN DE CONCELLES",
+  "club": "Saint Julien de Concelles",
+  "date": "01/11/2025",
+  "date_limite": "15/10/2025",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "Blanc/Rouge"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "Blanc/Rouge"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}
