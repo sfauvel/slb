@@ -1,0 +1,44 @@
+{
+  "mail": "Instagram",
+  "club": "Petit-Mars",
+  "date": "19/10/2025",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}
