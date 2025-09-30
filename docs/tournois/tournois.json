@@ -1894,6 +1894,35 @@
             ]
         },
         {
+            "mail": "TOURNOI NOEL BCREZE",
+            "club": "Basket club Rez\u00e9",
+            "date": "20/12/2025",
+            "date_limite": "01/12/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2/D3"
+                }
+            ],
+            "repertoire": "data/2025_12_20_reze",
+            "ressources": [
+                "data/2025_12_20_reze/mail.html",
+                "data/2025_12_20_reze/AFFICHE TOURNOI NOEL.png"
+            ]
+        },
+        {
             "Sujet mail": "GRAND LIEU BASKET / tournoi de La Pentec\u00f4te 7&8 juin 2025",
             "Club": "St Philbert de Grand Lieu",
             "Date": "07/06/2025",
@@ -3732,5 +3761,5 @@
             ]
         }
     ],
-    "last_update": "29/09/2025 17:37:54"
+    "last_update": "30/09/2025 11:27:18"
 }
