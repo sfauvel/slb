@@ -1,0 +1,36 @@
+{
+  "mail": "Invitation Tournoi LOROUX LANDREAU BASKET- De U7 à U18- 3 et 4 janvier 2026",
+  "club": "Loroux Bottereau",
+  "date": "03/01/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "B/C"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "B/C"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "Blanc"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "Blanc"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

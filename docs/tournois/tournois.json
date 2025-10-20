@@ -290,6 +290,27 @@
             ]
         },
         {
+            "mail": "Tournoi Mie Caline Basket Go",
+            "club": "La s\u00e9guini\u00e8re",
+            "date": "20/12/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "R\u00e9gion"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R\u00e9gion"
+                }
+            ],
+            "repertoire": "data/2025_12_20_la_seguiniere",
+            "ressources": [
+                "data/2025_12_20_la_seguiniere/mail.html",
+                "data/2025_12_20_la_seguiniere/Tournoi de La Mie Caline Basket GO - Affiche.pdf"
+            ]
+        },
+        {
             "mail": "Invitation tournoi Loisirs et Seniors F & M",
             "club": "Grandchamp des Fontaines / H\u00e9ric",
             "date": "14/06/2025",
@@ -308,6 +329,35 @@
             "ressources": [
                 "data/2025_06_15_grandchamp_des_fontaines/mail.html",
                 "data/2025_06_15_grandchamp_des_fontaines/Tournoi seniors 14 & 15 juin.png"
+            ]
+        },
+        {
+            "mail": "Invitation Tournoi SCO ORVAULT BASKET - De U7 \u00e0 Loisirs - 13 et 14 d\u00e9cembre 2025",
+            "club": "SCO ORVAULT BASKET",
+            "date": "13/12/2025",
+            "date_limite": "10/10/2025",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "3x3 mixte"
+                }
+            ],
+            "repertoire": "data/2025_12_13_orvault",
+            "ressources": [
+                "data/2025_12_13_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf",
+                "data/2025_12_13_orvault/mail.html"
             ]
         },
         {
@@ -683,6 +733,55 @@
             ]
         },
         {
+            "mail": "Invitation Tournoi Jeunes Al Cremetterie St Herblain",
+            "club": "Al Cremetterie St herblain",
+            "date": "24/01/2026",
+            "date_limite": "15/01/2026",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Rouge"
+                }
+            ],
+            "repertoire": "data/2026_01_24_saint_herblain",
+            "ressources": [
+                "data/2026_01_24_saint_herblain/mail.html",
+                "data/2026_01_24_saint_herblain/image0.png"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
             "Club": "AL Garennes - Nantes",
             "Date": "25/05/2025",
@@ -987,6 +1086,35 @@
             "repertoire": "data/2025_05_18_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
             "ressources": [
                 "data/2025_05_18_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation Tournoi LOROUX LANDREAU BASKET- De U7 \u00e0 U18- 3 et 4 janvier 2026",
+            "club": "Loroux Bottereau",
+            "date": "03/01/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_01_04_loroux_bottereau",
+            "ressources": [
+                "data/2026_01_04_loroux_bottereau/mail.html",
+                "data/2026_01_04_loroux_bottereau/Tournoi U13U15.pdf"
             ]
         },
         {
@@ -1770,6 +1898,35 @@
             ]
         },
         {
+            "mail": "Invitation Tournoi SCO ORVAULT BASKET - De U7 \u00e0 Loisirs - 13 et 14 d\u00e9cembre 2025",
+            "club": "SCO ORVAULT BASKET",
+            "date": "13/12/2025",
+            "date_limite": "10/10/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_12_14_orvault",
+            "ressources": [
+                "data/2025_12_14_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf",
+                "data/2025_12_14_orvault/mail.html"
+            ]
+        },
+        {
             "mail": "Tournoi Halloween PAB",
             "club": "Ancenis",
             "date": "01/11/2025",
@@ -2144,6 +2301,48 @@
             ]
         },
         {
+            "mail": "Invitation Tournoi LOROUX LANDREAU BASKET- De U7 \u00e0 U18- 3 et 4 janvier 2026",
+            "club": "Loroux Bottereau",
+            "date": "03/01/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "B/C"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "B/C"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Blanc"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_01_03_loroux_bottereau",
+            "ressources": [
+                "data/2026_01_03_loroux_bottereau/Tournoi U18.pdf",
+                "data/2026_01_03_loroux_bottereau/mail.html",
+                "data/2026_01_03_loroux_bottereau/Tournoi U9U11.pdf"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI SAINTE PAZANNE LE SAMEDI 14 JUIN 2025",
             "Club": "Sainte Pazanne",
             "Date": "14/06/2025",
@@ -2365,6 +2564,35 @@
                 "data/2025_05_24_pornic/AFFICHE TOURNOI AMITIE PBSM 24 ET 25 MAI .png",
                 "data/2025_05_24_pornic/mail.html",
                 "data/2025_05_24_pornic/BULLETIN INSCRIPTION PBSM TOURNOI AMITIE 24 ET 25 MAI .jpg"
+            ]
+        },
+        {
+            "mail": "Invitation au Tournoi d\u2019Automne SBBC \u2013 U11 & U13 \u2013 Samedi 25 octobre 2025",
+            "club": "Saint-Brevin Basket Club",
+            "date": "25/10/2025",
+            "date_limite": "10/10/2025",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_10_10_saint_brevin",
+            "ressources": [
+                "data/2025_10_10_saint_brevin/Tournoi Automne SBBC 25-4.pdf",
+                "data/2025_10_10_saint_brevin/mail.html"
             ]
         },
         {
@@ -3715,6 +3943,55 @@
             ]
         },
         {
+            "mail": "Invitation Tournoi Jeunes Al Cremetterie St Herblain",
+            "club": "Al Cremetterie St herblain",
+            "date": "24/01/2026",
+            "date_limite": "15/01/2026",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "Rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "Rouge"
+                }
+            ],
+            "repertoire": "data/2026_01_25_saint_herblain",
+            "ressources": [
+                "data/2026_01_25_saint_herblain/mail.html",
+                "data/2026_01_25_saint_herblain/image0.png"
+            ]
+        },
+        {
             "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
             "Club": "Vallet",
             "Date": "25/05/2025",
@@ -3761,5 +4038,5 @@
             ]
         }
     ],
-    "last_update": "30/09/2025 11:27:18"
+    "last_update": "20/10/2025 10:46:23"
 }
