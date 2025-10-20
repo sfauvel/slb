@@ -1,0 +1,44 @@
+{
+  "mail": "Invitation Tournoi Jeunes Al Cremetterie St Herblain",
+  "club": "Al Cremetterie St herblain",
+  "date": "24/01/2026",
+  "date_limite": "15/01/2026",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "D1/D2/D3"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "Rouge"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "Rouge"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "mail": "Invitation Tournoi SCO ORVAULT BASKET - De U7 à Loisirs - 13 et 14 décembre 2025",
+  "club": "SCO ORVAULT BASKET",
+  "date": "13/12/2025",
+  "date_limite": "10/10/2025",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}
