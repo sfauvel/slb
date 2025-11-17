@@ -3359,6 +3359,59 @@
             ]
         },
         {
+            "mail": "Instagram",
+            "club": "La Chapelle Basse Mer",
+            "date": "05/12/2025",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2025_12_05_chapelle_basse_mer",
+            "ressources": [
+                "data/2025_12_05_chapelle_basse_mer/mail.html",
+                "data/2025_12_05_chapelle_basse_mer/affiche-telethon-2025-v2.png"
+            ]
+        },
+        {
             "Sujet mail": "Invitation tournoi annuel Saint Seb Basket Club - WE du 7 et 8 juin 2025",
             "Club": "Saint S\u00e9bastien",
             "Date": "07/06/2025",
@@ -4121,5 +4174,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 22:14:37"
+    "last_update": "17/11/2025 22:36:01"
 }
