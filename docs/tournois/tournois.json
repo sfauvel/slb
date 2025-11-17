@@ -2172,6 +2172,27 @@
             ]
         },
         {
+            "mail": "Invitation au tournoi U11 de No\u00ebl \u2013 Clisson, le samedi 13 d\u00e9cembre 2025",
+            "club": "Clisson",
+            "date": "13/12/2025",
+            "date_limite": "01/12/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_12_13_clisson",
+            "ressources": [
+                "data/2025_12_13_clisson/mail.html",
+                "data/2025_12_13_clisson/Affiche Tournoi de Noel 2025.pdf"
+            ]
+        },
+        {
             "Sujet mail": "Tournois des P'tits Champions",
             "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
             "Date": "31/05/2025",
@@ -4071,5 +4092,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 21:57:12"
+    "last_update": "17/11/2025 22:03:35"
 }
