@@ -371,6 +371,51 @@
             ]
         },
         {
+            "mail": "Instagram",
+            "club": "Vair sur Loire",
+            "date": "12/12/2025",
+            "date_limite": "30/11/2025",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2025_12_12_vair_sur_loire",
+            "ressources": [
+                "data/2025_12_12_vair_sur_loire/mail.html",
+                "data/2025_12_12_vair_sur_loire/580826160_18060431075555934_8867754440147048323_n.jpg"
+            ]
+        },
+        {
             "Sujet mail": "INVITATION Tournoi de la pentec\u00f4te 7/8 juin 2025 sp\u00e9cial U13F/M D1/R\u00e9gion",
             "Club": "Theix-Noyalo S\u00e9n\u00e9 Basket Club (56)",
             "Date": "08/06/2025",
@@ -4276,5 +4321,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 23:07:13"
+    "last_update": "17/11/2025 23:15:09"
 }
