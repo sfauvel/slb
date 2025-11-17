@@ -2019,6 +2019,35 @@
             ]
         },
         {
+            "mail": "Instagram",
+            "club": "Rez\u00e9",
+            "date": "03/01/2026",
+            "date_limite": "30/11/2025",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "d\u00e9partemental"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "d\u00e9partemental"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "d\u00e9partemental"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "d\u00e9partemental"
+                }
+            ],
+            "repertoire": "data/2026_01_03_reze",
+            "ressources": [
+                "data/2026_01_03_reze/mail.html",
+                "data/2026_01_03_reze/unnamed.png"
+            ]
+        },
+        {
             "Sujet mail": "Tournoi de la Cholti\u00e8re",
             "Club": "Paulx / Cholti\u00e8re",
             "Date": "17/05/2025",
@@ -4232,5 +4261,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 22:45:21"
+    "last_update": "17/11/2025 22:56:55"
 }
