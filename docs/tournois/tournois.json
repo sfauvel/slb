@@ -3360,6 +3360,23 @@
             ]
         },
         {
+            "mail": "Instagram",
+            "club": "CD44 - Treilli\u00e8res, Arthon, S\u00e8vre et Maine et Saint-Andr\u00e9-des-Eaux",
+            "date": "07/12/2025",
+            "date_limite": "24/11/2025",
+            "categories": [
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2025_12_07_cd44",
+            "ressources": [
+                "data/2025_12_07_cd44/mail.html",
+                "data/2025_12_07_cd44/579110810_1167721472122950_7418967151860955531_n.jpg"
+            ]
+        },
+        {
             "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
             "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
             "Date": "17/05/2025",
@@ -4321,5 +4338,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 23:15:09"
+    "last_update": "17/11/2025 23:19:28"
 }
