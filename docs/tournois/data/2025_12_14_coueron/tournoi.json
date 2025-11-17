@@ -1,0 +1,24 @@
+{
+  "mail": "Instagram",
+  "club": "Couëron",
+  "date": "14/12/2025",
+  "date_limite": "03/12/2025",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}
