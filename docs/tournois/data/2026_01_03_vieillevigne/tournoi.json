@@ -1,0 +1,28 @@
+{
+  "mail": "Invitation au tournoi du LPVB du samedi 3 janvier 2026",
+  "club": "Vieillevigne",
+  "date": "03/01/2026",
+  "date_limite": "07/12/2025",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}
