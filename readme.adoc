@@ -4,6 +4,17 @@ L'objectif est de centraliser les informations des tournois proposés.
 
 La liste des tournois est visible à l'adresse: https://sfauvel.github.io/slb/tournois[]
 
+== Ajout d'un tounroi
+
+Chaque jour de tournoi est contenu dans un répertoire au format `YYYY_MM_JJ_[VILLE]` dans le répertoire `data`.
+
+Pour créer le répertoire et les principaux fichiers, appeler le script `./create.sh YYYY_MM_JJ_[VILLE]`
+
+Ajouter les pièces jointes dans le répertoire créé.
+
+Pour renseigner les informations du tournoi, aller à l'adresse: `http://localhost:8080/creer_tournoi.html`.
+Renseigner les informations, cliquer sur `Générer` et colle les infos dans fichier `tournoi.json`.
+
 == Validation
 
 Les données sont validées via l'action https://github.com/marketplace/actions/validate-json[].

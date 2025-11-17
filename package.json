@@ -3,7 +3,7 @@
         "test": "jasmine"
     },
     "devDependencies": {
-        "jasmine": "^5.11.0",
+        "jasmine": "^5.12.0",
         "jsdom": "^26.0.0"
     },
     "dependencies": {
