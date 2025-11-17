@@ -1849,6 +1849,35 @@
             ]
         },
         {
+            "mail": "Invitation Tournoi de Jeff BCBG",
+            "club": "BCBG Basse-Goulaine",
+            "date": "04/01/2026",
+            "date_limite": "07/12/2025",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite/D1 D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "Elite/D1 D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc/rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "bleu/blanc/rouge"
+                }
+            ],
+            "repertoire": "data/2026_01_04_basse_goulaine",
+            "ressources": [
+                "data/2026_01_04_basse_goulaine/mail.html",
+                "data/2026_01_04_basse_goulaine/TOURNOI JEFF.jpg"
+            ]
+        },
+        {
             "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
             "Club": "Logne",
             "Date": "17/05/2025",
@@ -4092,5 +4121,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 22:03:35"
+    "last_update": "17/11/2025 22:14:37"
 }

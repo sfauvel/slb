@@ -1,0 +1,24 @@
+{
+  "mail": "Invitation Tournoi de Jeff BCBG",
+  "club": "BCBG Basse-Goulaine",
+  "date": "04/01/2026",
+  "date_limite": "07/12/2025",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "Elite/D1 D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "Elite/D1 D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "bleu/blanc/rouge"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "bleu/blanc/rouge"
+    }
+  ]
+}
