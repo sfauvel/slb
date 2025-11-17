@@ -997,6 +997,7 @@
             "repertoire": "data/2025_12_20_la_seguiniere",
             "ressources": [
                 "data/2025_12_20_la_seguiniere/mail.html",
+                "data/2025_12_20_la_seguiniere/Tournoi de La Mie Caline Basket GO - Affiche.jpg",
                 "data/2025_12_20_la_seguiniere/Tournoi de La Mie Caline Basket GO - Affiche.pdf"
             ]
         },
@@ -1587,7 +1588,8 @@
             "repertoire": "data/2026_01_04_loroux_bottereau",
             "ressources": [
                 "data/2026_01_04_loroux_bottereau/Tournoi U13U15.pdf",
-                "data/2026_01_04_loroux_bottereau/mail.html"
+                "data/2026_01_04_loroux_bottereau/mail.html",
+                "data/2026_01_04_loroux_bottereau/Tournoi U13U15.jpg"
             ]
         },
         {
@@ -1736,7 +1738,8 @@
             "repertoire": "data/2025_12_14_orvault",
             "ressources": [
                 "data/2025_12_14_orvault/mail.html",
-                "data/2025_12_14_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf"
+                "data/2025_12_14_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf",
+                "data/2025_12_14_orvault/Affiche TOURNOI 122024_20251015_103307_0000.jpg"
             ]
         },
         {
@@ -2197,7 +2200,8 @@
             "repertoire": "data/2025_10_10_saint_brevin",
             "ressources": [
                 "data/2025_10_10_saint_brevin/Tournoi Automne SBBC 25-4.pdf",
-                "data/2025_10_10_saint_brevin/mail.html"
+                "data/2025_10_10_saint_brevin/mail.html",
+                "data/2025_10_10_saint_brevin/Tournoi Automne SBBC 25-4.jpg"
             ]
         },
         {
@@ -2247,7 +2251,8 @@
             "repertoire": "data/2025_12_13_clisson",
             "ressources": [
                 "data/2025_12_13_clisson/mail.html",
-                "data/2025_12_13_clisson/Affiche Tournoi de Noel 2025.pdf"
+                "data/2025_12_13_clisson/Affiche Tournoi de Noel 2025.pdf",
+                "data/2025_12_13_clisson/Affiche Tournoi de Noel 2025.jpg"
             ]
         },
         {
@@ -2479,7 +2484,8 @@
             "repertoire": "data/2025_12_13_orvault",
             "ressources": [
                 "data/2025_12_13_orvault/mail.html",
-                "data/2025_12_13_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf"
+                "data/2025_12_13_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf",
+                "data/2025_12_13_orvault/Affiche TOURNOI 122024_20251015_103307_0000.jpg"
             ]
         },
         {
@@ -2625,6 +2631,7 @@
             "ressources": [
                 "data/2025_12_21_saint_rogatien/mail.html",
                 "data/2025_12_21_saint_rogatien/Affiche TNB 2025.jpg",
+                "data/2025_12_21_saint_rogatien/Courrier d'invitation Tournoi.jpg",
                 "data/2025_12_21_saint_rogatien/Courrier d'invitation Tournoi.pdf",
                 "data/2025_12_21_saint_rogatien/Coupon r\u00e9ponse inscription Tournoi.docx"
             ]
@@ -2800,7 +2807,9 @@
             "repertoire": "data/2026_01_04_cholet",
             "ressources": [
                 "data/2026_01_04_cholet/25. Tournoi EDB Association Cholet Basket QR.pdf",
-                "data/2026_01_04_cholet/mail.html"
+                "data/2026_01_04_cholet/mail.html",
+                "data/2026_01_04_cholet/25. Tournoi EDB Association Cholet Basket QR-0.jpg",
+                "data/2026_01_04_cholet/25. Tournoi EDB Association Cholet Basket QR-1.jpg"
             ]
         },
         {
@@ -3542,8 +3551,10 @@
             "repertoire": "data/2026_01_03_loroux_bottereau",
             "ressources": [
                 "data/2026_01_03_loroux_bottereau/mail.html",
+                "data/2026_01_03_loroux_bottereau/Tournoi U18.jpg",
                 "data/2026_01_03_loroux_bottereau/Tournoi U18.pdf",
-                "data/2026_01_03_loroux_bottereau/Tournoi U9U11.pdf"
+                "data/2026_01_03_loroux_bottereau/Tournoi U9U11.pdf",
+                "data/2026_01_03_loroux_bottereau/Tournoi U9U11.jpg"
             ]
         },
         {
@@ -4083,8 +4094,10 @@
             ],
             "repertoire": "data/2025_10_25_mgbb",
             "ressources": [
+                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation-1.jpg",
                 "data/2025_10_25_mgbb/mail.html",
-                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation.pdf"
+                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation.pdf",
+                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation-0.jpg"
             ]
         },
         {
@@ -4126,7 +4139,9 @@
             "repertoire": "data/2026_01_03_cholet",
             "ressources": [
                 "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR.pdf",
-                "data/2026_01_03_cholet/mail.html"
+                "data/2026_01_03_cholet/mail.html",
+                "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR-0.jpg",
+                "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR-1.jpg"
             ]
         },
         {
@@ -4261,5 +4276,5 @@
             ]
         }
     ],
-    "last_update": "17/11/2025 22:56:55"
+    "last_update": "17/11/2025 23:01:09"
 }
