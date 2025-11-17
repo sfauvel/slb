@@ -1,0 +1,40 @@
+{
+  "mail": "Instagram",
+  "club": "Vair sur Loire",
+  "date": "12/12/2025",
+  "date_limite": "30/11/2025",
+  "categories": [
+    {
+      "categorie": "Seniors M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "Seniors F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U21M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U21F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U18M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "3x3"
+    }
+  ]
+}
