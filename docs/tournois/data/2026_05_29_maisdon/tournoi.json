@@ -1,0 +1,16 @@
+{
+  "mail": "SMB - Invitation au Tournoi annuel Sèvre et Maine Basket - Vendredi 29, Samedi 30 et Dimanche 31 Mai 2026 à Maisdon Sur Sèvre (44)",
+  "club": "Sèvre et Maine Basket Maisdon",
+  "date": "29/05/2026",
+  "date_limite": "15/04/2026",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    }
+  ]
+}

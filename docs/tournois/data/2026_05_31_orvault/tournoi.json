@@ -1,0 +1,48 @@
+{
+  "mail": "Invitation au Tournoi Jeunes d'Orvault Sports Basket - Samedi 30 et Dimanche 31 mai 2026",
+  "club": "Orvault",
+  "date": "31/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "R2/R1 D2/D3 (format 3x3)"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "1/Elite D2"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "R1 D2"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "R2 D1"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "R2 D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D2"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "D1/Elite D2"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D1/Elite D2"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "bleu/blanc"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "blanc"
+    }
+  ]
+}

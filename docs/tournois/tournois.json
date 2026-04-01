@@ -1,288 +1,10 @@
 {
     "tournois": [
         {
-            "Sujet mail": "Tournoi des Jeunes du SHBC - 24 et 25 Mai 2025",
-            "Club": "SHBC \u2013 Saint Herblain",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "01/05/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_25_shbc_saint_herblain",
-            "ressources": [
-                "data/2025_05_25_shbc_saint_herblain/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "INDRE BC : Invitions tournoi des titis samedi 5 et dimanche 6 avril 2025 (U7 \u00e0 U18)",
-            "Club": "Indre BC",
-            "Date": "06/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "30/03/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "R2 Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "R2 Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "R1 R2 Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "R1 R2 Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "Elite D1 D2 D3"
-                }
-            ],
-            "repertoire": "data/2025_04_06_indre_bc",
-            "ressources": [
-                "data/2025_04_06_indre_bc/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
-            "Club": "AL Garennes - Nantes",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "05/04/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "Elite/D1/D2"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Bleu Rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Bleu Rouge"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_al_garennes_nantes",
-            "ressources": [
-                "data/2025_05_24_al_garennes_nantes/Coupon d\u2019inscription .jpg",
-                "data/2025_05_24_al_garennes_nantes/Tournoi jeunes.pdf.pdf",
-                "data/2025_05_24_al_garennes_nantes/mail.html",
-                "data/2025_05_24_al_garennes_nantes/Coupon d\u2019inscription .pdf",
-                "data/2025_05_24_al_garennes_nantes/Tournoi jeunes.jpg.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation tournoi Loisirs mixte COC",
-            "Club": "La Chabossi\u00e8re",
-            "Date": "05/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Loisir",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_04_05_la_chabossi_re",
-            "ressources": []
-        },
-        {
-            "Sujet mail": "Tournoi jeunes SUD RETZ BASKET - les 7 & 8 juin 2025",
-            "Club": "Sud Retz Basket \u2013 Machecoul",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "R\u00e9gion Elite D\u00e9partemental"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_06_08_sud_retz_basket_machecoul",
-            "ressources": [
-                "data/2025_06_08_sud_retz_basket_machecoul/mail.html",
-                "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.doc",
-                "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.pdf",
-                "data/2025_06_08_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.pdf",
-                "data/2025_06_08_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.jpg",
-                "data/2025_06_08_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.jpg"
-            ]
-        },
-        {
-            "mail": "TOURNOI HALLOWEEN 2025",
-            "club": "AS Saffr\u00e9 Basket",
-            "date": "01/11/2025",
-            "date_limite": "30/10/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "Loisir",
-                    "niveau": "En soir\u00e9e, mixte, licenci\u00e9s et non licenci\u00e9s"
-                }
-            ],
-            "repertoire": "data/2025_11_01_saffre",
-            "ressources": [
-                "data/2025_11_01_saffre/mail.html",
-                "data/2025_11_01_saffre/Halloween 2025.png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
-            "Club": "USBC \u2013 Savenay",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "R\u00e9gion"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "R\u00e9gion"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "R\u00e9gion"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_usbc_savenay",
-            "ressources": [
-                "data/2025_05_24_usbc_savenay/mail.html",
-                "data/2025_05_24_usbc_savenay/Affiche USBC.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi jeunes csar",
-            "Club": "Aigrefeuille sur Maine",
-            "Date": "03/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_03_aigrefeuille_sur_maine",
-            "ressources": [
-                "data/2025_05_03_aigrefeuille_sur_maine/mail.html",
-                "data/2025_05_03_aigrefeuille_sur_maine/IMG-20250130-WA0000.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi jeunes csar",
-            "Club": "Aigrefeuille sur Maine",
-            "Date": "04/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
+            "mail": "Tournoi des Jeunes SHBC - Samedi 30 et Dimanche 31 Mai 2026",
+            "club": "SHBC Saint Herblain",
+            "date": "30/05/2026",
+            "date_limite": "08/05/2026",
             "categories": [
                 {
                     "categorie": "U11M",
@@ -299,442 +21,97 @@
                 {
                     "categorie": "U9F",
                     "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_05_04_aigrefeuille_sur_maine",
+            "repertoire": "data/2026_05_30_saint_herblain",
             "ressources": [
-                "data/2025_05_04_aigrefeuille_sur_maine/mail.html",
-                "data/2025_05_04_aigrefeuille_sur_maine/IMG-20250130-WA0000.jpg"
+                "data/2026_05_30_saint_herblain/mail.html"
             ]
         },
         {
-            "Sujet mail": "TOURNOI SAINTE PAZANNE LE SAMEDI 14 JUIN 2025",
-            "Club": "Sainte Pazanne",
-            "Date": "14/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
+            "mail": "Invitation au tournoi de l'USBC des 6 et 7 juin 2026",
+            "club": "Savenay",
+            "date": "06/06/2026",
+            "date_limite": "23/05/2026",
             "categories": [
                 {
-                    "categorie": "U18M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D2/D3"
-                },
-                {
                     "categorie": "U13M",
-                    "niveau": "D2/D3"
+                    "niveau": "Elite/D1/D2/D3"
                 },
                 {
                     "categorie": "U13F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11M",
                     "niveau": "D1/D2/D3"
                 },
                 {
-                    "categorie": "U11M",
-                    "niveau": "D2/D3"
-                },
-                {
                     "categorie": "U11F",
-                    "niveau": "D2/D3"
+                    "niveau": "D1/D2/D3"
                 },
                 {
                     "categorie": "U9M",
-                    "niveau": "rouge blanc"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "rouge blanc"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_14_sainte_pazanne",
-            "ressources": [
-                "data/2025_06_14_sainte_pazanne/mail.html",
-                "data/2025_06_14_sainte_pazanne/PAZENAIS BASKET CLUB_invitation.jpg",
-                "data/2025_06_14_sainte_pazanne/PBC 2025_affiche avec QR Code.jpg"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "Vair sur Loire",
-            "date": "12/12/2025",
-            "date_limite": "30/11/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U21M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U21F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_12_12_vair_sur_loire",
-            "ressources": [
-                "data/2025_12_12_vair_sur_loire/mail.html",
-                "data/2025_12_12_vair_sur_loire/580826160_18060431075555934_8867754440147048323_n.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "INVITATION Tournoi de la pentec\u00f4te 7/8 juin 2025 sp\u00e9cial U13F/M D1/R\u00e9gion",
-            "Club": "Theix-Noyalo S\u00e9n\u00e9 Basket Club (56)",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "R\u00e9gion/D1"
-                }
-            ],
-            "repertoire": "data/2025_06_08_theix_noyalo_s_n_basket_club_56_",
-            "ressources": [
-                "data/2025_06_08_theix_noyalo_s_n_basket_club_56_/mail.html",
-                "data/2025_06_08_theix_noyalo_s_n_basket_club_56_/WhatsApp Image 2025-03-18 \u00e0 16.07.38_a536d0cc (1).jpg"
-            ]
-        },
-        {
-            "mail": "Tournoi Halloween PAB",
-            "club": "Ancenis",
-            "date": "02/11/2025",
-            "date_limite": "20/10/2025",
-            "categories": [
-                {
-                    "categorie": "U9M",
-                    "niveau": "bleu/blanc/rouge mixte"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "bleu/blanc/rouge mixte"
-                }
-            ],
-            "repertoire": "data/2025_11_02_ancenis",
-            "ressources": [
-                "data/2025_11_02_ancenis/mail.html",
-                "data/2025_11_02_ancenis/AFFICHE TOURNOI HALLOWEEN.jpg"
-            ]
-        },
-        {
-            "mail": "Tournoi Erdre Basket Club - le 14 & 15 juin 2025 ( U6 \u00e0 U15 M&F)",
-            "club": "La Chapelle sur Erdre",
-            "date": "15/06/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1 D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2"
-                }
-            ],
-            "repertoire": "data/2025_06_15_la_chapelle_sur_erdre",
-            "ressources": [
-                "data/2025_06_15_la_chapelle_sur_erdre/mail.html",
-                "data/2025_06_15_la_chapelle_sur_erdre/TOURNOI EBC 2025.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi mini-basket RB44",
-            "Club": "Rez\u00e9",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "15/04/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_rez_basket",
-            "ressources": [
-                "data/2025_05_24_rez_basket/Tournoi Mini-Basket RB44 2025.png",
-                "data/2025_05_24_rez_basket/mail.html"
-            ]
-        },
-        {
-            "mail": "U15 F/M R\u00e9gion : Invitation au tournoi de TREILLIERES (44) le dimanche 25 Mai 2025",
-            "club": "Treilli\u00e8res",
-            "date": "23/05/2025",
-            "date_limite": "30/04/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_05_23_treilleres",
-            "ressources": [
-                "data/2025_05_23_treilleres/mail.html",
-                "data/2025_05_23_treilleres/Capture d\u2019\u00e9cran 2024-06-23 185907.png"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI JEUNES 2025 - AL GARENNES",
-            "Club": "AL Garennes - Nantes",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "05/04/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "R\u00e9gion Elite D1"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "R\u00e9gion Elite D1"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "Elite D1 D2"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "R\u00e9gion Elite D1"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D1 D2 D3"
-                }
-            ],
-            "repertoire": "data/2025_05_25_al_garennes_nantes",
-            "ressources": [
-                "data/2025_05_25_al_garennes_nantes/Coupon d\u2019inscription .jpg",
-                "data/2025_05_25_al_garennes_nantes/Tournoi jeunes.pdf.pdf",
-                "data/2025_05_25_al_garennes_nantes/mail.html",
-                "data/2025_05_25_al_garennes_nantes/Coupon d\u2019inscription .pdf",
-                "data/2025_05_25_al_garennes_nantes/Tournoi jeunes.jpg.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
-            "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
-            "Date": "16/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "15/04/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "Nocturne"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "Nocturne"
-                }
-            ],
-            "repertoire": "data/2025_05_16_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
-            "ressources": [
-                "data/2025_05_16_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
-            ]
-        },
-        {
-            "mail": "Tournoi 3x3 - BCBG - Lundi 21 Avril 2025",
-            "club": "BCBG - Basket Club Basse Goulaine",
-            "date": "21/04/2025",
-            "date_limite": "06/04/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_04_21_basse_goulaine",
-            "ressources": [
-                "data/2025_04_21_basse_goulaine/mail.html",
-                "data/2025_04_21_basse_goulaine/Tournoi 3X3 BCBG.jpeg"
-            ]
-        },
-        {
-            "Sujet du mail": "Invitation au Tournoi de Fin d\u2019Ann\u00e9e \u2013 Samedi 17 Mai 2025 MALVILLE",
-            "Club": "Malville",
-            "Date": "17/05/2025",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D1 D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1 D1"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "blanc"
+                    "niveau": "bleu/blanc"
                 },
                 {
                     "categorie": "U9F",
                     "niveau": "blanc"
                 }
             ],
-            "repertoire": "data/2025_05_17_malville",
+            "repertoire": "data/2026_06_06_savenay",
             "ressources": [
-                "data/2025_05_17_malville/mail.html",
-                "data/2025_05_17_malville/IMG-20250217-WA0014.jpg",
-                "data/2025_05_17_malville/Fiche d'inscription au tournoi de fin d'ann\u00e9e (1).pdf",
-                "data/2025_05_17_malville/Fiche d'inscription au tournoi de fin d'ann\u00e9e (1).jpg"
+                "data/2026_06_06_savenay/mail.html"
             ]
         },
         {
-            "mail": "Fwd: Invitation tournoi basket U18 r\u00e9gion",
-            "club": "Chemill\u00e9",
-            "date": "15/06/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "D1"
-                }
-            ],
-            "repertoire": "data/2025_06_15_chemille",
-            "ressources": [
-                "data/2025_06_15_chemille/mail.html",
-                "data/2025_06_15_chemille/AFFICHE.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
-            "Club": "Abeille Sportive Neuvy",
-            "Date": "12/04/2025",
-            "Particularit\u00e9": "3x3",
-            "Date limite": "",
+            "mail": "SMB - Invitation au Tournoi annuel S\u00e8vre et Maine Basket - Vendredi 29, Samedi 30 et Dimanche 31 Mai 2026 \u00e0 Maisdon Sur S\u00e8vre (44)",
+            "club": "S\u00e8vre et Maine Basket Maisdon",
+            "date": "29/05/2026",
+            "date_limite": "15/04/2026",
             "categories": [
                 {
                     "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U15M",
-                    "niveau": "3x3"
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_29_maisdon",
+            "ressources": [
+                "data/2026_05_29_maisdon/mail.html",
+                "data/2026_05_29_maisdon/AFFICHE TOURNOI SMB 2026.png",
+                "data/2026_05_29_maisdon/QR CODE TOURNOI SMB 2026.JPG"
+            ]
+        },
+        {
+            "mail": "Tournoi des Jeunes SHBC - Samedi 30 et Dimanche 31 Mai 2026",
+            "club": "SHBC Saint Herblain",
+            "date": "31/05/2026",
+            "date_limite": "08/05/2026",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U15F",
-                    "niveau": "3x3"
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U13M",
-                    "niveau": "3x3"
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U13F",
-                    "niveau": "3x3"
+                    "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_04_12_abeille_sportive_neuvy",
+            "repertoire": "data/2026_05_31_saint_herblain",
             "ressources": [
-                "data/2025_04_12_abeille_sportive_neuvy/Affiche 3x3 -Samedi 12-2025.png",
-                "data/2025_04_12_abeille_sportive_neuvy/Affiche 3x3 Dimanche 13 Avril 2025.png",
-                "data/2025_04_12_abeille_sportive_neuvy/mail.html",
-                "data/2025_04_12_abeille_sportive_neuvy/Affiche 3x3 Open Plus Access Juniorsleagues 2025.png"
+                "data/2026_05_31_saint_herblain/mail.html"
             ]
         },
         {
@@ -787,272 +164,31 @@
             ]
         },
         {
-            "Sujet mail": "Re: Tournoi Beaujoire BC 21/22 Juin 2025",
-            "Club": "Beaujoire",
-            "Date": "22/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_22_beaujoire",
-            "ressources": [
-                "data/2025_06_22_beaujoire/unnamed.jpg",
-                "data/2025_06_22_beaujoire/mail.html"
-            ]
-        },
-        {
-            "mail": "Objet : Invitation au tournoi du Cellier Mauves Basket \u2013 14 et 15 juin 2025 et Camp d\u2019\u00e9t\u00e9 Mansour Sy",
-            "club": "Cellier Mauves",
-            "date": "15/06/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1 D2 D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D3"
-                }
-            ],
-            "repertoire": "data/2025_06_15_cellier_mauves",
-            "ressources": [
-                "data/2025_06_15_cellier_mauves/mail.html",
-                "data/2025_06_15_cellier_mauves/Affiche tournoi d'\u00e9t\u00e9 du Cellier Mauves Basket (1).jpg"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI U13 - U15 - 19 avril 2025 au Loroux Bottereau",
-            "Club": "Loroux Bottereau",
-            "Date": "19/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D1"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2"
-                }
-            ],
-            "repertoire": "data/2025_04_19_loroux_bottereau",
-            "ressources": [
-                "data/2025_04_19_loroux_bottereau/mail.html",
-                "data/2025_04_19_loroux_bottereau/Feuille d'engagement U13-U15.pdf",
-                "data/2025_04_19_loroux_bottereau/Tournoi U13-U15.jpg",
-                "data/2025_04_19_loroux_bottereau/Feuille d'engagement U13-U15.jpg",
-                "data/2025_04_19_loroux_bottereau/Tournoi U13-U15.pdf"
-            ]
-        },
-        {
-            "mail": "Tournoi Erdre Basket Club - le 14 & 15 juin 2025 ( U6 \u00e0 U15 M&F)",
-            "club": "La Chapelle sur Erdre",
-            "date": "14/06/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "Elite D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D1 D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "bleu"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "bleu"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "Loisir",
-                    "niveau": "Mixte familial"
-                }
-            ],
-            "repertoire": "data/2025_06_14_la_chapelle_sur_erdre",
-            "ressources": [
-                "data/2025_06_14_la_chapelle_sur_erdre/mail.html",
-                "data/2025_06_14_la_chapelle_sur_erdre/TOURNOI EBC 2025.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation Tournoi Sautron Basket Club - 14 et 15 Juin 2024",
-            "Club": "Sautron",
-            "Date": "15/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "DM3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "DF2"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "R\u00e9gion elite"
-                }
-            ],
-            "repertoire": "data/2025_06_15_sautron",
-            "ressources": [
-                "data/2025_06_15_sautron/unnamed.jpg",
-                "data/2025_06_15_sautron/mail.html"
-            ]
-        },
-        {
-            "mail": "U15 F/M R\u00e9gion : Invitation au tournoi de TREILLIERES (44) le dimanche 25 Mai 2025",
-            "club": "Treilli\u00e8res",
-            "date": "25/05/2025",
-            "date_limite": "30/04/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "R1/R2/Elite/D1/D2/D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "R1/R2/Elite/D1/D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_05_25_treilleres",
-            "ressources": [
-                "data/2025_05_25_treilleres/mail.html",
-                "data/2025_05_25_treilleres/Capture d\u2019\u00e9cran 2024-06-23 185907.png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation Tournoi Sautron Basket Club - 14 et 15 Juin 2024",
-            "Club": "Sautron",
-            "Date": "14/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "Elite D1 D2"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Blanc Bleu"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Blanc"
-                }
-            ],
-            "repertoire": "data/2025_06_14_sautron",
-            "ressources": [
-                "data/2025_06_14_sautron/unnamed.jpg",
-                "data/2025_06_14_sautron/mail.html"
-            ]
-        },
-        {
-            "mail": "Tournoi Mie Caline Basket Go",
-            "club": "La s\u00e9guini\u00e8re",
-            "date": "20/12/2025",
+            "mail": "Tournoi La Cholti\u00e8re samedi 30 mai, les inscriptions sont ouvertes",
+            "club": "La Cholti\u00e8re",
+            "date": "30/05/2026",
             "date_limite": "",
             "categories": [
                 {
                     "categorie": "U15M",
-                    "niveau": "R\u00e9gion"
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U15F",
-                    "niveau": "R\u00e9gion"
-                }
-            ],
-            "repertoire": "data/2025_12_20_la_seguiniere",
-            "ressources": [
-                "data/2025_12_20_la_seguiniere/mail.html",
-                "data/2025_12_20_la_seguiniere/Tournoi de La Mie Caline Basket GO - Affiche.jpg",
-                "data/2025_12_20_la_seguiniere/Tournoi de La Mie Caline Basket GO - Affiche.pdf"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
-            "Club": "LPVB  - La Planche Vieillevigne Basket",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
                 {
                     "categorie": "U11F",
                     "niveau": "X"
@@ -1064,317 +200,26 @@
                 {
                     "categorie": "U9F",
                     "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_05_17_lpvb_la_planche_vieillevigne_basket",
+            "repertoire": "data/2026_05_30_choltiere",
             "ressources": [
-                "data/2025_05_17_lpvb_la_planche_vieillevigne_basket/Tournoi LPVB - 17 et 18 Mai 2025.jpg",
-                "data/2025_05_17_lpvb_la_planche_vieillevigne_basket/mail.html"
+                "data/2026_05_30_choltiere/affiche tournoi.jpg",
+                "data/2026_05_30_choltiere/mail.html",
+                "data/2026_05_30_choltiere/affiche tournoi.pdf"
             ]
         },
         {
-            "Sujet mail": "Tournoi du Lac - 24 et 25 mai 2025 - La Chevroli\u00e8re",
-            "Club": "La Chevroli\u00e8re",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "11/05/2025",
+            "mail": "SMB - Invitation au Tournoi annuel S\u00e8vre et Maine Basket - Vendredi 29, Samedi 30 et Dimanche 31 Mai 2026 \u00e0 Maisdon Sur S\u00e8vre (44)",
+            "club": "S\u00e8vre et Maine Basket Maisdon",
+            "date": "30/05/2026",
+            "date_limite": "15/04/2026",
             "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
                 {
                     "categorie": "U18F",
                     "niveau": "X"
                 },
                 {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_la_chevroli_re",
-            "ressources": [
-                "data/2025_05_24_la_chevroli_re/mail.html",
-                "data/2025_05_24_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.pdf.pdf",
-                "data/2025_05_24_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.jpg.jpg"
-            ]
-        },
-        {
-            "mail": "Invitation tournoi d'halloween COC",
-            "club": "Chabossi\u00e8re",
-            "date": "26/10/2025",
-            "date_limite": "25/09/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_10_26_chabossiere",
-            "ressources": [
-                "data/2025_10_26_chabossiere/unnamed.jpg",
-                "data/2025_10_26_chabossiere/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi du club",
-            "Club": "Bouguenais",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "Elite D1 D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "Elite (pr\u00e9 r\u00e9gion) D2 D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Bleu Blanc Rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Bleu Rouge"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_07_bouguenais",
-            "ressources": [
-                "data/2025_06_07_bouguenais/mail.html",
-                "data/2025_06_07_bouguenais/tournoi-du-club-2.png"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi 3x3 Samedi 12 et Dimanche 13 Avril",
-            "Club": "Abeille Sportive Neuvy",
-            "Date": "13/04/2025",
-            "Particularit\u00e9": "3x3",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_04_13_abeille_sportive_neuvy",
-            "ressources": [
-                "data/2025_04_13_abeille_sportive_neuvy/Affiche 3x3 -Samedi 12-2025.png",
-                "data/2025_04_13_abeille_sportive_neuvy/Affiche 3x3 Dimanche 13 Avril 2025.png",
-                "data/2025_04_13_abeille_sportive_neuvy/mail.html",
-                "data/2025_04_13_abeille_sportive_neuvy/Affiche 3x3 Open Plus Access Juniorsleagues 2025.png"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI DES P'TITS PANDAS BCBG",
-            "Club": "Basse Goulaine",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_17_basse_goulaine",
-            "ressources": [
-                "data/2025_05_17_basse_goulaine/mail.html",
-                "data/2025_05_17_basse_goulaine/TOURNOI DES P\u2019TITS PANDAS.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi Frossay St Viaud 14 & 15 juin - U6 \u00e0 U18",
-            "Club": "Frossay - Saint Viaud",
-            "Date": "14/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "blanc rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "rouge"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_14_frossay_saint_viaud",
-            "ressources": [
-                "data/2025_06_14_frossay_saint_viaud/Affiche tournoi FSV.png",
-                "data/2025_06_14_frossay_saint_viaud/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi du club",
-            "Club": "Bouguenais",
-            "Date": "09/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "R2 Elite"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "R1 R2 D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "R1 Elite D2"
-                }
-            ],
-            "repertoire": "data/2025_06_09_bouguenais",
-            "ressources": [
-                "data/2025_06_09_bouguenais/mail.html",
-                "data/2025_06_09_bouguenais/tournoi-du-club-2.png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation Tournoi Saint-Br\u00e9vin - 21 & 22 JUIN 2025",
-            "Club": "Saint Br\u00e9vin",
-            "Date": "22/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "06/06/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D1 D2 D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "Elite D1 D2"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1 D2 D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D2 D3"
-                }
-            ],
-            "repertoire": "data/2025_06_22_saint_br_vin",
-            "ressources": [
-                "data/2025_06_22_saint_br_vin/Inscription tournoi SBBC - 2025.pdf",
-                "data/2025_06_22_saint_br_vin/mail.html",
-                "data/2025_06_22_saint_br_vin/Affiche tournoi SBBC - 2025.jpg",
-                "data/2025_06_22_saint_br_vin/Inscription tournoi SBBC - 2025.jpg",
-                "data/2025_06_22_saint_br_vin/Affiche tournoi SBBC - 2025.pdf"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI LAC ET TENU BASKET / 24 et 25 MAI / U7 \u00e0 SENIORS",
-            "Club": "Lac et Tenu Basket \u2013 St M\u00eame le Tenu",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D1/D2"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "bleu"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "Mixte"
-                }
-            ],
-            "repertoire": "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu",
-            "ressources": [
-                "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/mail.html",
-                "data/2025_05_25_lac_et_tenu_basket_st_m_me_le_tenu/PHOTO-2025-02-14-07-27-24 (2).jpg"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI FTBC LUNDI DE PAQUES",
-            "Club": "FTBC Falleron (85)",
-            "Date": "21/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "16/03/2025",
-            "categories": [
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
                     "categorie": "U11M",
                     "niveau": "X"
                 },
@@ -1391,220 +236,115 @@
                     "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_04_21_ftbc_falleron_85_",
+            "repertoire": "data/2026_05_30_maisdon",
             "ressources": [
-                "data/2025_04_21_ftbc_falleron_85_/flyer tournoi de paques.pdf",
-                "data/2025_04_21_ftbc_falleron_85_/Invitation tournoi de paques.jpg",
-                "data/2025_04_21_ftbc_falleron_85_/mail.html",
-                "data/2025_04_21_ftbc_falleron_85_/Invitation tournoi de paques.pdf",
-                "data/2025_04_21_ftbc_falleron_85_/flyer tournoi de paques.jpg"
+                "data/2026_05_30_maisdon/mail.html",
+                "data/2026_05_30_maisdon/AFFICHE TOURNOI SMB 2026.png",
+                "data/2026_05_30_maisdon/QR CODE TOURNOI SMB 2026.JPG"
             ]
         },
         {
-            "Sujet mail": "Tournoi Basket'athlon",
-            "Club": "Rouans",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_05_17_rouans",
-            "ressources": [
-                "data/2025_05_17_rouans/mail.html",
-                "data/2025_05_17_rouans/IMG-20250206-WA0001.jpg"
-            ]
-        },
-        {
-            "mail": "Tournoi Halloween 2025 ABC 3 Rivi\u00e8res",
-            "club": "Saint Gildas des Bois",
-            "date": "01/11/2025",
-            "date_limite": "20/10/2025",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_11_01_saint_gildas_des_bois",
-            "ressources": [
-                "data/2025_11_01_saint_gildas_des_bois/d857ee57-4997-4538-b117-d4f3c615a956.jfif",
-                "data/2025_11_01_saint_gildas_des_bois/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
-            "Club": "Pont Saint Martin",
-            "Date": "10/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_10_pont_saint_martin",
-            "ressources": [
-                "data/2025_05_10_pont_saint_martin/unnamed.jpg",
-                "data/2025_05_10_pont_saint_martin/mail.html"
-            ]
-        },
-        {
-            "mail": "Invitation Tournois 14/15 juin 2025",
-            "club": "USVR Varades",
-            "date": "15/06/2025",
-            "date_limite": "14/05/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2 D3"
-                }
-            ],
-            "repertoire": "data/2025_06_15_usvr_varades",
-            "ressources": [
-                "data/2025_06_15_usvr_varades/mail.html",
-                "data/2025_06_15_usvr_varades/invit tournoi 2025 .pdf",
-                "data/2025_06_15_usvr_varades/invit tournoi 2025 -0.jpg",
-                "data/2025_06_15_usvr_varades/invit tournoi 2025 -2.jpg",
-                "data/2025_06_15_usvr_varades/invit tournoi 2025 -1.jpg"
-            ]
-        },
-        {
-            "mail": "Invitation tournoi Loisirs et Seniors F & M",
-            "club": "Grandchamp des Fontaines / H\u00e9ric",
-            "date": "14/06/2025",
-            "date_limite": "25/05/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "Loisir",
-                    "niveau": "Masculin"
-                }
-            ],
-            "repertoire": "data/2025_06_14_grandchamp_des_fontaines",
-            "ressources": [
-                "data/2025_06_14_grandchamp_des_fontaines/mail.html",
-                "data/2025_06_14_grandchamp_des_fontaines/Tournoi seniors 14 & 15 juin.png"
-            ]
-        },
-        {
-            "mail": "TOURNOI NOEL BCREZE",
-            "club": "Basket club Rez\u00e9",
-            "date": "20/12/2025",
-            "date_limite": "01/12/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D1/D2"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D1/D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_12_20_reze",
-            "ressources": [
-                "data/2025_12_20_reze/AFFICHE TOURNOI NOEL.png",
-                "data/2025_12_20_reze/mail.html"
-            ]
-        },
-        {
-            "mail": "mail_tournoi.docx",
+            "mail": "Invitation au Tournoi Jeunes d'Orvault Sports Basket - Samedi 30 et Dimanche 31 mai 2026",
             "club": "Orvault",
-            "date": "25/05/2025",
+            "date": "31/05/2026",
             "date_limite": "",
             "categories": [
                 {
+                    "categorie": "U18M",
+                    "niveau": "R2/R1 D2/D3 (format 3x3)"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "1/Elite D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "R1 D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R2 D1"
+                },
+                {
                     "categorie": "U13M",
-                    "niveau": "X"
+                    "niveau": "R2 D2/D3"
                 },
                 {
                     "categorie": "U13F",
-                    "niveau": "X"
+                    "niveau": "D2"
                 },
                 {
                     "categorie": "U11M",
-                    "niveau": "X"
+                    "niveau": "D1/Elite D2"
                 },
                 {
                     "categorie": "U11F",
-                    "niveau": "X"
+                    "niveau": "D1/Elite D2"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc"
                 }
             ],
-            "repertoire": "data/2025_05_25_orvault",
+            "repertoire": "data/2026_05_31_orvault",
             "ressources": [
-                "data/2025_05_25_orvault/mail.html"
+                "data/2026_05_31_orvault/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation au Tournoi Jeunes d'Orvault Sports Basket - Samedi 30 et Dimanche 31 mai 2026",
+            "club": "Orvault",
+            "date": "30/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "R2/R1 D2/D3 (format 3x3)"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "1/Elite D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "R1 D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "R2 D1"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "R2 D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1/Elite D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1/Elite D2"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc"
+                }
+            ],
+            "repertoire": "data/2026_05_30_orvault",
+            "ressources": [
+                "data/2026_05_30_orvault/mail.html"
             ]
         },
         {
@@ -1638,265 +378,6 @@
             ]
         },
         {
-            "Sujet mail": "COUPE DE LOIRE ATLANTIQUE 3X3 - ENGAGEMENTS + APPEL A CANDIDATURE D'ORGANISATION",
-            "Club": "Loire Atlantique",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "05/05/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_06_07_loire_atlantique",
-            "ressources": [
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA.pdf",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-0.jpg",
-                "data/2025_06_07_loire_atlantique/mail.html",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-0.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-2.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-2.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-3.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-1.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-3.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - Finale CLA-1.jpg",
-                "data/2025_06_07_loire_atlantique/CAHIER DES CHARGES - TQ CLA-4.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
-            "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
-            "Date": "15/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_15_alt_empord_catalogne_espagne_",
-            "ressources": [
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-6.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-7.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-9.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-12.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-8.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-11.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-4.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/mail.html",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-1.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-3.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25.pdf",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-10.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-0.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-2.jpg",
-                "data/2025_06_15_alt_empord_catalogne_espagne_/FR - CBBC 25-5.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
-            "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
-            "Date": "18/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "15/04/2025",
-            "categories": [
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_18_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
-            "ressources": [
-                "data/2025_05_18_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
-            ]
-        },
-        {
-            "mail": "Invitation Tournoi SCO ORVAULT BASKET - De U7 \u00e0 Loisirs - 13 et 14 d\u00e9cembre 2025",
-            "club": "SCO ORVAULT BASKET",
-            "date": "14/12/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_12_14_orvault",
-            "ressources": [
-                "data/2025_12_14_orvault/mail.html",
-                "data/2025_12_14_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf",
-                "data/2025_12_14_orvault/Affiche TOURNOI 122024_20251015_103307_0000.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Pornic Basket Saint Michel tournoi de l'amiti\u00e9 24 et 25 mai",
-            "Club": "Pornic",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_25_pornic",
-            "ressources": [
-                "data/2025_05_25_pornic/AFFICHE TOURNOI AMITIE PBSM 24 ET 25 MAI .png",
-                "data/2025_05_25_pornic/mail.html",
-                "data/2025_05_25_pornic/BULLETIN INSCRIPTION PBSM TOURNOI AMITIE 24 ET 25 MAI .jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi RCD Basket 24 & 25 mai",
-            "Club": "RCD Donges",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D3"
-                }
-            ],
-            "repertoire": "data/2025_05_25_rcd_donges",
-            "ressources": [
-                "data/2025_05_25_rcd_donges/Affiche Tournoi RCD Basket.jpg",
-                "data/2025_05_25_rcd_donges/Affiche Tournoi RCD Basket.pdf",
-                "data/2025_05_25_rcd_donges/mail.html",
-                "data/2025_05_25_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.jpg",
-                "data/2025_05_25_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf"
-            ]
-        },
-        {
-            "mail": "Tournoi d'halloween \ud83c\udf83 U7 - U9 - U11 \ud83d\udd77",
-            "club": "Union Basket Logne",
-            "date": "01/11/2025",
-            "date_limite": "24/10/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_11_01_logne",
-            "ressources": [
-                "data/2025_11_01_logne/mail.html",
-                "data/2025_11_01_logne/tournoi-u9u11-20250903-144207-0000.png"
-            ]
-        },
-        {
             "mail": "Invitation Tournoi de Jeff BCBG",
             "club": "BCBG Basse-Goulaine",
             "date": "04/01/2026",
@@ -1926,144 +407,55 @@
             ]
         },
         {
-            "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
-            "Club": "Logne",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
+            "mail": "Tournoi U13 de l'Hirondelle Basket le 11 avril 2026",
+            "club": "Saint Julien de Concelles",
+            "date": "11/04/2026",
+            "date_limite": "",
             "categories": [
                 {
-                    "categorie": "U18M",
+                    "categorie": "U13M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_04_11_saint_julien_de_concelles",
+            "ressources": [
+                "data/2026_04_11_saint_julien_de_concelles/affiche-tournoi-u13-site.jpg",
+                "data/2026_04_11_saint_julien_de_concelles/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation tournoi annuel du Saint Seb Basket Club - WE du 6 et 7 juin 2026",
+            "club": "Saint S\u00e9bastien",
+            "date": "07/06/2026",
+            "date_limite": "15/05/2026",
+            "categories": [
+                {
+                    "categorie": "U15M",
                     "niveau": "D1/D2 D3"
                 },
                 {
-                    "categorie": "U18F",
-                    "niveau": "D2/D3"
+                    "categorie": "U15F",
+                    "niveau": "D1 D2/D3"
                 },
                 {
                     "categorie": "U13M",
-                    "niveau": "D3"
+                    "niveau": "D1 D2/D3"
                 },
                 {
                     "categorie": "U13F",
-                    "niveau": "Elite/D1 D3"
+                    "niveau": "D1 D2/D3"
                 }
             ],
-            "repertoire": "data/2025_05_17_logne",
+            "repertoire": "data/2026_06_07_saint_sebastien",
             "ressources": [
-                "data/2025_05_17_logne/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "MGBB, Invitation tournois U15 et U18",
-            "Club": "MGBB, Montbert Geneston le Bignon",
-            "Date": "11/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_11_montbert_geneston",
-            "ressources": [
-                "data/2025_05_11_montbert_geneston/mail.html",
-                "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation-0.jpg",
-                "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation-1.jpg",
-                "data/2025_05_11_montbert_geneston/MGBB_tournois_11mai_invitation.pdf"
-            ]
-        },
-        {
-            "Sujet du mail": "Invitation Tournoi",
-            "Club": "Montoir de Bretagne",
-            "Date": "21/06/2025",
-            "Date limite": "08/06/2025",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "D1 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_21_montoir_de_bretagne",
-            "ressources": [
-                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-3.jpg",
-                "data/2025_06_21_montoir_de_bretagne/mail.html",
-                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025.pdf",
-                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-0.jpg",
-                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-2.jpg",
-                "data/2025_06_21_montoir_de_bretagne/tournoi juin 2025-1.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
-            "Club": "Logne",
-            "Date": "22/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "DM4"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "DF2/DF3/DF4"
-                }
-            ],
-            "repertoire": "data/2025_06_22_logne",
-            "ressources": [
-                "data/2025_06_22_logne/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi LMB - 14 et 15 Juin 2025",
-            "Club": "Lamboisi\u00e8res Martin Basket",
-            "Date": "14/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_06_14_lamboisi_res_martin_basket",
-            "ressources": [
-                "data/2025_06_14_lamboisi_res_martin_basket/mail.html",
-                "data/2025_06_14_lamboisi_res_martin_basket/WhatsApp Image 2025-02-18 at 16.00.50.jpeg"
+                "data/2026_06_07_saint_sebastien/mail.html",
+                "data/2026_06_07_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-0.jpg",
+                "data/2026_06_07_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-1.jpg",
+                "data/2026_06_07_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026.pdf"
             ]
         },
         {
@@ -2096,742 +488,92 @@
             ]
         },
         {
-            "Sujet mail": "Tournoi de la Cholti\u00e8re",
-            "Club": "Paulx / Cholti\u00e8re",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "09/05/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_17_paulx_cholti_re",
-            "ressources": [
-                "data/2025_05_17_paulx_cholti_re/mail.html",
-                "data/2025_05_17_paulx_cholti_re/IMG-20250113-WA0001 (3).jpg",
-                "data/2025_05_17_paulx_cholti_re/IMG-20250113-WA0001 (3).pdf"
-            ]
-        },
-        {
-            "Sujet mail": "Re: Tournoi Beaujoire BC 21/22 Juin 2025",
-            "Club": "Beaujoire",
-            "Date": "21/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_21_beaujoire",
-            "ressources": [
-                "data/2025_06_21_beaujoire/unnamed.jpg",
-                "data/2025_06_21_beaujoire/mail.html"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "Brains",
-            "date": "24/10/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "Loisir",
-                    "niveau": "A partir de 19h"
-                }
-            ],
-            "repertoire": "data/2025_10_24_brains",
-            "ressources": [
-                "data/2025_10_24_brains/mail.html",
-                "data/2025_10_24_brains/Screenshot 2025-09-29 at 17-30-16 Instagram.png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation au tournoi de l'USBC les 24 et 25 mai 2025",
-            "Club": "USBC \u2013 Savenay",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
+            "mail": "Invitation au tournoi de l'USBC des 6 et 7 juin 2026",
+            "club": "Savenay",
+            "date": "07/06/2026",
+            "date_limite": "23/05/2026",
             "categories": [
                 {
                     "categorie": "U18M",
-                    "niveau": "Elite/D1 D2/D3"
+                    "niveau": "Elite/D1/D2 D2/D3"
                 },
                 {
                     "categorie": "U18F",
+                    "niveau": "R\u00e9gion/Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "Elite/D1/D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "Elite/D1/D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_06_07_savenay",
+            "ressources": [
+                "data/2026_06_07_savenay/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation tournoi annuel du Saint Seb Basket Club - WE du 6 et 7 juin 2026",
+            "club": "Saint S\u00e9bastien",
+            "date": "06/06/2026",
+            "date_limite": "15/05/2026",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1 D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D1/D1 D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc/rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "bleu/blanc/rouge"
+                }
+            ],
+            "repertoire": "data/2026_06_06_saint_sebastien",
+            "ressources": [
+                "data/2026_06_06_saint_sebastien/mail.html",
+                "data/2026_06_06_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-0.jpg",
+                "data/2026_06_06_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-1.jpg",
+                "data/2026_06_06_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026.pdf"
+            ]
+        },
+        {
+            "mail": "6\u00e8me \u00e9dition de notre tournoi jeunes - U13 \u00e0 U18 d\u00e9partementales- 30 & 31 mai 2026",
+            "club": "Union Basket Logne",
+            "date": "30/05/2026",
+            "date_limite": "10/05/2026",
+            "categories": [
+                {
+                    "categorie": "U18M",
                     "niveau": "D2/D3"
                 },
                 {
-                    "categorie": "U15M",
-                    "niveau": "D2"
+                    "categorie": "U18F",
+                    "niveau": "Elite/D1 2/D3"
                 },
                 {
-                    "categorie": "U15F",
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
                     "niveau": "D2/D3"
                 }
             ],
-            "repertoire": "data/2025_05_25_usbc_savenay",
+            "repertoire": "data/2026_05_30_logne",
             "ressources": [
-                "data/2025_05_25_usbc_savenay/mail.html",
-                "data/2025_05_25_usbc_savenay/Affiche USBC.jpg"
-            ]
-        },
-        {
-            "mail": "Invitation au Tournoi d\u2019Automne SBBC \u2013 U11 & U13 \u2013 Samedi 25 octobre 2025",
-            "club": "Saint-Brevin Basket Club",
-            "date": "25/10/2025",
-            "date_limite": "10/10/2025",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_10_10_saint_brevin",
-            "ressources": [
-                "data/2025_10_10_saint_brevin/Tournoi Automne SBBC 25-4.pdf",
-                "data/2025_10_10_saint_brevin/mail.html",
-                "data/2025_10_10_saint_brevin/Tournoi Automne SBBC 25-4.jpg"
-            ]
-        },
-        {
-            "mail": "U15 F/M R\u00e9gion : Invitation au tournoi de TREILLIERES (44) le dimanche 25 Mai 2025",
-            "club": "Treilli\u00e8res",
-            "date": "24/05/2025",
-            "date_limite": "30/04/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "Elite/D1/D2/D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "Elite/D1/D2/D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "R1/R2/Elite/D1/D2/D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "R1/R2/Elite/D1/D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_05_24_treilleres",
-            "ressources": [
-                "data/2025_05_24_treilleres/mail.html",
-                "data/2025_05_24_treilleres/Capture d\u2019\u00e9cran 2024-06-23 185907.png"
-            ]
-        },
-        {
-            "mail": "Invitation au tournoi U11 de No\u00ebl \u2013 Clisson, le samedi 13 d\u00e9cembre 2025",
-            "club": "Clisson",
-            "date": "13/12/2025",
-            "date_limite": "01/12/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_12_13_clisson",
-            "ressources": [
-                "data/2025_12_13_clisson/mail.html",
-                "data/2025_12_13_clisson/Affiche Tournoi de Noel 2025.pdf",
-                "data/2025_12_13_clisson/Affiche Tournoi de Noel 2025.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournois des P'tits Champions",
-            "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
-            "Date": "31/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "31/03/2025",
-            "categories": [
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_31_monts_et_marais_basket_mmb_st_jean_de_monts_85_",
-            "ressources": [
-                "data/2025_05_31_monts_et_marais_basket_mmb_st_jean_de_monts_85_/les p tits champions 2025 3(1).doc",
-                "data/2025_05_31_monts_et_marais_basket_mmb_st_jean_de_monts_85_/mail.html",
-                "data/2025_05_31_monts_et_marais_basket_mmb_st_jean_de_monts_85_/Screenshot_2025-01-23-13-16-09-795_com.orange.mail.fr(1).jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi de Printemps du Petit Mars Basket Club",
-            "Club": "Petit-Mars",
-            "Date": "05/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_04_05_petit_mars",
-            "ressources": [
-                "data/2025_04_05_petit_mars/mail.html",
-                "data/2025_04_05_petit_mars/image(2).png"
-            ]
-        },
-        {
-            "Sujet mail": "GRAND LIEU BASKET / tournoi de La Pentec\u00f4te 7&8 juin 2025",
-            "Club": "St Philbert de Grand Lieu",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "24/05/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_07_st_philibert_de_grand_lieu",
-            "ressources": [
-                "data/2025_06_07_st_philibert_de_grand_lieu/Affiche tournoi GLB 2025.jpg",
-                "data/2025_06_07_st_philibert_de_grand_lieu/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi s\u00e9niors 5x5 du Haut Bocage Vend\u00e9e - 7 & 8 juin 2025 - niveau d\u00e9partemental",
-            "Club": "Sevremont \u2013 Haut Bocage (85)",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "30/04/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_06_07_sevremont_haut_bocage_85_",
-            "ressources": [
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-4.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-6.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Formulaire d'inscription.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/mail.html",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation.pdf",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-1.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-2.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-0.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-5.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-7.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-3.jpg",
-                "data/2025_06_07_sevremont_haut_bocage_85_/Formulaire d'inscription.pdf"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
-            "Club": "Vallet",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_25_vallet",
-            "ressources": [
-                "data/2025_05_25_vallet/mail.html",
-                "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-0.jpg",
-                "data/2025_05_25_vallet/TOURNOI PVB 2025.JPG",
-                "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025.pdf",
-                "data/2025_05_25_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-1.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi RCD Basket 24 & 25 mai",
-            "Club": "RCD Donges",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_rcd_donges",
-            "ressources": [
-                "data/2025_05_24_rcd_donges/Affiche Tournoi RCD Basket.jpg",
-                "data/2025_05_24_rcd_donges/Affiche Tournoi RCD Basket.pdf",
-                "data/2025_05_24_rcd_donges/mail.html",
-                "data/2025_05_24_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.jpg",
-                "data/2025_05_24_rcd_donges/Fiche de pr\u00e9-inscription RCD Basket.pdf"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi du club",
-            "Club": "Bouguenais",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "R1 D1 D2"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "R1 Elite D3"
-                }
-            ],
-            "repertoire": "data/2025_06_08_bouguenais",
-            "ressources": [
-                "data/2025_06_08_bouguenais/mail.html",
-                "data/2025_06_08_bouguenais/tournoi-du-club-2.png"
-            ]
-        },
-        {
-            "mail": "Invitation Tournoi SCO ORVAULT BASKET - De U7 \u00e0 Loisirs - 13 et 14 d\u00e9cembre 2025",
-            "club": "SCO ORVAULT BASKET",
-            "date": "13/12/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "Loisir",
-                    "niveau": "3x3 mixte"
-                }
-            ],
-            "repertoire": "data/2025_12_13_orvault",
-            "ressources": [
-                "data/2025_12_13_orvault/mail.html",
-                "data/2025_12_13_orvault/Affiche TOURNOI 122024_20251015_103307_0000.pdf",
-                "data/2025_12_13_orvault/Affiche TOURNOI 122024_20251015_103307_0000.jpg"
-            ]
-        },
-        {
-            "mail": "Objet : Invitation au tournoi du Cellier Mauves Basket \u2013 14 et 15 juin 2025 et Camp d\u2019\u00e9t\u00e9 Mansour Sy",
-            "club": "Cellier Mauves",
-            "date": "14/06/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D1 D2 D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "rouge (mixte)"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "rouge (mixte)"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_14_cellier_mauves",
-            "ressources": [
-                "data/2025_06_14_cellier_mauves/mail.html",
-                "data/2025_06_14_cellier_mauves/Affiche tournoi d'\u00e9t\u00e9 du Cellier Mauves Basket (1).jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi jeunes SUD RETZ BASKET - les 7 & 8 juin 2025",
-            "Club": "Sud Retz Basket \u2013 Machecoul",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "Elite D\u00e9partemental"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "blanc rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "bleu blanc"
-                }
-            ],
-            "repertoire": "data/2025_06_07_sud_retz_basket_machecoul",
-            "ressources": [
-                "data/2025_06_07_sud_retz_basket_machecoul/mail.html",
-                "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.doc",
-                "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.pdf",
-                "data/2025_06_07_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.pdf",
-                "data/2025_06_07_sud_retz_basket_machecoul/Invitation tournoi des 7 & 8 juin 2025.jpg",
-                "data/2025_06_07_sud_retz_basket_machecoul/Affiche tournoi jeunes - 7 & 8 juin 2025.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation Tournoi Saint-Br\u00e9vin - 21 & 22 JUIN 2025",
-            "Club": "Saint Br\u00e9vin",
-            "Date": "21/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1 D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "rouge blanc"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "rouge blanc"
-                }
-            ],
-            "repertoire": "data/2025_06_21_saint_br_vin",
-            "ressources": [
-                "data/2025_06_21_saint_br_vin/Inscription tournoi SBBC - 2025.pdf",
-                "data/2025_06_21_saint_br_vin/mail.html",
-                "data/2025_06_21_saint_br_vin/Affiche tournoi SBBC - 2025.jpg",
-                "data/2025_06_21_saint_br_vin/Inscription tournoi SBBC - 2025.jpg",
-                "data/2025_06_21_saint_br_vin/Affiche tournoi SBBC - 2025.pdf"
-            ]
-        },
-        {
-            "mail": "AS SAINT ROGATIEN NANTES",
-            "club": "Saint Rogatien",
-            "date": "21/12/2025",
-            "date_limite": "26/10/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Bleu/Blanc"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Bleu/Blanc"
-                }
-            ],
-            "repertoire": "data/2025_12_21_saint_rogatien",
-            "ressources": [
-                "data/2025_12_21_saint_rogatien/mail.html",
-                "data/2025_12_21_saint_rogatien/Affiche TNB 2025.jpg",
-                "data/2025_12_21_saint_rogatien/Courrier d'invitation Tournoi.jpg",
-                "data/2025_12_21_saint_rogatien/Courrier d'invitation Tournoi.pdf",
-                "data/2025_12_21_saint_rogatien/Coupon r\u00e9ponse inscription Tournoi.docx"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI INTERNATIONAL COSTA BRAVA BASKETBALL CHALLENGE (CATALOGNE, ESPAGNE) \u2013 U13 \u00c0 U18 FILLES & GAR\u00c7ONS \u2013 DU 13 AU 15 JUIN 2025",
-            "Club": "Alt Empord\u00e0 (Catalogne, Espagne)",
-            "Date": "14/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_14_alt_empord_catalogne_espagne_",
-            "ressources": [
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-6.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-7.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-9.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-12.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-8.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-11.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-4.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/mail.html",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-1.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-3.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25.pdf",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-10.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-0.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-2.jpg",
-                "data/2025_06_14_alt_empord_catalogne_espagne_/FR - CBBC 25-5.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi LMB - 14 et 15 Juin 2025",
-            "Club": "Lamboisi\u00e8res Martin Basket",
-            "Date": "15/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_06_15_lamboisi_res_martin_basket",
-            "ressources": [
-                "data/2025_06_15_lamboisi_res_martin_basket/mail.html",
-                "data/2025_06_15_lamboisi_res_martin_basket/WhatsApp Image 2025-02-18 at 16.00.50.jpeg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi du Lac - 24 et 25 mai 2025 - La Chevroli\u00e8re",
-            "Club": "La Chevroli\u00e8re",
-            "Date": "25/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "11/05/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_25_la_chevroli_re",
-            "ressources": [
-                "data/2025_05_25_la_chevroli_re/mail.html",
-                "data/2025_05_25_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.pdf.pdf",
-                "data/2025_05_25_la_chevroli_re/AFFICHE TOURNOI JEUNE VD.jpg.jpg"
-            ]
-        },
-        {
-            "mail": "TOUNOI 3x3 U18 - SENIORS SEMI NOCTURNE Lac et tenu basket",
-            "club": "Lac et Tenu Basket",
-            "date": "19/04/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U21M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U21F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_04_19_lac_et_tenu",
-            "ressources": [
-                "data/2025_04_19_lac_et_tenu/mail.html",
-                "data/2025_04_19_lac_et_tenu/tounoi.jpg"
+                "data/2026_05_30_logne/mail.html",
+                "data/2026_05_30_logne/6eme-edition-20251223-115635-0000.pdf",
+                "data/2026_05_30_logne/6eme-edition-20251223-115635-0000.jpg"
             ]
         },
         {
@@ -2855,445 +597,6 @@
                 "data/2026_01_04_cholet/mail.html",
                 "data/2026_01_04_cholet/25. Tournoi EDB Association Cholet Basket QR-0.jpg",
                 "data/2026_01_04_cholet/25. Tournoi EDB Association Cholet Basket QR-1.jpg"
-            ]
-        },
-        {
-            "mail": "Invitation tournoi d'halloween COC",
-            "club": "Chabossi\u00e8re",
-            "date": "25/10/2025",
-            "date_limite": "25/09/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D1"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D1/D2/D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Rouge/Blanc"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Rouge/Blanc"
-                }
-            ],
-            "repertoire": "data/2025_10_25_chabossiere",
-            "ressources": [
-                "data/2025_10_25_chabossiere/unnamed.jpg",
-                "data/2025_10_25_chabossiere/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI USCBM 17 ET 18 MAI",
-            "Club": "USCBM \u2013 La Chapelle Basse Mer",
-            "Date": "18/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "D2/D3 D1 possible"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D2/D3 D1 possible"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "D2/D3 D1 possible"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D2/D3 D1 possible"
-                }
-            ],
-            "repertoire": "data/2025_05_18_uscbm_la_chapelle_basse_mer",
-            "ressources": [
-                "data/2025_05_18_uscbm_la_chapelle_basse_mer/mail.html",
-                "data/2025_05_18_uscbm_la_chapelle_basse_mer/2023-2024 (33).png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation tournoi U13 / U15 - 5 avril 2025 Grandchamp-des-Fontaines",
-            "Club": "Grandchamp-des-Fontaines",
-            "Date": "05/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_04_05_grandchamp_des_fontaines",
-            "ressources": [
-                "data/2025_04_05_grandchamp_des_fontaines/mail.html",
-                "data/2025_04_05_grandchamp_des_fontaines/Tournoi 5 avril Grandchamp-des-Fontaines.png"
-            ]
-        },
-        {
-            "Sujet mail": "Tournois des P'tits Champions",
-            "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
-            "Date": "29/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "31/03/2025",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_29_monts_et_marais_basket_mmb_st_jean_de_monts_85_",
-            "ressources": [
-                "data/2025_05_29_monts_et_marais_basket_mmb_st_jean_de_monts_85_/les p tits champions 2025 3(1).doc",
-                "data/2025_05_29_monts_et_marais_basket_mmb_st_jean_de_monts_85_/mail.html",
-                "data/2025_05_29_monts_et_marais_basket_mmb_st_jean_de_monts_85_/Screenshot_2025-01-23-13-16-09-795_com.orange.mail.fr(1).jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi de l'US Pont St Martin Basket les 10 et 11 mai 2025",
-            "Club": "Pont Saint Martin",
-            "Date": "11/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_11_pont_saint_martin",
-            "ressources": [
-                "data/2025_05_11_pont_saint_martin/unnamed.jpg",
-                "data/2025_05_11_pont_saint_martin/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "INVITATION Tournoi de la pentec\u00f4te 7/8 juin 2025 sp\u00e9cial U13F/M D1/R\u00e9gion",
-            "Club": "Theix-Noyalo S\u00e9n\u00e9 Basket Club (56)",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U13F",
-                    "niveau": "R\u00e9gion/D1"
-                }
-            ],
-            "repertoire": "data/2025_06_07_theix_noyalo_s_n_basket_club_56_",
-            "ressources": [
-                "data/2025_06_07_theix_noyalo_s_n_basket_club_56_/mail.html",
-                "data/2025_06_07_theix_noyalo_s_n_basket_club_56_/WhatsApp Image 2025-03-18 \u00e0 16.07.38_a536d0cc (1).jpg"
-            ]
-        },
-        {
-            "mail": "HIRONDELLE BASKET SAINT JULIEN DE CONCELLES",
-            "club": "Saint Julien de Concelles",
-            "date": "01/11/2025",
-            "date_limite": "15/10/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Blanc/Rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Blanc/Rouge"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_11_01_saint_julien_de_concelles",
-            "ressources": [
-                "data/2025_11_01_saint_julien_de_concelles/mail.html",
-                "data/2025_11_01_saint_julien_de_concelles/affiche.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation Tournoi LPVB (La Planche Vieillevigne Basket) - 17 et 18 Mai 2025",
-            "Club": "LPVB  - La Planche Vieillevigne Basket",
-            "Date": "18/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_18_lpvb_la_planche_vieillevigne_basket",
-            "ressources": [
-                "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/Tournoi LPVB - 17 et 18 Mai 2025.jpg",
-                "data/2025_05_18_lpvb_la_planche_vieillevigne_basket/mail.html"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "Petit-Mars",
-            "date": "19/10/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_10_19_petit_mars",
-            "ressources": [
-                "data/2025_10_19_petit_mars/tournoi-halloween.png",
-                "data/2025_10_19_petit_mars/mail.html"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "Blain",
-            "date": "01/11/2025",
-            "date_limite": "01/11/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1/D2/D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Blanc"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Blanc"
-                }
-            ],
-            "repertoire": "data/2025_11_01_blain",
-            "ressources": [
-                "data/2025_11_01_blain/mail.html",
-                "data/2025_11_01_blain/Screenshot 2025-09-29 at 17-34-26 Instagram.png"
-            ]
-        },
-        {
-            "Sujet mail": "Pornic Basket Saint Michel tournoi de l'amiti\u00e9 24 et 25 mai",
-            "Club": "Pornic",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_pornic",
-            "ressources": [
-                "data/2025_05_24_pornic/AFFICHE TOURNOI AMITIE PBSM 24 ET 25 MAI .png",
-                "data/2025_05_24_pornic/mail.html",
-                "data/2025_05_24_pornic/BULLETIN INSCRIPTION PBSM TOURNOI AMITIE 24 ET 25 MAI .jpg"
-            ]
-        },
-        {
-            "mail": "Un tournoi 3x3 100% f\u00e9minin !",
-            "club": "Chabossi\u00e8re",
-            "date": "16/05/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_05_16_chabossiere",
-            "ressources": [
-                "data/2025_05_16_chabossiere/IMG-20250401-WA0003.jpg",
-                "data/2025_05_16_chabossiere/mail.html"
-            ]
-        },
-        {
-            "Sujet du mail": "Invitation Tournoi",
-            "Club": "Montoir de Bretagne",
-            "Date": "22/06/2025",
-            "Date limite": "08/06/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D3"
-                }
-            ],
-            "repertoire": "data/2025_06_22_montoir_de_bretagne",
-            "ressources": [
-                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-3.jpg",
-                "data/2025_06_22_montoir_de_bretagne/mail.html",
-                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025.pdf",
-                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-0.jpg",
-                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-2.jpg",
-                "data/2025_06_22_montoir_de_bretagne/tournoi juin 2025-1.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI PVB - VALLET | U7, U9, U11 | 24 et 25 mai 2025 | (44)",
-            "Club": "Vallet",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_vallet",
-            "ressources": [
-                "data/2025_05_24_vallet/mail.html",
-                "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-0.jpg",
-                "data/2025_05_24_vallet/TOURNOI PVB 2025.JPG",
-                "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025.pdf",
-                "data/2025_05_24_vallet/INVITATION TOURNOI PVB 2025_10 janv2025-1.jpg"
             ]
         },
         {
@@ -3330,63 +633,11 @@
             ]
         },
         {
-            "Sujet mail": "GRAND LIEU BASKET / tournoi de La Pentec\u00f4te 7&8 juin 2025",
-            "Club": "St Philbert de Grand Lieu",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "24/05/2025",
+            "mail": "Invitation \u2013 Tournoi U7 / U9 / U11 \u2013 31 mai \u00e0 Bouaye",
+            "club": "Bouaye",
+            "date": "30/05/2026",
+            "date_limite": "",
             "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_08_st_philibert_de_grand_lieu",
-            "ressources": [
-                "data/2025_06_08_st_philibert_de_grand_lieu/Affiche tournoi GLB 2025.jpg",
-                "data/2025_06_08_st_philibert_de_grand_lieu/mail.html"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "CD44 - Treilli\u00e8res, Arthon, S\u00e8vre et Maine et Saint-Andr\u00e9-des-Eaux",
-            "date": "07/12/2025",
-            "date_limite": "24/11/2025",
-            "categories": [
-                {
-                    "categorie": "U7",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_12_07_cd44",
-            "ressources": [
-                "data/2025_12_07_cd44/mail.html",
-                "data/2025_12_07_cd44/579110810_1167721472122950_7418967151860955531_n.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "SMB - Invitation au Tournoi annuel des Vendredi 16, Samedi 17 et Dimanche 18 Mai 2024 \u00e0 Maisdon Sur S\u00e8vre (44) - U7 \u00e0 U18",
-            "Club": "SMB S\u00e8vre et Maine Basket  - Maisdon Sur S\u00e8vre",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "15/04/2025",
-            "categories": [
-                {
-                    "categorie": "U18F",
-                    "niveau": "X"
-                },
                 {
                     "categorie": "U11M",
                     "niveau": "X"
@@ -3402,11 +653,15 @@
                 {
                     "categorie": "U9F",
                     "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_05_17_smb_s_vre_et_maine_basket_maisdon_sur_s_vre",
+            "repertoire": "data/2026_05_30_bouaye",
             "ressources": [
-                "data/2025_05_17_smb_s_vre_et_maine_basket_maisdon_sur_s_vre/mail.html"
+                "data/2026_05_30_bouaye/mail.html"
             ]
         },
         {
@@ -3459,123 +714,6 @@
             ]
         },
         {
-            "mail": "Instagram",
-            "club": "La Chapelle Basse Mer",
-            "date": "05/12/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_12_05_chapelle_basse_mer",
-            "ressources": [
-                "data/2025_12_05_chapelle_basse_mer/mail.html",
-                "data/2025_12_05_chapelle_basse_mer/affiche-telethon-2025-v2.png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation tournoi annuel Saint Seb Basket Club - WE du 7 et 8 juin 2025",
-            "Club": "Saint S\u00e9bastien",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D1 D2/D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D1 D2/D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Bleu Blanc Rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "blanc rouge"
-                }
-            ],
-            "repertoire": "data/2025_06_07_saint_s_bastien",
-            "ressources": [
-                "data/2025_06_07_saint_s_bastien/mail.html",
-                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-1.jpg",
-                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf",
-                "data/2025_06_07_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-0.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "COUPE DE LOIRE ATLANTIQUE 3X3 - ENGAGEMENTS + APPEL A CANDIDATURE D'ORGANISATION",
-            "Club": "Loire Atlantique",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "05/05/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_06_08_loire_atlantique",
-            "ressources": [
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA.pdf",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA.pdf",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-0.jpg",
-                "data/2025_06_08_loire_atlantique/mail.html",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-0.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-2.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-2.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-3.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-1.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-3.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - Finale CLA-1.jpg",
-                "data/2025_06_08_loire_atlantique/CAHIER DES CHARGES - TQ CLA-4.jpg"
-            ]
-        },
-        {
             "mail": "Invitation Tournoi LOROUX LANDREAU BASKET- De U7 \u00e0 U18- 3 et 4 janvier 2026",
             "club": "Loroux Bottereau",
             "date": "03/01/2026",
@@ -3620,16 +758,11 @@
             ]
         },
         {
-            "Sujet mail": "Tournoi National U13-U15 Toulouse 7-8 juin 2025",
-            "Club": "Basket Club Quint-Fonsegrives (Toulouse)",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
+            "mail": "SMB - Invitation au Tournoi annuel S\u00e8vre et Maine Basket - Vendredi 29, Samedi 30 et Dimanche 31 Mai 2026 \u00e0 Maisdon Sur S\u00e8vre (44)",
+            "club": "S\u00e8vre et Maine Basket Maisdon",
+            "date": "31/05/2026",
+            "date_limite": "15/04/2026",
             "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
                 {
                     "categorie": "U15F",
                     "niveau": "X"
@@ -3641,546 +774,117 @@
                 {
                     "categorie": "U13F",
                     "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_08_basket_club_quint_fonsegrives_toulouse_",
-            "ressources": [
-                "data/2025_06_08_basket_club_quint_fonsegrives_toulouse_/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi s\u00e9niors 5x5 du Haut Bocage Vend\u00e9e - 7 & 8 juin 2025 - niveau d\u00e9partemental",
-            "Club": "Sevremont \u2013 Haut Bocage (85)",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "30/04/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "D\u00e9partemental"
-                }
-            ],
-            "repertoire": "data/2025_06_08_sevremont_haut_bocage_85_",
-            "ressources": [
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-4.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-6.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Formulaire d'inscription.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/mail.html",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation.pdf",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-1.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-2.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-0.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-5.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-7.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Plaquette de pr\u00e9sentation-3.jpg",
-                "data/2025_06_08_sevremont_haut_bocage_85_/Formulaire d'inscription.pdf"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi Basket'athlon",
-            "Club": "Rouans",
-            "Date": "18/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_05_18_rouans",
-            "ressources": [
-                "data/2025_05_18_rouans/mail.html",
-                "data/2025_05_18_rouans/IMG-20250206-WA0001.jpg"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "Cou\u00ebron",
-            "date": "14/12/2025",
-            "date_limite": "03/12/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_12_14_coueron",
-            "ressources": [
-                "data/2025_12_14_coueron/mail.html",
-                "data/2025_12_14_coueron/2.png"
-            ]
-        },
-        {
-            "Sujet mail": "Invitation tournoi annuel Saint Seb Basket Club - WE du 7 et 8 juin 2025",
-            "Club": "Saint S\u00e9bastien",
-            "Date": "08/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "10/05/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1 D2/D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "D1 D2/D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D1 D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_06_08_saint_s_bastien",
-            "ressources": [
-                "data/2025_06_08_saint_s_bastien/mail.html",
-                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-1.jpg",
-                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef.pdf",
-                "data/2025_06_08_saint_s_bastien/Tournoi SSBC Chupa_Herons-Flyer_2025_Vdef-0.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI LAC ET TENU BASKET / 24 et 25 MAI / U7 \u00e0 SENIORS",
-            "Club": "Lac et Tenu Basket \u2013 St M\u00eame le Tenu",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "D3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U15M",
-                    "niveau": "Elite/D1 D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "Elite/D1 D3"
-                }
-            ],
-            "repertoire": "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu",
-            "ressources": [
-                "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/mail.html",
-                "data/2025_05_24_lac_et_tenu_basket_st_m_me_le_tenu/PHOTO-2025-02-14-07-27-24 (2).jpg"
-            ]
-        },
-        {
-            "mail": "Tournoi Halloween PAB",
-            "club": "Ancenis",
-            "date": "01/11/2025",
-            "date_limite": "20/10/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D1/D2/D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_11_01_ancenis",
-            "ressources": [
-                "data/2025_11_01_ancenis/mail.html",
-                "data/2025_11_01_ancenis/AFFICHE TOURNOI HALLOWEEN.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournois des P'tits Champions",
-            "Club": "MONTS ET MARAIS BASKET (MMB) St Jean de Monts (85)",
-            "Date": "01/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "31/03/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_01_monts_et_marais_basket_mmb_st_jean_de_monts_85_",
-            "ressources": [
-                "data/2025_06_01_monts_et_marais_basket_mmb_st_jean_de_monts_85_/les p tits champions 2025 3(1).doc",
-                "data/2025_06_01_monts_et_marais_basket_mmb_st_jean_de_monts_85_/mail.html",
-                "data/2025_06_01_monts_et_marais_basket_mmb_st_jean_de_monts_85_/Screenshot_2025-01-23-13-16-09-795_com.orange.mail.fr(1).jpg"
-            ]
-        },
-        {
-            "Sujet mail": "TOURNOI USCBM 17 ET 18 MAI",
-            "Club": "USCBM \u2013 La Chapelle Basse Mer",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "D2/D3"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "D2/D3"
-                }
-            ],
-            "repertoire": "data/2025_05_17_uscbm_la_chapelle_basse_mer",
-            "ressources": [
-                "data/2025_05_17_uscbm_la_chapelle_basse_mer/mail.html",
-                "data/2025_05_17_uscbm_la_chapelle_basse_mer/2023-2024 (33).png"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi National U13-U15 Toulouse 7-8 juin 2025",
-            "Club": "Basket Club Quint-Fonsegrives (Toulouse)",
-            "Date": "07/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_06_07_basket_club_quint_fonsegrives_toulouse_",
-            "ressources": [
-                "data/2025_06_07_basket_club_quint_fonsegrives_toulouse_/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "5\u00e8me \u00e9dition de notre tournoi jeunes : U13 \u00e0 U18",
-            "Club": "Logne",
-            "Date": "18/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "D1/D2 D3"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "D1/D2 D3"
-                }
-            ],
-            "repertoire": "data/2025_05_18_logne",
-            "ressources": [
-                "data/2025_05_18_logne/mail.html"
-            ]
-        },
-        {
-            "mail": "Instagram",
-            "club": "Cou\u00ebron",
-            "date": "13/12/2025",
-            "date_limite": "03/12/2025",
-            "categories": [
-                {
-                    "categorie": "U15M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U15F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_12_13_coueron",
-            "ressources": [
-                "data/2025_12_13_coueron/mail.html",
-                "data/2025_12_13_coueron/2.png"
-            ]
-        },
-        {
-            "Sujet mail": "INDRE BC : Invitions tournoi des titis samedi 5 et dimanche 6 avril 2025 (U7 \u00e0 U18)",
-            "Club": "Indre BC",
-            "Date": "05/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "30/03/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "Bleu Blanc Rouge"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "Bleu Blanc Rouge"
                 },
                 {
                     "categorie": "U7",
                     "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_04_05_indre_bc",
+            "repertoire": "data/2026_05_31_maisdon",
             "ressources": [
-                "data/2025_04_05_indre_bc/mail.html"
+                "data/2026_05_31_maisdon/mail.html",
+                "data/2026_05_31_maisdon/AFFICHE TOURNOI SMB 2026.png",
+                "data/2026_05_31_maisdon/QR CODE TOURNOI SMB 2026.JPG"
             ]
         },
         {
-            "mail": "Invitation Tournois 14/15 juin 2025",
-            "club": "USVR Varades",
-            "date": "14/06/2025",
-            "date_limite": "14/05/2025",
+            "mail": "Invitation Tournoi Sautron Basket Club - 30 et 31 Mai 2026",
+            "club": "Sautron",
+            "date": "30/05/2026",
+            "date_limite": "",
             "categories": [
                 {
                     "categorie": "Seniors M",
-                    "niveau": "D3 D4"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "D3 D4"
-                },
-                {
-                    "categorie": "U11M",
                     "niveau": "D2 D3"
                 },
                 {
+                    "categorie": "Seniors F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1 D2"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite D1 D2"
+                },
+                {
                     "categorie": "U11F",
-                    "niveau": "D3"
+                    "niveau": "Elite D1 D2"
                 },
                 {
                     "categorie": "U9M",
-                    "niveau": "blanc"
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U9F",
-                    "niveau": "blanc"
+                    "niveau": "X"
                 },
                 {
                     "categorie": "U7",
                     "niveau": "X"
                 }
             ],
-            "repertoire": "data/2025_06_14_usvr_varades",
+            "repertoire": "data/2026_05_30_sautron",
             "ressources": [
-                "data/2025_06_14_usvr_varades/mail.html",
-                "data/2025_06_14_usvr_varades/invit tournoi 2025 .pdf",
-                "data/2025_06_14_usvr_varades/invit tournoi 2025 -0.jpg",
-                "data/2025_06_14_usvr_varades/invit tournoi 2025 -2.jpg",
-                "data/2025_06_14_usvr_varades/invit tournoi 2025 -1.jpg"
+                "data/2026_05_30_sautron/IMG-20260127-WA0003.jpg",
+                "data/2026_05_30_sautron/mail.html"
             ]
         },
         {
-            "Sujet mail": "Tournoi Frossay St Viaud 14 & 15 juin - U6 \u00e0 U18",
-            "Club": "Frossay - Saint Viaud",
-            "Date": "15/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
+            "mail": "Invitation Tournoi Sautron Basket Club - 30 et 31 Mai 2026",
+            "club": "Sautron",
+            "date": "31/05/2026",
+            "date_limite": "",
             "categories": [
                 {
                     "categorie": "U18M",
-                    "niveau": "D2 D3"
+                    "niveau": "Elite D1 D2 D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "Elite D1 D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "Elite D1 D3"
                 },
                 {
                     "categorie": "U15F",
                     "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U13M",
-                    "niveau": "R\u00e9gion Elite D1 D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D2 D3"
                 }
             ],
-            "repertoire": "data/2025_06_15_frossay_saint_viaud",
+            "repertoire": "data/2026_05_31_sautron",
             "ressources": [
-                "data/2025_06_15_frossay_saint_viaud/Affiche tournoi FSV.png",
-                "data/2025_06_15_frossay_saint_viaud/mail.html"
+                "data/2026_05_31_sautron/IMG-20260127-WA0003.jpg",
+                "data/2026_05_31_sautron/mail.html"
             ]
         },
         {
-            "Sujet mail": "Invitation Tournoi 24 Mai",
-            "Club": "LSBC: Saint Etienne de Montluc",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
+            "mail": "6\u00e8me \u00e9dition de notre tournoi jeunes - U13 \u00e0 U18 d\u00e9partementales- 30 & 31 mai 2026",
+            "club": "Union Basket Logne",
+            "date": "31/05/2026",
+            "date_limite": "10/05/2026",
             "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "D2 D4"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "D4"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "D2 D3"
-                },
                 {
                     "categorie": "U15M",
-                    "niveau": "D1 D2 D3"
+                    "niveau": "D2/D3"
                 },
                 {
-                    "categorie": "U13M",
-                    "niveau": "D1 D2 D3"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "D1 D2"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "D2 D3"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "rouge bleu"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "rouge bleu"
+                    "categorie": "U15F",
+                    "niveau": "Elite/D1 D2/D3"
                 }
             ],
-            "repertoire": "data/2025_05_24_st_etienne_de_montluc",
+            "repertoire": "data/2026_05_31_logne",
             "ressources": [
-                "data/2025_05_24_st_etienne_de_montluc/mail.html",
-                "data/2025_05_24_st_etienne_de_montluc/IMG_3486.JPG"
-            ]
-        },
-        {
-            "mail": "MGBB, Invitation tournoi Halloween U11 et U13",
-            "club": "MGBB, Montbert Geneston le Bignon",
-            "date": "25/10/2025",
-            "date_limite": "18/10/2025",
-            "categories": [
-                {
-                    "categorie": "U13M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U13F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_10_25_mgbb",
-            "ressources": [
-                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation-1.jpg",
-                "data/2025_10_25_mgbb/mail.html",
-                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation.pdf",
-                "data/2025_10_25_mgbb/MGBB_tournois_U11-U13_invitation-0.jpg"
-            ]
-        },
-        {
-            "mail": "Invitation tournoi Loisirs et Seniors F & M",
-            "club": "Grandchamp des Fontaines / H\u00e9ric",
-            "date": "14/06/2025",
-            "date_limite": "25/05/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "D\u00e9partemental"
-                },
-                {
-                    "categorie": "Loisir",
-                    "niveau": "F\u00e9minine"
-                }
-            ],
-            "repertoire": "data/2025_06_15_grandchamp_des_fontaines",
-            "ressources": [
-                "data/2025_06_15_grandchamp_des_fontaines/mail.html",
-                "data/2025_06_15_grandchamp_des_fontaines/Tournoi seniors 14 & 15 juin.png"
+                "data/2026_05_31_logne/mail.html",
+                "data/2026_05_31_logne/6eme-edition-20251223-115635-0000.pdf",
+                "data/2026_05_31_logne/6eme-edition-20251223-115635-0000.jpg"
             ]
         },
         {
@@ -4205,138 +909,7 @@
                 "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR-0.jpg",
                 "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR-1.jpg"
             ]
-        },
-        {
-            "mail": "Fwd: Invitation tournoi basket U18 r\u00e9gion",
-            "club": "Chemill\u00e9",
-            "date": "14/06/2025",
-            "date_limite": "",
-            "categories": [
-                {
-                    "categorie": "U18M",
-                    "niveau": "R\u00e9gion"
-                }
-            ],
-            "repertoire": "data/2025_06_14_chemille",
-            "ressources": [
-                "data/2025_06_14_chemille/mail.html",
-                "data/2025_06_14_chemille/AFFICHE.jpg"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi Seniors PRM/DM2 et DM3 et DM4 et DF2/DF3/DF4",
-            "Club": "Logne",
-            "Date": "21/06/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "PR/DM2 DM3"
-                }
-            ],
-            "repertoire": "data/2025_06_21_logne",
-            "ressources": [
-                "data/2025_06_21_logne/mail.html"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi 3X3 de l'Hirondelle Basket",
-            "Club": "Saint Julien de Concelles",
-            "Date": "17/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "30/04/2025",
-            "categories": [
-                {
-                    "categorie": "Seniors M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Seniors F",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "Loisir",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U21M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18M",
-                    "niveau": "3x3"
-                },
-                {
-                    "categorie": "U18F",
-                    "niveau": "3x3"
-                }
-            ],
-            "repertoire": "data/2025_05_17_saint_julien_de_concelles",
-            "ressources": [
-                "data/2025_05_17_saint_julien_de_concelles/mail.html",
-                "data/2025_05_17_saint_julien_de_concelles/unnamed.png"
-            ]
-        },
-        {
-            "Sujet mail": "INVITATION TOURNOI DU FAIR PLAY - 6 AVRIL 2025 - BASKET SAINT MACAIRE",
-            "Club": "Saint Macaire En Mauges (49)",
-            "Date": "06/04/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_04_06_saint_macaire_en_mauges_49_",
-            "ressources": [
-                "data/2025_04_06_saint_macaire_en_mauges_49_/mail.html",
-                "data/2025_04_06_saint_macaire_en_mauges_49_/Outlook-5s5oo5z3.png"
-            ]
-        },
-        {
-            "Sujet mail": "Tournoi des Jeunes du SHBC - 24 et 25 Mai 2025",
-            "Club": "SHBC \u2013 Saint Herblain",
-            "Date": "24/05/2025",
-            "Particularit\u00e9": "",
-            "Date limite": "01/05/2025",
-            "categories": [
-                {
-                    "categorie": "U11M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U11F",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9M",
-                    "niveau": "X"
-                },
-                {
-                    "categorie": "U9F",
-                    "niveau": "X"
-                }
-            ],
-            "repertoire": "data/2025_05_24_shbc_saint_herblain",
-            "ressources": [
-                "data/2025_05_24_shbc_saint_herblain/mail.html"
-            ]
         }
     ],
-    "last_update": "17/11/2025 23:19:28"
+    "last_update": "02/04/2026 00:10:19"
 }
