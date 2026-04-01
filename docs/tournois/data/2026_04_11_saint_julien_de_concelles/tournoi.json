@@ -1,0 +1,16 @@
+{
+  "mail": "Tournoi U13 de l'Hirondelle Basket le 11 avril 2026",
+  "club": "Saint Julien de Concelles",
+  "date": "11/04/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U13M",
+      "niveau": "D1/D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D1/D2/D3"
+    }
+  ]
+}

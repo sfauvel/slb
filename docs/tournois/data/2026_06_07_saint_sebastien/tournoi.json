@@ -1,0 +1,24 @@
+{
+  "mail": "Invitation tournoi annuel du Saint Seb Basket Club - WE du 6 et 7 juin 2026",
+  "club": "Saint Sébastien",
+  "date": "07/06/2026",
+  "date_limite": "15/05/2026",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "D1/D2 D3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "D1 D2/D3"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "D1 D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D1 D2/D3"
+    }
+  ]
+}

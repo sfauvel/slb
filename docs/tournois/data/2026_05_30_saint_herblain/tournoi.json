@@ -1,0 +1,24 @@
+{
+  "mail": "Tournoi des Jeunes SHBC - Samedi 30 et Dimanche 31 Mai 2026",
+  "club": "SHBC Saint Herblain",
+  "date": "30/05/2026",
+  "date_limite": "08/05/2026",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}

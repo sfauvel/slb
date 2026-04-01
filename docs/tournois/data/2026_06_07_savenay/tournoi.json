@@ -1,0 +1,24 @@
+{
+  "mail": "Invitation au tournoi de l'USBC des 6 et 7 juin 2026",
+  "club": "Savenay",
+  "date": "07/06/2026",
+  "date_limite": "23/05/2026",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "Elite/D1/D2 D2/D3"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "Région/Elite/D1/D2/D3"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "Elite/D1/D2"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "Elite/D1/D2/D3"
+    }
+  ]
+}

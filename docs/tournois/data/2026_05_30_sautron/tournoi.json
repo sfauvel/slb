@@ -1,0 +1,44 @@
+{
+  "mail": "Invitation Tournoi Sautron Basket Club - 30 et 31 Mai 2026",
+  "club": "Sautron",
+  "date": "30/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "Seniors M",
+      "niveau": "D2 D3"
+    },
+    {
+      "categorie": "Seniors F",
+      "niveau": "D2"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "D1 D2"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D2"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "Elite D1 D2"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "Elite D1 D2"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

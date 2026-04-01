@@ -1,0 +1,40 @@
+{
+  "mail": "Tournoi La Choltière samedi 30 mai, les inscriptions sont ouvertes",
+  "club": "La Choltière",
+  "date": "30/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}

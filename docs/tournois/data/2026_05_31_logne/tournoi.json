@@ -1,0 +1,16 @@
+{
+  "mail": "6ème édition de notre tournoi jeunes - U13 à U18 départementales- 30 & 31 mai 2026",
+  "club": "Union Basket Logne",
+  "date": "31/05/2026",
+  "date_limite": "10/05/2026",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "Elite/D1 D2/D3"
+    }
+  ]
+}
