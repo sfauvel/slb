@@ -1,0 +1,24 @@
+{
+  "mail": "Invitation – Tournoi jeunes 23 & 24 mai 2026 – BESNE",
+  "club": "Besne",
+  "date": "24/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D2/D3"
+    }
+  ]
+}
