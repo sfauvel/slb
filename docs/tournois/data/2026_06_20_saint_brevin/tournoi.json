@@ -1,0 +1,32 @@
+{
+  "mail": "Invitation Tournoi Saint-Brévin - 20 & 21 JUIN 2026",
+  "club": "Saint Brévin",
+  "date": "20/06/2026",
+  "date_limite": "07/06/2026",
+  "categories": [
+    {
+      "categorie": "U13M",
+      "niveau": "D1/D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "blanc/rouge"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "blanc/rouge"
+    }
+  ]
+}

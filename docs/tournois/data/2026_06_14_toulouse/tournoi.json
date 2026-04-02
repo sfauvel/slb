@@ -1,0 +1,24 @@
+{
+  "mail": "Tournoi National U13-U15 Toulouse 13-14 juin 2026",
+  "club": "Toulouse Quint-Fonsegrives",
+  "date": "14/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    }
+  ]
+}

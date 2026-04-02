@@ -1,0 +1,36 @@
+{
+  "mail": "Tournoi St Viaud Frossay – 6 & 7 juin 2026",
+  "club": "Saint Viaud Frossay",
+  "date": "06/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}
