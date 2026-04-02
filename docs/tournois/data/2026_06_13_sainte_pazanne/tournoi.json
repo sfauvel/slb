@@ -1,0 +1,52 @@
+{
+  "mail": "TOURNOI JEUNES - SAMEDI 13 JUIN 2026 - SAINTE PAZANNE - TOURNOI SUR 1/2 JOURNÉE",
+  "club": "Sainte Pazanne",
+  "date": "13/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "blanc/rouge"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "blanc/rouge"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

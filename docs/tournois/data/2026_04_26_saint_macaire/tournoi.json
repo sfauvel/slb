@@ -1,0 +1,24 @@
+{
+  "mail": "INVITATION TOURNOI DU FAIR PLAY - 26 AVRIL 2026 - BASKET SAINT MACAIRE",
+  "club": "Saint Macaire",
+  "date": "26/04/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}

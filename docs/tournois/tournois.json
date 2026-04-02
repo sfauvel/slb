@@ -1,6 +1,93 @@
 {
     "tournois": [
         {
+            "mail": "Tournoi National U13-U15 Toulouse 13-14 juin 2026",
+            "club": "Toulouse Quint-Fonsegrives",
+            "date": "14/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_14_toulouse",
+            "ressources": [
+                "data/2026_06_14_toulouse/unnamed.jpg",
+                "data/2026_06_14_toulouse/mail.html"
+            ]
+        },
+        {
+            "mail": "TOURNOI JEUNES - SAMEDI 13 JUIN 2026 - SAINTE PAZANNE - TOURNOI SUR 1/2 JOURN\u00c9E",
+            "club": "Sainte Pazanne",
+            "date": "13/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "blanc/rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc/rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_13_sainte_pazanne",
+            "ressources": [
+                "data/2026_06_13_sainte_pazanne/mail.html",
+                "data/2026_06_13_sainte_pazanne/Affiche tournoi 2026_save the date.jpg",
+                "data/2026_06_13_sainte_pazanne/PAZENAIS BASKET CLUB_invitation-1.jpg"
+            ]
+        },
+        {
             "mail": "Tournoi des Jeunes SHBC - Samedi 30 et Dimanche 31 Mai 2026",
             "club": "SHBC Saint Herblain",
             "date": "30/05/2026",
@@ -62,6 +149,35 @@
             "repertoire": "data/2026_06_06_savenay",
             "ressources": [
                 "data/2026_06_06_savenay/mail.html"
+            ]
+        },
+        {
+            "mail": "Tournoi St Viaud Frossay \u2013 6 & 7 juin 2026",
+            "club": "Saint Viaud Frossay",
+            "date": "07/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_07_saint_viaud_frossay",
+            "ressources": [
+                "data/2026_06_07_saint_viaud_frossay/Tournoi Basket.jpg",
+                "data/2026_06_07_saint_viaud_frossay/mail.html"
             ]
         },
         {
@@ -161,6 +277,69 @@
             "ressources": [
                 "data/2026_01_25_saint_herblain/mail.html",
                 "data/2026_01_25_saint_herblain/image0.png"
+            ]
+        },
+        {
+            "mail": "Tournoi National U13-U15 Toulouse 13-14 juin 2026",
+            "club": "Toulouse Quint-Fonsegrives",
+            "date": "13/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_13_toulouse",
+            "ressources": [
+                "data/2026_06_13_toulouse/unnamed.jpg",
+                "data/2026_06_13_toulouse/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation Tournoi Saint-Br\u00e9vin - 20 & 21 JUIN 2026",
+            "club": "Saint Br\u00e9vin",
+            "date": "21/06/2026",
+            "date_limite": "07/06/2026",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "R2/Elite/D1"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_06_21_saint_brevin",
+            "ressources": [
+                "data/2026_06_21_saint_brevin/Dossier inscription - Tournoi SBBC 2026-3.jpg",
+                "data/2026_06_21_saint_brevin/Dossier inscription - Tournoi SBBC 2026.pdf",
+                "data/2026_06_21_saint_brevin/mail.html",
+                "data/2026_06_21_saint_brevin/Dossier inscription - Tournoi SBBC 2026-2.jpg",
+                "data/2026_06_21_saint_brevin/Dossier inscription - Tournoi SBBC 2026-0.jpg",
+                "data/2026_06_21_saint_brevin/Dossier inscription - Tournoi SBBC 2026-4.jpg",
+                "data/2026_06_21_saint_brevin/Dossier inscription - Tournoi SBBC 2026-1.jpg"
             ]
         },
         {
@@ -348,6 +527,27 @@
             ]
         },
         {
+            "mail": "Tournoi des Phoenix 2026 - La Garnache",
+            "club": "La Garnache",
+            "date": "02/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_02_la_garnache",
+            "ressources": [
+                "data/2026_05_02_la_garnache/mail.html",
+                "data/2026_05_02_la_garnache/Tournoi des Phoenix 2026 - La Garnache.jpg"
+            ]
+        },
+        {
             "mail": "Invitation Tournoi LOROUX LANDREAU BASKET- De U7 \u00e0 U18- 3 et 4 janvier 2026",
             "club": "Loroux Bottereau",
             "date": "03/01/2026",
@@ -488,6 +688,35 @@
             ]
         },
         {
+            "mail": "Tournoi des Phoenix 2026 - La Garnache",
+            "club": "La Garnache",
+            "date": "01/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_01_la_garnache",
+            "ressources": [
+                "data/2026_05_01_la_garnache/mail.html",
+                "data/2026_05_01_la_garnache/Tournoi des Phoenix 2026 - La Garnache.jpg"
+            ]
+        },
+        {
             "mail": "Invitation au tournoi de l'USBC des 6 et 7 juin 2026",
             "club": "Savenay",
             "date": "07/06/2026",
@@ -547,6 +776,48 @@
             ]
         },
         {
+            "mail": "Invitation Tournoi Saint-Br\u00e9vin - 20 & 21 JUIN 2026",
+            "club": "Saint Br\u00e9vin",
+            "date": "20/06/2026",
+            "date_limite": "07/06/2026",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1/D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "blanc/rouge"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc/rouge"
+                }
+            ],
+            "repertoire": "data/2026_06_20_saint_brevin",
+            "ressources": [
+                "data/2026_06_20_saint_brevin/Dossier inscription - Tournoi SBBC 2026-3.jpg",
+                "data/2026_06_20_saint_brevin/Dossier inscription - Tournoi SBBC 2026.pdf",
+                "data/2026_06_20_saint_brevin/mail.html",
+                "data/2026_06_20_saint_brevin/Dossier inscription - Tournoi SBBC 2026-2.jpg",
+                "data/2026_06_20_saint_brevin/Dossier inscription - Tournoi SBBC 2026-0.jpg",
+                "data/2026_06_20_saint_brevin/Dossier inscription - Tournoi SBBC 2026-4.jpg",
+                "data/2026_06_20_saint_brevin/Dossier inscription - Tournoi SBBC 2026-1.jpg"
+            ]
+        },
+        {
             "mail": "6\u00e8me \u00e9dition de notre tournoi jeunes - U13 \u00e0 U18 d\u00e9partementales- 30 & 31 mai 2026",
             "club": "Union Basket Logne",
             "date": "30/05/2026",
@@ -574,6 +845,45 @@
                 "data/2026_05_30_logne/mail.html",
                 "data/2026_05_30_logne/6eme-edition-20251223-115635-0000.pdf",
                 "data/2026_05_30_logne/6eme-edition-20251223-115635-0000.jpg"
+            ]
+        },
+        {
+            "mail": "Tournoi Week-end 30 et 31 mai - Donges (44)",
+            "club": "Donges",
+            "date": "31/05/2026",
+            "date_limite": "17/05/2026",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_05_31_donges",
+            "ressources": [
+                "data/2026_05_31_donges/Fiche de pre\u0301-inscription 30 et 31 mai.pdf",
+                "data/2026_05_31_donges/mail.html",
+                "data/2026_05_31_donges/Tournoi 30&31 mai Donges (44).jpg",
+                "data/2026_05_31_donges/Fiche de pre\u0301-inscription 30 et 31 mai.jpg"
             ]
         },
         {
@@ -758,6 +1068,96 @@
             ]
         },
         {
+            "mail": "INVITATION TOURNOI DU FAIR PLAY - 26 AVRIL 2026 - BASKET SAINT MACAIRE",
+            "club": "Saint Macaire",
+            "date": "26/04/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_04_26_saint_macaire",
+            "ressources": [
+                "data/2026_04_26_saint_macaire/mail.html"
+            ]
+        },
+        {
+            "mail": "Invitation \u2013 Tournoi Jeunes BSL des 11 et 12 avril 2026 \u00e0 Haute-Goulaine",
+            "club": "Haute-Goulaine",
+            "date": "12/04/2026",
+            "date_limite": "26/03/2026",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_04_12_haute_goulaine",
+            "ressources": [
+                "data/2026_04_12_haute_goulaine/mail.html",
+                "data/2026_04_12_haute_goulaine/DossierInvitationstournoisjeunesBSL.pdf",
+                "data/2026_04_12_haute_goulaine/DossierInvitationstournoisjeunesBSL-0.jpg",
+                "data/2026_04_12_haute_goulaine/DossierInvitationstournoisjeunesBSL-1.jpg"
+            ]
+        },
+        {
+            "mail": "Invitation \u2013 Tournoi Jeunes BSL des 11 et 12 avril 2026 \u00e0 Haute-Goulaine",
+            "club": "Haute-Goulaine",
+            "date": "11/04/2026",
+            "date_limite": "26/03/2026",
+            "categories": [
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_04_11_haute_goulaine",
+            "ressources": [
+                "data/2026_04_11_haute_goulaine/mail.html",
+                "data/2026_04_11_haute_goulaine/DossierInvitationstournoisjeunesBSL.pdf",
+                "data/2026_04_11_haute_goulaine/DossierInvitationstournoisjeunesBSL-0.jpg",
+                "data/2026_04_11_haute_goulaine/DossierInvitationstournoisjeunesBSL-1.jpg"
+            ]
+        },
+        {
             "mail": "SMB - Invitation au Tournoi annuel S\u00e8vre et Maine Basket - Vendredi 29, Samedi 30 et Dimanche 31 Mai 2026 \u00e0 Maisdon Sur S\u00e8vre (44)",
             "club": "S\u00e8vre et Maine Basket Maisdon",
             "date": "31/05/2026",
@@ -785,6 +1185,47 @@
                 "data/2026_05_31_maisdon/mail.html",
                 "data/2026_05_31_maisdon/AFFICHE TOURNOI SMB 2026.png",
                 "data/2026_05_31_maisdon/QR CODE TOURNOI SMB 2026.JPG"
+            ]
+        },
+        {
+            "mail": "Tournoi St Viaud Frossay \u2013 6 & 7 juin 2026",
+            "club": "Saint Viaud Frossay",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_saint_viaud_frossay",
+            "ressources": [
+                "data/2026_06_06_saint_viaud_frossay/Tournoi Basket.jpg",
+                "data/2026_06_06_saint_viaud_frossay/mail.html"
             ]
         },
         {
@@ -909,7 +1350,42 @@
                 "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR-0.jpg",
                 "data/2026_01_03_cholet/25. Tournoi EDB Association Cholet Basket QR-1.jpg"
             ]
+        },
+        {
+            "mail": "Tournoi Week-end 30&31 mai - Donges (44)",
+            "club": "Donges",
+            "date": "30/05/2026",
+            "date_limite": "17/05/2026",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_30_donges",
+            "ressources": [
+                "data/2026_05_30_donges/mail.html",
+                "data/2026_05_30_donges/Fiche de pre\u0301-inscription 30&31 mai.jpg",
+                "data/2026_05_30_donges/Tournoi 30&31 mai Donges (44).jpg",
+                "data/2026_05_30_donges/Fiche de pre\u0301-inscription 30&31 mai.pdf"
+            ]
         }
     ],
-    "last_update": "02/04/2026 00:10:19"
+    "last_update": "02/04/2026 09:16:47"
 }

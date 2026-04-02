@@ -1,0 +1,28 @@
+{
+  "mail": "Tournoi Week-end 30&31 mai - Donges (44)",
+  "club": "Donges",
+  "date": "30/05/2026",
+  "date_limite": "17/05/2026",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "D2"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

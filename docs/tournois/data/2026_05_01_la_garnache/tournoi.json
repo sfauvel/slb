@@ -1,0 +1,24 @@
+{
+  "mail": "Tournoi des Phoenix 2026 - La Garnache",
+  "club": "La Garnache",
+  "date": "01/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}
