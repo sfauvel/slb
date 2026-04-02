@@ -1,0 +1,24 @@
+{
+  "mail": "MGBB, tournois de fin d’année U9, U13, U15, U18",
+  "club": "MGBB Montbert Geneston Le Bignon",
+  "date": "07/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

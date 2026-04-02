@@ -1,0 +1,44 @@
+{
+  "mail": "La Nuit du Basket – On se retrouve le 30 Mai 2026",
+  "club": "La Haye Fouassière",
+  "date": "30/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "Seniors M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "Seniors F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U21M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U21F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U18M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "3x3"
+    },
+    {
+      "categorie": "Loisir",
+      "niveau": "3x3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "mail": "Tournoi Basket Club de la Vilaine Nivillac",
+  "club": "Nivillac",
+  "date": "06/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "Seniors M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "Seniors F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}

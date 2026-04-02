@@ -1,0 +1,24 @@
+{
+  "mail": "Tournoi USCBM U7 à U13",
+  "club": "USCBM La Chapelle Basse-Mer",
+  "date": "07/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    }
+  ]
+}

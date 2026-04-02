@@ -1,0 +1,28 @@
+{
+  "mail": "TOURNOI DE L'ERDRE BC",
+  "club": "La Chapelle sur Erdre",
+  "date": "06/06/2026",
+  "date_limite": "31/05/2026",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "Elite/D1/D2/D3"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "Elite/D1/D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "bleu/blanc"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "blanc/rouge"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}
