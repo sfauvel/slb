@@ -1,0 +1,20 @@
+{
+  "mail": "USOM Rising Star",
+  "club": "Mondeville (14)",
+  "date": "13/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U15F",
+      "niveau": "national/inter-région"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "région"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "région"
+    }
+  ]
+}

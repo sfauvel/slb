@@ -88,6 +88,39 @@
             ]
         },
         {
+            "mail": "MGBB, tournois de fin d\u2019ann\u00e9e U9, U13, U15, U18",
+            "club": "MGBB Montbert Geneston Le Bignon",
+            "date": "07/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_07_montbert",
+            "ressources": [
+                "data/2026_06_07_montbert/MGBB_invit_tournoi_FIN_SAISON-3.jpg",
+                "data/2026_06_07_montbert/MGBB_invit_tournoi_FIN_SAISON-0.jpg",
+                "data/2026_06_07_montbert/MGBB_invit_tournoi_FIN_SAISON-1.jpg",
+                "data/2026_06_07_montbert/mail.html",
+                "data/2026_06_07_montbert/MGBB_invit_tournoi_FIN_SAISON.pdf",
+                "data/2026_06_07_montbert/MGBB_invit_tournoi_FIN_SAISON-2.jpg"
+            ]
+        },
+        {
             "mail": "Tournoi des Jeunes SHBC - Samedi 30 et Dimanche 31 Mai 2026",
             "club": "SHBC Saint Herblain",
             "date": "30/05/2026",
@@ -113,6 +146,35 @@
             "repertoire": "data/2026_05_30_saint_herblain",
             "ressources": [
                 "data/2026_05_30_saint_herblain/mail.html"
+            ]
+        },
+        {
+            "mail": "RB44 - Tournoi mini-basket samedi 02/05/2026",
+            "club": "Rez\u00e9",
+            "date": "02/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_02_reze",
+            "ressources": [
+                "data/2026_05_02_reze/Copie de Red Bold Basketball Tournament Instagram Post (21 x 29.7 cm)(1).png",
+                "data/2026_05_02_reze/mail.html"
             ]
         },
         {
@@ -152,6 +214,38 @@
             ]
         },
         {
+            "mail": "TOURNOI DE L'ERDRE BC",
+            "club": "La Chapelle sur Erdre",
+            "date": "06/06/2026",
+            "date_limite": "31/05/2026",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc/rouge"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_la_chapelle_sur_erdre",
+            "ressources": [
+                "data/2026_06_06_la_chapelle_sur_erdre/mail.html"
+            ]
+        },
+        {
             "mail": "Tournoi St Viaud Frossay \u2013 6 & 7 juin 2026",
             "club": "Saint Viaud Frossay",
             "date": "07/06/2026",
@@ -178,6 +272,55 @@
             "ressources": [
                 "data/2026_06_07_saint_viaud_frossay/Tournoi Basket.jpg",
                 "data/2026_06_07_saint_viaud_frossay/mail.html"
+            ]
+        },
+        {
+            "mail": "La Nuit du Basket \u2013 On se retrouve le 30 Mai 2026",
+            "club": "La Haye Fouassi\u00e8re",
+            "date": "30/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2026_05_30_le_haye_fouassiere",
+            "ressources": [
+                "data/2026_05_30_le_haye_fouassiere/mail.html",
+                "data/2026_05_30_le_haye_fouassiere/unnamed.png"
             ]
         },
         {
@@ -578,6 +721,27 @@
             ]
         },
         {
+            "mail": "Tournoi u11",
+            "club": "Jallais",
+            "date": "30/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_30_jallais",
+            "ressources": [
+                "data/2026_05_30_jallais/mail.html",
+                "data/2026_05_30_jallais/IMG_5240.jpeg"
+            ]
+        },
+        {
             "mail": "Invitation Tournoi de Jeff BCBG",
             "club": "BCBG Basse-Goulaine",
             "date": "04/01/2026",
@@ -656,6 +820,33 @@
                 "data/2026_06_07_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-0.jpg",
                 "data/2026_06_07_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-1.jpg",
                 "data/2026_06_07_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026.pdf"
+            ]
+        },
+        {
+            "mail": "USOM Rising Star",
+            "club": "Mondeville (14)",
+            "date": "13/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15F",
+                    "niveau": "national/inter-r\u00e9gion"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "r\u00e9gion"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "r\u00e9gion"
+                }
+            ],
+            "repertoire": "data/2026_06_13_mondeville",
+            "ressources": [
+                "data/2026_06_13_mondeville/mail.html",
+                "data/2026_06_13_mondeville/Fiche info tournoi.pdf",
+                "data/2026_06_13_mondeville/Affiche tournoi 13 et 14 juin 2026.png",
+                "data/2026_06_13_mondeville/Fiche info tournoi.jpg"
             ]
         },
         {
@@ -910,6 +1101,63 @@
             ]
         },
         {
+            "mail": "TOURNOI DE L'ERDRE BC",
+            "club": "La Chapelle sur Erdre",
+            "date": "07/06/2026",
+            "date_limite": "31/05/2026",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "Elite/D1/D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_06_07_la_chapelle_sur_erdre",
+            "ressources": [
+                "data/2026_06_07_la_chapelle_sur_erdre/mail.html"
+            ]
+        },
+        {
+            "mail": "Tournoi international U13M",
+            "club": "Tresses (33)",
+            "date": "07/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "International"
+                }
+            ],
+            "repertoire": "data/2026_06_07_tresses",
+            "ressources": [
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026.pdf",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-7.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-5.jpg",
+                "data/2026_06_07_tresses/mail.html",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-6.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-1.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-9.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-0.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-10.jpg",
+                "data/2026_06_07_tresses/Carte de Visite Organisateur D'\u00e9v\u00e9nements et de F\u00eates Retro Beige Rose et Orange(1).jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-2.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-3.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-8.jpg",
+                "data/2026_06_07_tresses/BBA-TRESSES invitational U13 2026-4.jpg"
+            ]
+        },
+        {
             "mail": "Invitation au tournoi du LPVB du samedi 3 janvier 2026",
             "club": "Vieillevigne",
             "date": "03/01/2026",
@@ -975,6 +1223,31 @@
             ]
         },
         {
+            "mail": "Tournoi USCBM U7 \u00e0 U13",
+            "club": "USCBM La Chapelle Basse-Mer",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_la_chapelle_basse_mer",
+            "ressources": [
+                "data/2026_06_06_la_chapelle_basse_mer/mail.html",
+                "data/2026_06_06_la_chapelle_basse_mer/IMG_2723.PNG"
+            ]
+        },
+        {
             "mail": "Invitation Tournoi Jeunes Al Cremetterie St Herblain",
             "club": "Al Cremetterie St herblain",
             "date": "24/01/2026",
@@ -1021,6 +1294,35 @@
             "ressources": [
                 "data/2026_01_24_saint_herblain/mail.html",
                 "data/2026_01_24_saint_herblain/image0.png"
+            ]
+        },
+        {
+            "mail": "Basket'athlon 30-31 mai",
+            "club": "Rouans",
+            "date": "30/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "mixte"
+                }
+            ],
+            "repertoire": "data/2026_05_30_rouans",
+            "ressources": [
+                "data/2026_05_30_rouans/WhatsApp Image 2026-03-27 at 10.40.46.jpeg",
+                "data/2026_05_30_rouans/mail.html"
             ]
         },
         {
@@ -1093,6 +1395,35 @@
             "repertoire": "data/2026_04_26_saint_macaire",
             "ressources": [
                 "data/2026_04_26_saint_macaire/mail.html"
+            ]
+        },
+        {
+            "mail": "Tournoi USCBM U7 \u00e0 U13",
+            "club": "USCBM La Chapelle Basse-Mer",
+            "date": "07/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_07_la_chapelle_basse_mer",
+            "ressources": [
+                "data/2026_06_07_la_chapelle_basse_mer/mail.html",
+                "data/2026_06_07_la_chapelle_basse_mer/IMG_2723.PNG"
             ]
         },
         {
@@ -1188,6 +1519,62 @@
             ]
         },
         {
+            "mail": "USOM Rising Star",
+            "club": "Mondeville (14)",
+            "date": "14/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15F",
+                    "niveau": "national/inter-r\u00e9gion"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "r\u00e9gion"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "r\u00e9gion"
+                }
+            ],
+            "repertoire": "data/2026_06_14_mondeville",
+            "ressources": [
+                "data/2026_06_14_mondeville/mail.html",
+                "data/2026_06_14_mondeville/Fiche info tournoi.pdf",
+                "data/2026_06_14_mondeville/Affiche tournoi 13 et 14 juin 2026.png",
+                "data/2026_06_14_mondeville/Fiche info tournoi.jpg"
+            ]
+        },
+        {
+            "mail": "Tournoi international U13M",
+            "club": "Tresses (33)",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U13M",
+                    "niveau": "International"
+                }
+            ],
+            "repertoire": "data/2026_06_06_tresses",
+            "ressources": [
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026.pdf",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-7.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-5.jpg",
+                "data/2026_06_06_tresses/mail.html",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-6.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-1.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-9.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-0.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-10.jpg",
+                "data/2026_06_06_tresses/Carte de Visite Organisateur D'\u00e9v\u00e9nements et de F\u00eates Retro Beige Rose et Orange(1).jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-2.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-3.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-8.jpg",
+                "data/2026_06_06_tresses/BBA-TRESSES invitational U13 2026-4.jpg"
+            ]
+        },
+        {
             "mail": "Tournoi St Viaud Frossay \u2013 6 & 7 juin 2026",
             "club": "Saint Viaud Frossay",
             "date": "06/06/2026",
@@ -1226,6 +1613,69 @@
             "ressources": [
                 "data/2026_06_06_saint_viaud_frossay/Tournoi Basket.jpg",
                 "data/2026_06_06_saint_viaud_frossay/mail.html"
+            ]
+        },
+        {
+            "mail": "TOURNOI AL CHAUVINIERE 1 et 2 Mai 2026",
+            "club": "La Chauvini\u00e8re",
+            "date": "01/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_01_la_chauviniere",
+            "ressources": [
+                "data/2026_05_01_la_chauviniere/mail.html",
+                "data/2026_05_01_la_chauviniere/tournois vendredi 1er mai.pdf",
+                "data/2026_05_01_la_chauviniere/tournois vendredi 1er mai.jpg"
+            ]
+        },
+        {
+            "mail": "Tournoi jeunes du 30 Mai 2026 de l'Elan Basket des Sorini\u00e8res",
+            "club": "Les Sorini\u00e8res",
+            "date": "30/05/2026",
+            "date_limite": "23/05/2026",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D1"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D1/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D1"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D3"
+                }
+            ],
+            "repertoire": "data/2026_05_30_les_sorinieres",
+            "ressources": [
+                "data/2026_05_30_les_sorinieres/Copie de Tournoi.png",
+                "data/2026_05_30_les_sorinieres/mail.html"
             ]
         },
         {
@@ -1307,6 +1757,35 @@
             ]
         },
         {
+            "mail": "Tournoi Basket Club de la Vilaine Nivillac",
+            "club": "Nivillac",
+            "date": "07/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_07_nivillac",
+            "ressources": [
+                "data/2026_06_07_nivillac/mail.html",
+                "data/2026_06_07_nivillac/Affiche tournoi Nivillac.jpeg"
+            ]
+        },
+        {
             "mail": "6\u00e8me \u00e9dition de notre tournoi jeunes - U13 \u00e0 U18 d\u00e9partementales- 30 & 31 mai 2026",
             "club": "Union Basket Logne",
             "date": "31/05/2026",
@@ -1352,6 +1831,89 @@
             ]
         },
         {
+            "mail": "Tournoi Basket Club de la Vilaine Nivillac",
+            "club": "Nivillac",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_nivillac",
+            "ressources": [
+                "data/2026_06_06_nivillac/mail.html",
+                "data/2026_06_06_nivillac/Affiche tournoi Nivillac.jpeg"
+            ]
+        },
+        {
+            "mail": "TOURNOI AL CHAUVINIERE 1 et 2 Mai 2026",
+            "club": "La Chauvini\u00e8re",
+            "date": "02/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_02_la_chauviniere",
+            "ressources": [
+                "data/2026_05_02_la_chauviniere/mail.html",
+                "data/2026_05_02_la_chauviniere/tournois samedi 2 Mai.jpg",
+                "data/2026_05_02_la_chauviniere/tournois samedi 2 Mai.pdf"
+            ]
+        },
+        {
             "mail": "Tournoi Week-end 30&31 mai - Donges (44)",
             "club": "Donges",
             "date": "30/05/2026",
@@ -1385,7 +1947,77 @@
                 "data/2026_05_30_donges/Tournoi 30&31 mai Donges (44).jpg",
                 "data/2026_05_30_donges/Fiche de pre\u0301-inscription 30&31 mai.pdf"
             ]
+        },
+        {
+            "mail": "MGBB, tournois de fin d\u2019ann\u00e9e U9, U13, U15, U18",
+            "club": "MGBB Montbert Geneston Le Bignon",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_montbert",
+            "ressources": [
+                "data/2026_06_06_montbert/MGBB_invit_tournoi_FIN_SAISON-3.jpg",
+                "data/2026_06_06_montbert/MGBB_invit_tournoi_FIN_SAISON-0.jpg",
+                "data/2026_06_06_montbert/MGBB_invit_tournoi_FIN_SAISON-1.jpg",
+                "data/2026_06_06_montbert/mail.html",
+                "data/2026_06_06_montbert/MGBB_invit_tournoi_FIN_SAISON.pdf",
+                "data/2026_06_06_montbert/MGBB_invit_tournoi_FIN_SAISON-2.jpg"
+            ]
+        },
+        {
+            "mail": "Basket'athlon 30-31 mai",
+            "club": "Rouans",
+            "date": "31/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "mixte"
+                }
+            ],
+            "repertoire": "data/2026_05_31_rouans",
+            "ressources": [
+                "data/2026_05_31_rouans/WhatsApp Image 2026-03-27 at 10.40.46.jpeg",
+                "data/2026_05_31_rouans/mail.html"
+            ]
         }
     ],
-    "last_update": "02/04/2026 09:16:47"
+    "last_update": "02/04/2026 23:51:37"
 }

@@ -1,0 +1,20 @@
+{
+  "mail": "TOURNOI AL CHAUVINIERE 1 et 2 Mai 2026",
+  "club": "La Chauvinière",
+  "date": "01/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

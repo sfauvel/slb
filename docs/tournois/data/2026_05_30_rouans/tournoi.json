@@ -1,0 +1,24 @@
+{
+  "mail": "Basket'athlon 30-31 mai",
+  "club": "Rouans",
+  "date": "30/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "mixte"
+    }
+  ]
+}
