@@ -771,6 +771,35 @@
             ]
         },
         {
+            "mail": "Invitation \u2013 Tournoi jeunes 23 & 24 mai 2026 \u2013 BESNE",
+            "club": "Besne",
+            "date": "24/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_05_24_besne",
+            "ressources": [
+                "data/2026_05_24_besne/mail.html",
+                "data/2026_05_24_besne/1000038304.jpg"
+            ]
+        },
+        {
             "mail": "Tournoi U13 de l'Hirondelle Basket le 11 avril 2026",
             "club": "Saint Julien de Concelles",
             "date": "11/04/2026",
@@ -1427,6 +1456,35 @@
             ]
         },
         {
+            "mail": "Invitation \u2013 Tournoi jeunes 23 & 24 mai 2026 \u2013 BESNE",
+            "club": "Besne",
+            "date": "23/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "D2/D3"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "D2/D3"
+                }
+            ],
+            "repertoire": "data/2026_05_23_besne",
+            "ressources": [
+                "data/2026_05_23_besne/mail.html",
+                "data/2026_05_23_besne/1000038304.jpg"
+            ]
+        },
+        {
             "mail": "Invitation \u2013 Tournoi Jeunes BSL des 11 et 12 avril 2026 \u00e0 Haute-Goulaine",
             "club": "Haute-Goulaine",
             "date": "12/04/2026",
@@ -2019,5 +2077,5 @@
             ]
         }
     ],
-    "last_update": "02/04/2026 23:51:37"
+    "last_update": "03/04/2026 00:11:46"
 }
