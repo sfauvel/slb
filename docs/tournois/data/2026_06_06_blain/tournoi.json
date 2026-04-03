@@ -1,0 +1,32 @@
+{
+  "mail": "https://gazellesblinoises.fr/tournois/apercu/7/tournoi-familial-titouan-orain-3eme-edition-ouvert-a-tous-licencies-ou-non-a-partir-de-16-ans",
+  "club": "Blain",
+  "date": "06/06/2026",
+  "date_limite": "30/05/2026",
+  "categories": [
+    {
+      "categorie": "Seniors M",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "Seniors F",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U21M",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U21F",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U18M",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "mixte"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "mail": "https://csar-basket-44.fr/articles/article/49/tournoi-csar",
+  "club": "Aigrefeuille",
+  "date": "16/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    }
+  ]
+}

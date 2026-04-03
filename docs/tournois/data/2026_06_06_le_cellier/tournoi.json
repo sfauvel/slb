@@ -1,0 +1,44 @@
+{
+  "mail": "https://cellier-mauves-basket-club.fr/tournoi-cmbc-juin-2026/apercu/7/tournoi-cmbc-2026-u7-a-u18-et-parents",
+  "club": "CMBC Le Cellier Mauves",
+  "date": "06/06/2026",
+  "date_limite": "29/05/2026",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "mixte"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}
