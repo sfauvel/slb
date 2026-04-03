@@ -275,6 +275,63 @@
             ]
         },
         {
+            "mail": "https://www.vallet-basket.fr/page/1399542-bienvenue",
+            "club": "Vallet",
+            "date": "18/04/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "20h \u00e0 12h"
+                }
+            ],
+            "repertoire": "data/2026_04_18_vallet",
+            "ressources": [
+                "data/2026_04_18_vallet/Affiche 24H Basket.jpg",
+                "data/2026_04_18_vallet/mail.html"
+            ]
+        },
+        {
             "mail": "La Nuit du Basket \u2013 On se retrouve le 30 Mai 2026",
             "club": "La Haye Fouassi\u00e8re",
             "date": "30/05/2026",
@@ -452,6 +509,39 @@
             ]
         },
         {
+            "mail": "https://csar-basket-44.fr/articles/article/49/tournoi-csar",
+            "club": "Aigrefeuille",
+            "date": "16/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_16_aigrefeuille",
+            "ressources": [
+                "data/2026_06_16_aigrefeuille/mail.html",
+                "data/2026_06_16_aigrefeuille/627980774_18305663014287270_3877706600800461428_n.jpg"
+            ]
+        },
+        {
             "mail": "Invitation Tournoi Saint-Br\u00e9vin - 20 & 21 JUIN 2026",
             "club": "Saint Br\u00e9vin",
             "date": "21/06/2026",
@@ -563,6 +653,63 @@
                 "data/2026_05_30_maisdon/mail.html",
                 "data/2026_05_30_maisdon/AFFICHE TOURNOI SMB 2026.png",
                 "data/2026_05_30_maisdon/QR CODE TOURNOI SMB 2026.JPG"
+            ]
+        },
+        {
+            "mail": "https://www.vallet-basket.fr/page/1399542-bienvenue",
+            "club": "Vallet",
+            "date": "19/04/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "20h \u00e0 12h"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "Loisir",
+                    "niveau": "20h \u00e0 12h"
+                }
+            ],
+            "repertoire": "data/2026_04_19_vallet",
+            "ressources": [
+                "data/2026_04_19_vallet/Affiche 24H Basket.jpg",
+                "data/2026_04_19_vallet/mail.html"
             ]
         },
         {
@@ -852,6 +999,43 @@
             ]
         },
         {
+            "mail": "https://www.instagram.com/p/DTsAFa4ij7z/?hl=fr",
+            "club": "La chevroli\u00e8re  Logo  H E R B A D I L L A",
+            "date": "30/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U15F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_30_la_chevroliere",
+            "ressources": [
+                "data/2026_05_30_la_chevroliere/mail.html",
+                "data/2026_05_30_la_chevroliere/WhatsApp Image 2025-12-01 at 16.07.23.jpeg"
+            ]
+        },
+        {
             "mail": "USOM Rising Star",
             "club": "Mondeville (14)",
             "date": "13/06/2026",
@@ -876,6 +1060,35 @@
                 "data/2026_06_13_mondeville/Fiche info tournoi.pdf",
                 "data/2026_06_13_mondeville/Affiche tournoi 13 et 14 juin 2026.png",
                 "data/2026_06_13_mondeville/Fiche info tournoi.jpg"
+            ]
+        },
+        {
+            "mail": "https://bcreze.fr/tournoi-u9-u11-le-06-juin/",
+            "club": "Rez\u00e9 (bcreze)",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "D1/D2"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "Elite/D1/D2/D3"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "bleu/blanc"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "blanc"
+                }
+            ],
+            "repertoire": "data/2026_06_06_reze",
+            "ressources": [
+                "data/2026_06_06_reze/mail.html",
+                "data/2026_06_06_reze/tournoi-u9-reze.jpg"
             ]
         },
         {
@@ -993,6 +1206,43 @@
                 "data/2026_06_06_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-0.jpg",
                 "data/2026_06_06_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026-1.jpg",
                 "data/2026_06_06_saint_sebastien/Tournoi St Seb Basket-Flyer_6-7 juin 2026.pdf"
+            ]
+        },
+        {
+            "mail": "https://cellier-mauves-basket-club.fr/tournoi-cmbc-juin-2026/apercu/7/tournoi-cmbc-2026-u7-a-u18-et-parents",
+            "club": "CMBC Le Cellier Mauves",
+            "date": "05/06/2026",
+            "date_limite": "29/05/2026",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "3x3"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "3x3"
+                }
+            ],
+            "repertoire": "data/2026_06_05_le_cellier",
+            "ressources": [
+                "data/2026_06_05_le_cellier/mail.html",
+                "data/2026_06_05_le_cellier/site-internet-tournoi.png"
             ]
         },
         {
@@ -1130,6 +1380,39 @@
             ]
         },
         {
+            "mail": "https://csar-basket-44.fr/articles/article/49/tournoi-csar",
+            "club": "Aigrefeuille",
+            "date": "17/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_17_aigrefeuille",
+            "ressources": [
+                "data/2026_06_17_aigrefeuille/mail.html",
+                "data/2026_06_17_aigrefeuille/627980774_18305663014287270_3877706600800461428_n.jpg"
+            ]
+        },
+        {
             "mail": "TOURNOI DE L'ERDRE BC",
             "club": "La Chapelle sur Erdre",
             "date": "07/06/2026",
@@ -1155,6 +1438,39 @@
             "repertoire": "data/2026_06_07_la_chapelle_sur_erdre",
             "ressources": [
                 "data/2026_06_07_la_chapelle_sur_erdre/mail.html"
+            ]
+        },
+        {
+            "mail": "https://lesmontagnardsbasket.fr/articles/article/231/tournoi-u7-a-u11-samedi-06-juin-2026",
+            "club": "La Montagne",
+            "date": "06/06/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_la_montagne",
+            "ressources": [
+                "data/2026_06_06_la_montagne/mail.html",
+                "data/2026_06_06_la_montagne/tournoi-lmb-06-02.jpg"
             ]
         },
         {
@@ -1399,6 +1715,55 @@
             ]
         },
         {
+            "mail": "https://cellier-mauves-basket-club.fr/tournoi-cmbc-juin-2026/apercu/7/tournoi-cmbc-2026-u7-a-u18-et-parents",
+            "club": "CMBC Le Cellier Mauves",
+            "date": "06/06/2026",
+            "date_limite": "29/05/2026",
+            "categories": [
+                {
+                    "categorie": "U18M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U13F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_06_le_cellier",
+            "ressources": [
+                "data/2026_06_06_le_cellier/mail.html",
+                "data/2026_06_06_le_cellier/site-internet-tournoi.png"
+            ]
+        },
+        {
             "mail": "INVITATION TOURNOI DU FAIR PLAY - 26 AVRIL 2026 - BASKET SAINT MACAIRE",
             "club": "Saint Macaire",
             "date": "26/04/2026",
@@ -1513,6 +1878,80 @@
                 "data/2026_04_12_haute_goulaine/DossierInvitationstournoisjeunesBSL.pdf",
                 "data/2026_04_12_haute_goulaine/DossierInvitationstournoisjeunesBSL-0.jpg",
                 "data/2026_04_12_haute_goulaine/DossierInvitationstournoisjeunesBSL-1.jpg"
+            ]
+        },
+        {
+            "mail": "https://www.instagram.com/p/DTsAFa4ij7z/?hl=fr",
+            "club": "La chevroli\u00e8re  Logo  H E R B A D I L L A",
+            "date": "31/05/2026",
+            "date_limite": "",
+            "categories": [
+                {
+                    "categorie": "U11M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U11F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9M",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U9F",
+                    "niveau": "X"
+                },
+                {
+                    "categorie": "U7",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_05_31_la_chevroliere",
+            "ressources": [
+                "data/2026_05_31_la_chevroliere/mail.html",
+                "data/2026_05_31_la_chevroliere/WhatsApp Image 2025-12-01 at 16.07.23.jpeg"
+            ]
+        },
+        {
+            "mail": "https://gazellesblinoises.fr/tournois/apercu/7/tournoi-familial-titouan-orain-3eme-edition-ouvert-a-tous-licencies-ou-non-a-partir-de-16-ans",
+            "club": "Blain",
+            "date": "06/06/2026",
+            "date_limite": "30/05/2026",
+            "categories": [
+                {
+                    "categorie": "Seniors M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "Seniors F",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U21M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U21F",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U18M",
+                    "niveau": "mixte"
+                },
+                {
+                    "categorie": "U18F",
+                    "niveau": "mixte"
+                }
+            ],
+            "repertoire": "data/2026_06_06_blain",
+            "ressources": [
+                "data/2026_06_06_blain/affiche-tournoi-titouan.png",
+                "data/2026_06_06_blain/mail.html",
+                "data/2026_06_06_blain/decharge-absence-certificat-medical.pdf",
+                "data/2026_06_06_blain/feuille-d-inscription-tournoi-titouan.jpg",
+                "data/2026_06_06_blain/feuille-d-inscription-tournoi-titouan.pdf",
+                "data/2026_06_06_blain/decharge-absence-certificat-medical.jpg"
             ]
         },
         {
@@ -2075,7 +2514,24 @@
                 "data/2026_05_31_rouans/WhatsApp Image 2026-03-27 at 10.40.46.jpeg",
                 "data/2026_05_31_rouans/mail.html"
             ]
+        },
+        {
+            "mail": "https://cellier-mauves-basket-club.fr/tournoi-cmbc-juin-2026/apercu/7/tournoi-cmbc-2026-u7-a-u18-et-parents",
+            "club": "CMBC Le Cellier Mauves",
+            "date": "07/06/2026",
+            "date_limite": "29/05/2026",
+            "categories": [
+                {
+                    "categorie": "U15M",
+                    "niveau": "X"
+                }
+            ],
+            "repertoire": "data/2026_06_07_le_cellier",
+            "ressources": [
+                "data/2026_06_07_le_cellier/mail.html",
+                "data/2026_06_07_le_cellier/site-internet-tournoi.png"
+            ]
         }
     ],
-    "last_update": "03/04/2026 00:11:46"
+    "last_update": "03/04/2026 23:25:29"
 }

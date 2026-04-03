@@ -1,0 +1,28 @@
+{
+  "mail": "https://lesmontagnardsbasket.fr/articles/article/231/tournoi-u7-a-u11-samedi-06-juin-2026",
+  "club": "La Montagne",
+  "date": "06/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U7",
+      "niveau": "X"
+    }
+  ]
+}

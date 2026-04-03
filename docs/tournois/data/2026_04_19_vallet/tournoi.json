@@ -1,0 +1,52 @@
+{
+  "mail": "https://www.vallet-basket.fr/page/1399542-bienvenue",
+  "club": "Vallet",
+  "date": "19/04/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "Seniors M",
+      "niveau": "20h à 12h"
+    },
+    {
+      "categorie": "Seniors F",
+      "niveau": "20h à 12h"
+    },
+    {
+      "categorie": "U21M",
+      "niveau": "20h à 12h"
+    },
+    {
+      "categorie": "U21F",
+      "niveau": "20h à 12h"
+    },
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "Loisir",
+      "niveau": "20h à 12h"
+    }
+  ]
+}

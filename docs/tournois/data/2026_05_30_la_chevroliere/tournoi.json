@@ -1,0 +1,32 @@
+{
+  "mail": "https://www.instagram.com/p/DTsAFa4ij7z/?hl=fr",
+  "club": "La chevrolière  Logo  H E R B A D I L L A",
+  "date": "30/05/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U18M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U18F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U15F",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13M",
+      "niveau": "X"
+    },
+    {
+      "categorie": "U13F",
+      "niveau": "X"
+    }
+  ]
+}

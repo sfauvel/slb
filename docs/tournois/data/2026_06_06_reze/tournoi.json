@@ -1,0 +1,24 @@
+{
+  "mail": "https://bcreze.fr/tournoi-u9-u11-le-06-juin/",
+  "club": "Rezé (bcreze)",
+  "date": "06/06/2026",
+  "date_limite": "",
+  "categories": [
+    {
+      "categorie": "U11M",
+      "niveau": "D1/D2"
+    },
+    {
+      "categorie": "U11F",
+      "niveau": "Elite/D1/D2/D3"
+    },
+    {
+      "categorie": "U9M",
+      "niveau": "bleu/blanc"
+    },
+    {
+      "categorie": "U9F",
+      "niveau": "blanc"
+    }
+  ]
+}
